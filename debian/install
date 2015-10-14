@@ -4,3 +4,4 @@ mx-select-sound.conf	 etc
 translations/*.qm 	 usr/share/mx-select-sound/locale
 mx-select-sound.png	usr/share/pixmaps/mx
 icons/*                 usr/share/mx-select-sound/icons
+license.html		usr/share/doc/mx-select-sound

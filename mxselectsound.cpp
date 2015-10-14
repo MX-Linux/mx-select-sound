@@ -129,7 +129,7 @@ void mxselectsound::on_buttonAbout_clicked()
     msgBox.addButton(tr("Cancel"), QMessageBox::AcceptRole); // because we want to display the buttons in reverse order we use counter-intuitive roles.
     msgBox.addButton(tr("License"), QMessageBox::RejectRole);
     if (msgBox.exec() == QMessageBox::RejectRole) {
-        system("mx-viewer file:///usr/share/doc/mx-sound-card/license.html '" + tr("MX Select Sound").toUtf8() + " " + tr("License").toUtf8() + "'");
+        system("mx-viewer file:///usr/share/doc/mx-select-sound/license.html '" + tr("MX Select Sound").toUtf8() + " " + tr("License").toUtf8() + "'");
     }
 }
 
