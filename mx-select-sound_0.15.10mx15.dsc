@@ -7,11 +7,11 @@ Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/AdrianTM/mx-select-sound
 Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
-Package-List: 
- mx-select-sound deb admin optional
-Checksums-Sha1: 
- 182008a9eb99017a89b6db4891c331d38acbd500 25827 mx-select-sound_0.15.10mx15.tar.gz
-Checksums-Sha256: 
- 76fd5f43405212147b0ace22238ebabf8407ba3bfc5ab0b37cd237fe8baeda9b 25827 mx-select-sound_0.15.10mx15.tar.gz
-Files: 
- 9054e980ce7139bb3aa864ab16d2cd6e 25827 mx-select-sound_0.15.10mx15.tar.gz
+Package-List:
+ mx-select-sound deb admin optional arch=any
+Checksums-Sha1:
+ 7cc62baba5809292aba3899227f932bad7930f4d 22536 mx-select-sound_0.15.10mx15.tar.xz
+Checksums-Sha256:
+ c07703fcc641b75ecdb95a9bed27d6e55c726d605703115bf860515f534a3b0e 22536 mx-select-sound_0.15.10mx15.tar.xz
+Files:
+ 6ce1e407781026a441b71d026b6e432a 22536 mx-select-sound_0.15.10mx15.tar.xz

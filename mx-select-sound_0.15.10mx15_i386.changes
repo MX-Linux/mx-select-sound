@@ -8,21 +8,21 @@ Distribution: mx
 Urgency: medium
 Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Changed-By: Adrian <adrian@mxlinux.org>
-Description: 
+Description:
  mx-select-sound - MX Select Sound
-Changes: 
+Changes:
  mx-select-sound (0.15.10mx15) mx; urgency=medium
  .
    * initial release
-Checksums-Sha1: 
- e9319f119309fa1a70ef067d53f7171b40762454 659 mx-select-sound_0.15.10mx15.dsc
- 182008a9eb99017a89b6db4891c331d38acbd500 25827 mx-select-sound_0.15.10mx15.tar.gz
- 7950ee810643bfc111c6839fdc4941ced5c13d8f 24888 mx-select-sound_0.15.10mx15_i386.deb
-Checksums-Sha256: 
- a1d1c3caae080b5ca983c39bb1c2c81afb09452c9e30da20c8b161b25f08085f 659 mx-select-sound_0.15.10mx15.dsc
- 76fd5f43405212147b0ace22238ebabf8407ba3bfc5ab0b37cd237fe8baeda9b 25827 mx-select-sound_0.15.10mx15.tar.gz
- d06198fec4c6cb3a1e6b94c980eaea355771248aebba50339c584786feaac4bc 24888 mx-select-sound_0.15.10mx15_i386.deb
-Files: 
- 89b6c36859147e8a4c41b53d8d55faf0 659 admin optional mx-select-sound_0.15.10mx15.dsc
- 9054e980ce7139bb3aa864ab16d2cd6e 25827 admin optional mx-select-sound_0.15.10mx15.tar.gz
- dcdace61fbbad46b127881c609dc8f0b 24888 admin optional mx-select-sound_0.15.10mx15_i386.deb
+Checksums-Sha1:
+ 1c740435024f48bcc9a5b0ba8d1f9428ee80fbb8 664 mx-select-sound_0.15.10mx15.dsc
+ 7cc62baba5809292aba3899227f932bad7930f4d 22536 mx-select-sound_0.15.10mx15.tar.xz
+ c39a59a57ce7fc5cda543e8d20ab2cf02fbb8972 25254 mx-select-sound_0.15.10mx15_i386.deb
+Checksums-Sha256:
+ b1b7acf8b8660a9f6a328a13ccf622c447893ba531f46de446189464d5f2285b 664 mx-select-sound_0.15.10mx15.dsc
+ c07703fcc641b75ecdb95a9bed27d6e55c726d605703115bf860515f534a3b0e 22536 mx-select-sound_0.15.10mx15.tar.xz
+ cafe01d988dfaa2d2a61db902fc36fb1d9b2f43e121a6471929b03affad796d9 25254 mx-select-sound_0.15.10mx15_i386.deb
+Files:
+ 311f372616e9197b2a5c103e31e4dd90 664 admin optional mx-select-sound_0.15.10mx15.dsc
+ 6ce1e407781026a441b71d026b6e432a 22536 admin optional mx-select-sound_0.15.10mx15.tar.xz
+ ea8773e5f2270405ad7abff0df08c719 25254 admin optional mx-select-sound_0.15.10mx15_i386.deb
