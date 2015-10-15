@@ -15,14 +15,14 @@ Changes:
  .
    * initial release
 Checksums-Sha1:
- a3208de5e98d299ce84d27da7931b2155f83efb0 664 mx-select-sound_0.15.10mx15.dsc
- 54eb2804a5b9c04993bead4254f3aef147b7d662 69164 mx-select-sound_0.15.10mx15.tar.xz
- 393b5a4a3fde94d05c6390a26bcdd537611a85e9 25754 mx-select-sound_0.15.10mx15_i386.deb
+ 186e02620d7fc2872b2fbc814169e9dfbe6ee8eb 664 mx-select-sound_0.15.10mx15.dsc
+ 3e327e9e4d7bcdffca731d928e1cb21ac6bc7e80 93024 mx-select-sound_0.15.10mx15.tar.xz
+ 76c286036ae9f06924e13da8a32ef9da8cd4806e 25666 mx-select-sound_0.15.10mx15_i386.deb
 Checksums-Sha256:
- 14b1c4d38c62a02d2d76777b8a0971bea296bd9d4b9beea93f1e8b9524f0270a 664 mx-select-sound_0.15.10mx15.dsc
- 8ff68c6955232d5281475e50b4fbe90fd4bf02cfe70d91188300b96d4d868cca 69164 mx-select-sound_0.15.10mx15.tar.xz
- 608bd871b933ecc0aa38e784dad634e28f0aa4a16920022e838deb034894c502 25754 mx-select-sound_0.15.10mx15_i386.deb
+ 9848eb32f6656a25604965bdff0fb8f5932f6e79cc32ad2bc7d7145b16a033e7 664 mx-select-sound_0.15.10mx15.dsc
+ 76447b7a04e16d188cb2316585c1dbde64695140d5649f5af27bc50ef4e8144a 93024 mx-select-sound_0.15.10mx15.tar.xz
+ c16714ed40cbc57068a62045ae8cf516f9c06dc42ff450e97ea3a2684f46949b 25666 mx-select-sound_0.15.10mx15_i386.deb
 Files:
- 13c6305e9bb2e92eeed6a7319d372422 664 admin optional mx-select-sound_0.15.10mx15.dsc
- 8611465b28d10ec606c3c42c455f0e0a 69164 admin optional mx-select-sound_0.15.10mx15.tar.xz
- 24568823270b1b8a237dd3e07868ab6e 25754 admin optional mx-select-sound_0.15.10mx15_i386.deb
+ 43d8ffcb61575038a332a6e8353eb95c 664 admin optional mx-select-sound_0.15.10mx15.dsc
+ 1166e09014504a6f9ebbb8025f721d90 93024 admin optional mx-select-sound_0.15.10mx15.tar.xz
+ d7d8e1088c44719911937d45e9e3993c 25666 admin optional mx-select-sound_0.15.10mx15_i386.deb

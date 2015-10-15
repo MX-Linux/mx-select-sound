@@ -6,12 +6,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
         <location filename="../mxselectsound.cpp" line="53"/>
-        <location filename="../mxselectsound.cpp" line="86"/>
-        <location filename="../mxselectsound.cpp" line="90"/>
-        <location filename="../mxselectsound.cpp" line="133"/>
-        <location filename="../mxselectsound.cpp" line="140"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
-        <location filename="../mxselectsound.cpp" line="156"/>
+        <location filename="../mxselectsound.cpp" line="87"/>
+        <location filename="../mxselectsound.cpp" line="91"/>
+        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
+        <location filename="../mxselectsound.cpp" line="157"/>
         <source>MX Select Sound</source>
         <translation type="unfinished"></translation>
     </message>
@@ -66,78 +66,73 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="193"/>
-        <source>Start scanning for shares</source>
+        <location filename="../mxselectsound.ui" line="287"/>
+        <source>Test current sound card</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="196"/>
+        <location filename="../mxselectsound.ui" line="193"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="218"/>
+        <location filename="../mxselectsound.ui" line="215"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="244"/>
+        <location filename="../mxselectsound.ui" line="241"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="290"/>
-        <source>Test curent sound card</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxselectsound.cpp" line="87"/>
+        <location filename="../mxselectsound.cpp" line="88"/>
         <source>No sound cards/devices were found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="91"/>
+        <location filename="../mxselectsound.cpp" line="92"/>
         <source>Only one sound card was found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="108"/>
+        <location filename="../mxselectsound.cpp" line="109"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="132"/>
+        <location filename="../mxselectsound.cpp" line="133"/>
         <source>About MX Select Sound</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
+        <location filename="../mxselectsound.cpp" line="134"/>
         <source>Version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="135"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="136"/>
+        <location filename="../mxselectsound.cpp" line="137"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="137"/>
+        <location filename="../mxselectsound.cpp" line="138"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
-        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="139"/>
+        <location filename="../mxselectsound.cpp" line="141"/>
         <source>License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="157"/>
+        <location filename="../mxselectsound.cpp" line="158"/>
         <source>Could not play test sound.</source>
         <translation type="unfinished"></translation>
     </message>

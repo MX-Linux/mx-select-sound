@@ -51,6 +51,7 @@ void mxselectsound::setup()
 {
     version = getVersion("mx-select-sound");
     this->setWindowTitle(tr("MX Select Sound"));
+    this->adjustSize();
     listCards();
     getDefault();
 }
