@@ -10,8 +10,8 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-select-sound deb admin optional arch=any
 Checksums-Sha1:
- 7cc62baba5809292aba3899227f932bad7930f4d 22536 mx-select-sound_0.15.10mx15.tar.xz
+ 54eb2804a5b9c04993bead4254f3aef147b7d662 69164 mx-select-sound_0.15.10mx15.tar.xz
 Checksums-Sha256:
- c07703fcc641b75ecdb95a9bed27d6e55c726d605703115bf860515f534a3b0e 22536 mx-select-sound_0.15.10mx15.tar.xz
+ 8ff68c6955232d5281475e50b4fbe90fd4bf02cfe70d91188300b96d4d868cca 69164 mx-select-sound_0.15.10mx15.tar.xz
 Files:
- 6ce1e407781026a441b71d026b6e432a 22536 mx-select-sound_0.15.10mx15.tar.xz
+ 8611465b28d10ec606c3c42c455f0e0a 69164 mx-select-sound_0.15.10mx15.tar.xz

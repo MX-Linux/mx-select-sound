@@ -29,6 +29,7 @@
 #include <QFile>
 #include <QDir>
 #include <QRadioButton>
+#include <QTimer>
 
 //#include <QDebug>
 
@@ -50,7 +51,7 @@ void mxselectsound::setup()
 {
     version = getVersion("mx-select-sound");
     this->setWindowTitle(tr("MX Select Sound"));
-    QStringList card_list = listCards();
+    listCards();
     getDefault();
 }
 
@@ -58,11 +59,12 @@ void mxselectsound::setup()
 Result mxselectsound::runCmd(QString cmd)
 {
     QEventLoop loop;
-    proc = new QProcess(this);   
+    proc = new QProcess(this);
     proc->setReadChannelMode(QProcess::MergedChannels);
     connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
+    disconnect(proc, SIGNAL(finished(int)), 0, 0);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
@@ -78,12 +80,18 @@ QString mxselectsound::getVersion(QString name)
 // Get the list of sound cards
 QStringList mxselectsound::listCards()
 {
-    QString cards = runCmd("less /proc/asound/cards | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
+    QString cards = runCmd("cat /proc/asound/cards | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
     QStringList card_list = cards.split("\n");
-    if (card_list.size() > 0) {
-        ui->comboBox->addItems(card_list);
+    if (card_list.size() == 0) {
+        QMessageBox::critical(0, tr("MX Select Sound"),
+          tr("No sound cards/devices were found."));
+        QTimer::singleShot(50, qApp, SLOT(quit()));
+    } else if (card_list.size() == 1) {
+        QMessageBox::critical(0, tr("MX Select Sound"),
+          tr("Only one sound card was found."));
+        QTimer::singleShot(50, qApp, SLOT(quit()));
     } else {
-        ui->comboBox->addItem(tr("none"));
+        ui->comboBox->addItems(card_list);
     }
     return card_list;
 }
@@ -145,6 +153,7 @@ void mxselectsound::on_buttonTest_clicked()
 {
     int exitCode = runCmd("speaker-test -c 2 -t wav -l 2").exitCode;
     if (exitCode != 0) {
-
+        QMessageBox::critical(0, tr("MX Select Sound"),
+          tr("Could not play test sound."));
     }
 }
