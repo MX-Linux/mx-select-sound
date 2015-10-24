@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -21,12 +21,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Toon help</translation>
+        <translation>Wyświetl pomoc</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="74"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="103"/>
         <source>About this application</source>
-        <translation>Over deze toepassing</translation>
+        <translation>O programie</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="106"/>
         <source>About...</source>
-        <translation>Over...</translation>
+        <translation>O...</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="113"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="145"/>
         <source>Quit application</source>
-        <translation>Verlaat de applicatie</translation>
+        <translation>Zamknij apliikację</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="148"/>
         <source>Close</source>
-        <translation>Sluiten</translation>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="155"/>
@@ -66,7 +66,7 @@
     <message>
         <location filename="../mxselectsound.ui" line="193"/>
         <source>Apply</source>
-        <translation>Toepassen</translation>
+        <translation>Zastosuj</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="215"/>
@@ -96,7 +96,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="109"/>
         <source>none</source>
-        <translation>geen</translation>
+        <translation>żadne</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="133"/>
@@ -106,7 +106,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="134"/>
         <source>Version: </source>
-        <translation>Versie:</translation>
+        <translation>Wersja:</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="135"/>
@@ -121,13 +121,13 @@
     <message>
         <location filename="../mxselectsound.cpp" line="138"/>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="139"/>
         <location filename="../mxselectsound.cpp" line="141"/>
         <source>License</source>
-        <translation>Licentie</translation>
+        <translation>Licencja</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="158"/>

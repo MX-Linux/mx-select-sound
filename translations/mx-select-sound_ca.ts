@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ca_ES">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca" version="2.0">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -13,128 +11,128 @@
         <location filename="../mxselectsound.cpp" line="148"/>
         <location filename="../mxselectsound.cpp" line="157"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Select Sound</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;La vostra tarja de so per omissió és:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra l&apos;ajuda </translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajuda </translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="74"/>
         <source>Alt+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="103"/>
         <source>About this application</source>
-        <translation type="unfinished"></translation>
+        <translation>Quant al programa </translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="106"/>
         <source>About...</source>
-        <translation type="unfinished"></translation>
+        <translation>Quant a... </translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="113"/>
         <source>Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="145"/>
         <source>Quit application</source>
-        <translation type="unfinished"></translation>
+        <translation>Surt del programa</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="148"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca </translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="155"/>
         <source>Alt+N</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxselectsound.ui" line="287"/>
-        <source>Test current sound card</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="193"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplica</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="215"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Trieu una altra tarja de so si és necessari:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="241"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si el vostre ordinador té més d&apos;una tarja de so, podeu usar aquesta aplicació per triar la tarja per omissió. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mxselectsound.ui" line="287"/>
+        <source>Test current sound card</source>
+        <translation>Prova la tarja de so actual </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="88"/>
         <source>No sound cards/devices were found.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha trobat cap tarja o dispositiu de so.</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="92"/>
         <source>Only one sound card was found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Només s&apos;ha trobat una tarja de so. </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="109"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>cap</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="133"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>Quant a MX Select Sound </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="134"/>
         <source>Version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Versió: </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="135"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Programa per triar la tarja de so per omissió a MX Linux </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="137"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright (c) MX Linux </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="138"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancel·la </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="139"/>
         <location filename="../mxselectsound.cpp" line="141"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Llicència </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="158"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot rep reproduir la prova de so. </translation>
     </message>
 </context>
 </TS>
