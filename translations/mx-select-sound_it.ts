@@ -5,13 +5,13 @@
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="53"/>
-        <location filename="../mxselectsound.cpp" line="87"/>
-        <location filename="../mxselectsound.cpp" line="91"/>
-        <location filename="../mxselectsound.cpp" line="134"/>
-        <location filename="../mxselectsound.cpp" line="141"/>
-        <location filename="../mxselectsound.cpp" line="148"/>
-        <location filename="../mxselectsound.cpp" line="157"/>
+        <location filename="../mxselectsound.cpp" line="42"/>
+        <location filename="../mxselectsound.cpp" line="79"/>
+        <location filename="../mxselectsound.cpp" line="82"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
+        <location filename="../mxselectsound.cpp" line="131"/>
+        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="147"/>
         <source>MX Select Sound</source>
         <translation>MX Schede Audio</translation>
     </message>
@@ -86,53 +86,53 @@
         <translation>Prova la scheda audio corrente</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="88"/>
+        <location filename="../mxselectsound.cpp" line="80"/>
         <source>No sound cards/devices were found.</source>
         <translation>Non è stato trovato nessun dispositivo/scheda audio</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="92"/>
+        <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
         <translation>E&apos; stata rilevata solamente una scheda audio</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="109"/>
+        <location filename="../mxselectsound.cpp" line="99"/>
         <source>none</source>
         <translation>nessuno</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
+        <location filename="../mxselectsound.cpp" line="123"/>
         <source>About MX Select Sound</source>
         <translation>Informazioni su MX Schede Audio</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
         <source>Version: </source>
         <translation>Versione:</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>Applicazione per scegliere la scheda audio di default in MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="137"/>
+        <location filename="../mxselectsound.cpp" line="127"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="128"/>
         <source>Cancel</source>
         <translation>Annulla</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="139"/>
-        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
+        <location filename="../mxselectsound.cpp" line="131"/>
         <source>License</source>
         <translation>Licenza</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="158"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
         <source>Could not play test sound.</source>
         <translation>Impossibile riprodurre l&apos;audio di prova.</translation>
     </message>

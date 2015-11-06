@@ -38,22 +38,14 @@ mxselectsound::mxselectsound(QWidget *parent) :
     ui(new Ui::mxselectsound)
 {
     ui->setupUi(this);
-    setup();
+    version = getVersion("mx-select-sound");
+    this->setWindowTitle(tr("MX Select Sound"));
+    this->adjustSize();
 }
 
 mxselectsound::~mxselectsound()
 {
     delete ui;
-}
-
-// setup versious items first time program runs
-void mxselectsound::setup()
-{
-    version = getVersion("mx-select-sound");
-    this->setWindowTitle(tr("MX Select Sound"));
-    this->adjustSize();
-    listCards();
-    getDefault();
 }
 
 // Util function for getting bash command output and error code
@@ -86,11 +78,9 @@ QStringList mxselectsound::listCards()
     if (card_list.size() == 0) {
         QMessageBox::critical(0, tr("MX Select Sound"),
           tr("No sound cards/devices were found."));
-        QTimer::singleShot(50, qApp, SLOT(quit()));
     } else if (card_list.size() == 1) {
         QMessageBox::critical(0, tr("MX Select Sound"),
           tr("Only one sound card was found."));
-        QTimer::singleShot(50, qApp, SLOT(quit()));
     } else {
         ui->comboBox->addItems(card_list);
     }

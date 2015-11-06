@@ -5,13 +5,13 @@
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="53"/>
-        <location filename="../mxselectsound.cpp" line="87"/>
-        <location filename="../mxselectsound.cpp" line="91"/>
-        <location filename="../mxselectsound.cpp" line="134"/>
-        <location filename="../mxselectsound.cpp" line="141"/>
-        <location filename="../mxselectsound.cpp" line="148"/>
-        <location filename="../mxselectsound.cpp" line="157"/>
+        <location filename="../mxselectsound.cpp" line="42"/>
+        <location filename="../mxselectsound.cpp" line="79"/>
+        <location filename="../mxselectsound.cpp" line="82"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
+        <location filename="../mxselectsound.cpp" line="131"/>
+        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="147"/>
         <source>MX Select Sound</source>
         <translation>MX Sélectionneur de la carte son</translation>
     </message>
@@ -86,53 +86,53 @@
         <translation>Tester la carte son actuelle</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="88"/>
+        <location filename="../mxselectsound.cpp" line="80"/>
         <source>No sound cards/devices were found.</source>
         <translation>Impossible de trouver ni une carte son ni un périphérique son</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="92"/>
+        <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
         <translation>On n&apos;a trouvé qu&apos;une seule carte son</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="109"/>
+        <location filename="../mxselectsound.cpp" line="99"/>
         <source>none</source>
         <translation>aucun</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
+        <location filename="../mxselectsound.cpp" line="123"/>
         <source>About MX Select Sound</source>
         <translation>À propos de MX Sélectionneur de la carte son</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>Ce programme MX Linux a l&apos;objet de sélectionner une carte son</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="137"/>
+        <location filename="../mxselectsound.cpp" line="127"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="128"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="139"/>
-        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
+        <location filename="../mxselectsound.cpp" line="131"/>
         <source>License</source>
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="158"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
         <source>Could not play test sound.</source>
         <translation>Impossible de faire jouer l&apos;essai sonore.</translation>
     </message>

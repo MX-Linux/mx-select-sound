@@ -1,3 +1,9 @@
+mx-select-sound (15.11mx15) mx; urgency=medium
+
+  * fix
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 06 Nov 2015 18:00:18 -0500
+
 mx-select-sound (15.10mx15) mx; urgency=medium
 
   * added translations

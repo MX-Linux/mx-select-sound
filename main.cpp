@@ -44,7 +44,11 @@ int main(int argc, char *argv[])
     a.installTranslator(&appTran);
 
     mxselectsound w;
-    w.show();
-    return a.exec();
-
+    if(w.listCards().size() < 2) {
+        return 0;
+    } else {
+        w.show();
+        w.getDefault();
+        return a.exec();
+    }
 }
