@@ -29,11 +29,13 @@
 #include <QMessageBox>
 #include <QProcess>
 
-namespace Ui {
-class mxselectsound;
+namespace Ui
+{
+    class mxselectsound;
 }
 
-struct Result {
+struct Result
+{
     int exitCode;
     QString output;
 };

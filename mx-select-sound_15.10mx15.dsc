@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 3.0 (native)
 Source: mx-select-sound
 Binary: mx-select-sound
@@ -10,8 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-select-sound deb admin optional arch=any
 Checksums-Sha1:
- 51920a529909d18d60499bcd7e0b332bbcd6434c 149324 mx-select-sound_15.10mx15.tar.xz
+ e61690ae06213b11af70093041c1531d9bb61ef5 177796 mx-select-sound_15.10mx15.tar.xz
 Checksums-Sha256:
- 0866d61f34e65e6bf23dba9ed8aa00e56cbbbafc699843f6f5cb86bdb3d330f4 149324 mx-select-sound_15.10mx15.tar.xz
+ dabf510f20504a1eec9a9c74cd6b703f79dcc95d99033dafdabbd8c3635bb4cd 177796 mx-select-sound_15.10mx15.tar.xz
 Files:
- 8b52087b9487b85117fdcd838825592d 149324 mx-select-sound_15.10mx15.tar.xz
+ ee07675b115734309a7918e1674bfbb3 177796 mx-select-sound_15.10mx15.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWPAXIAAoJEHCTjHgGee6YJk0H/1V4qy+eBkUxvf0jQDgkdH7l
+wQaUZWalyaAzl1IAc4yHPMJ3UHp8McHve/pLGv0ytsdBTJ681ralOAD895YPXDpF
+oBhY26V2zgpiQst40FJzZfjBMvoyuNGB1XOiOt4xyHdsaeD5bZI8q5CnRxzna076
+PeCz9o4J42Sd64SRa29y+W3UAtmKhBVKOew2OmPbdFuO/Ph8TPZXOxVI0wiumR0M
+XapWTtZl3B5BeIG9Oo+gxjHtKW8oFwGwPicK0yDYVQN56ZdgyuzVb5KKyqTJfikb
+2dyADTeKgypFdaDjcKVN3DHlz2tL4FI60uL5s3Cxdzbjtf0XFS548zdLbMjDvyc=
+=F3cl
+-----END PGP SIGNATURE-----
