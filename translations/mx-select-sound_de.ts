@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -13,7 +11,7 @@
         <location filename="../mxselectsound.cpp" line="138"/>
         <location filename="../mxselectsound.cpp" line="147"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Soundkartenwahl</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>

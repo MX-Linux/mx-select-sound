@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -13,12 +11,12 @@
         <location filename="../mxselectsound.cpp" line="138"/>
         <location filename="../mxselectsound.cpp" line="147"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>MX サウンドセレクト</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;現在のサウンドカード:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
@@ -73,27 +71,27 @@
     <message>
         <location filename="../mxselectsound.ui" line="215"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可能な他のサウンドカードを選択して下さい:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="241"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、一つをデフォルトとして選択するよう、このアプリケーションを使用することができます。 &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="287"/>
         <source>Test current sound card</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のサウンドカードをテスト</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="80"/>
         <source>No sound cards/devices were found.</source>
-        <translation type="unfinished"></translation>
+        <translation>サウンドカード・デバイスが見つかりません</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
-        <translation type="unfinished"></translation>
+        <translation>サウンドカードは一つしかありません。</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="99"/>
@@ -103,7 +101,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="123"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>MX サウンドセレクトについて</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="124"/>
@@ -113,7 +111,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="125"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Linux でサウンドカードを選択するプログラム</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="127"/>
@@ -134,7 +132,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="148"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>テストサウンドを再生できません</translation>
     </message>
 </context>
 </TS>
