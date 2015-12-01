@@ -25,6 +25,6 @@ Comment[sv]=Välj lätt standardljudkort
 Exec=mx-select-sound
 Terminal=false
 Type=Application
-Icon=/usr/share/pixmaps/mx/mx-select-sound.png
+Icon=mx-select-sound
 Categories=GNOME;GTK;System;
 NoDisplay=false

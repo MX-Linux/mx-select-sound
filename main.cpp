@@ -33,7 +33,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setWindowIcon(QIcon("/usr/share/pixmaps/mx/mx-select-sound.png"));
+    a.setWindowIcon(QIcon("/usr/share/pixmaps/mx-select-sound.png"));
 
     QTranslator qtTran;
     qtTran.load(QString("qt_") + QLocale::system().name());
