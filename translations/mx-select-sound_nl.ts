@@ -8,10 +8,10 @@
         <location filename="../mxselectsound.cpp" line="42"/>
         <location filename="../mxselectsound.cpp" line="79"/>
         <location filename="../mxselectsound.cpp" line="82"/>
-        <location filename="../mxselectsound.cpp" line="124"/>
-        <location filename="../mxselectsound.cpp" line="131"/>
-        <location filename="../mxselectsound.cpp" line="138"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
+        <location filename="../mxselectsound.cpp" line="132"/>
+        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="151"/>
         <source>MX Select Sound</source>
         <translation>MX Selecteer Geluid</translation>
     </message>
@@ -101,38 +101,38 @@
         <translation>geen</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="123"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
         <source>About MX Select Sound</source>
         <translation>Over MX Selecteer Geluid</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="124"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
         <source>Version: </source>
         <translation>Versie:</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="125"/>
+        <location filename="../mxselectsound.cpp" line="126"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>Programma om de standaard geluidskaart in MX Linux te selecteren</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="127"/>
+        <location filename="../mxselectsound.cpp" line="128"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="128"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="129"/>
-        <location filename="../mxselectsound.cpp" line="131"/>
+        <location filename="../mxselectsound.cpp" line="130"/>
+        <location filename="../mxselectsound.cpp" line="132"/>
         <source>License</source>
         <translation>Licentie</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="148"/>
+        <location filename="../mxselectsound.cpp" line="152"/>
         <source>Could not play test sound.</source>
         <translation>Kon testgeluid niet afspelen</translation>
     </message>

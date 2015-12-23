@@ -2,7 +2,6 @@ mx-select-sound 		 usr/bin
 mx-select-sound.desktop	 usr/share/applications/mx
 mx-select-sound.conf	 etc
 translations/*.qm 	 usr/share/mx-select-sound/locale
-mx-select-sound.png	usr/share/pixmaps/mx
 mx-select-sound.png	usr/share/pixmaps
 icons/*                 usr/share/mx-select-sound/icons
 license.html		usr/share/doc/mx-select-sound
