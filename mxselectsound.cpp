@@ -138,7 +138,7 @@ void mxselectsound::on_buttonAbout_clicked()
 void mxselectsound::on_buttonHelp_clicked()
 {
     this->hide();
-    QString cmd = QString("mx-viewer http://www.mepiscommunity.org/user_manual_mx15/mxum.html#sound '%1'").arg(tr("MX Select Sound"));
+    QString cmd = QString("mx-viewer http://www.mepiscommunity.org/wiki/help-files/help-mx-sound-card '%1'").arg(tr("MX Select Sound"));
     system(cmd.toUtf8());
     this->show();
 }

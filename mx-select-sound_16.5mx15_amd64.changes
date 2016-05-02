@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 02 May 2016 12:58:57 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 16.5mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (16.5mx15) mx; urgency=medium
+ .
+   * update Help link
+Checksums-Sha1:
+ 38872010c0a3682288f05c7b434270cf1cf9cf9f 1173 mx-select-sound_16.5mx15.dsc
+ 118670e98a959e4f6c6e7e9d97fbdb8f62eeddd8 83984 mx-select-sound_16.5mx15.tar.xz
+ 2f5acf0456b3ebf70be3d14b120c5470fbd26bd1 31728 mx-select-sound_16.5mx15_amd64.deb
+Checksums-Sha256:
+ bd303e66780141f6eaabf018a77af5f171863e0f7896b825782ecda9627627f3 1173 mx-select-sound_16.5mx15.dsc
+ f0458aafb1694973d14bd7165b1d3d68bfa715d00ee27548b5b6b3a8e61969b3 83984 mx-select-sound_16.5mx15.tar.xz
+ 51d633587ecec9daa0904b122fc36d4642d12e6223ea5d71450e3a4b2fafe3b3 31728 mx-select-sound_16.5mx15_amd64.deb
+Files:
+ f9bf8583ee167f81d26715bf84bc8daa 1173 admin optional mx-select-sound_16.5mx15.dsc
+ 77dd1b49973ba8f34c1619eaf203df7d 83984 admin optional mx-select-sound_16.5mx15.tar.xz
+ c93c6acbe201bcda5f31b961e59f28c3 31728 admin optional mx-select-sound_16.5mx15_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJXJ4ffAAoJEHCTjHgGee6Y2tcH/1QVET+C1jzDCj4YPPqY0NaS
+PBKqnCuaBGLBFqihdrjvmr2ZhZTmOkCQw/olRQp1P5UTEJOmCBhJ78PaeucZLdxw
+b6I9oKmkMzQolnMHSDxchoj0KG2PC1qZxhldW3TtexRXR8gyfNGtiQn/zQrAOEnB
+u3jeAzVgmk3sBDMg76asK/u391wUNBBcw5Dem+nYHz1jSRUdz6Ko2A6HwIyxQfuN
+5EGIuKefJc7f98RwgcCeLQ4APjFDJTl7wWUXb/hGImajkz/8NyC9eAg/phhLqBGv
+Ecvy96TkfLnujW4K0xXaT/mQl9K+Qys+G6dPcJHSCr2kXxpFzB85XAO/9zO6cU0=
+=Xhl+
+-----END PGP SIGNATURE-----
