@@ -1,3 +1,9 @@
+mx-select-sound (16.5.1mx15) mx; urgency=medium
+
+  * new desktop file
+
+ -- dolphinoracle <dolphinoracle@gmail.com>  Sun, 22 May 2016 21:12:57 -0400
+
 mx-select-sound (16.5mx15) mx; urgency=medium
 
   * update Help link
