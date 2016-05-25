@@ -26,5 +26,5 @@ Exec=mx-select-sound
 Terminal=false
 Type=Application
 Icon=mx-select-sound
-Categories=GNOME;GTK;System;
+Categories=GNOME;GTK;System;MX-Setup
 NoDisplay=false

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 22 May 2016 21:12:57 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source i386
+Version: 16.5.1mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphinoracle <dolphinoracle@gmail.com>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (16.5.1mx15) mx; urgency=medium
+ .
+   * new desktop file
+Checksums-Sha1:
+ d139d1ce3740f8177ed30feee12cb06de15d90ab 663 mx-select-sound_16.5.1mx15.dsc
+ b1323dbb397cb529e9e5b0d8ba5660602c9ea43c 178700 mx-select-sound_16.5.1mx15.tar.xz
+ 0a9d51a050d9c419d2efb2d91e4a941a65ecbab9 31722 mx-select-sound_16.5.1mx15_i386.deb
+Checksums-Sha256:
+ 4186dd62545188a86d32f196ebeae00a21aef0cab8b2fa42ca560dca833a3e8c 663 mx-select-sound_16.5.1mx15.dsc
+ 45ba6f7145a9278bbc6243abbe9438c5e3943a7428c430c885b965413f2a2650 178700 mx-select-sound_16.5.1mx15.tar.xz
+ 3a1ec24afdfad0e014e58d419931a1529c31476af64a093f79e7e442c813359d 31722 mx-select-sound_16.5.1mx15_i386.deb
+Files:
+ 73a9a398797a813ea1f4ded624b50433 663 admin optional mx-select-sound_16.5.1mx15.dsc
+ abf40c972c75a741c55af9aeb44b506e 178700 admin optional mx-select-sound_16.5.1mx15.tar.xz
+ 389195946c555a12e010ab0e820726a5 31722 admin optional mx-select-sound_16.5.1mx15_i386.deb
