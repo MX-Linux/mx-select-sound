@@ -1,3 +1,9 @@
+mx-select-sound (16.10mx16) mx; urgency=medium
+
+  * Changed URLs
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 10 Oct 2016 14:00:39 -0400
+
 mx-select-sound (16.5.1mx15) mx; urgency=medium
 
   * new desktop file
