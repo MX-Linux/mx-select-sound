@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-select-sound deb admin optional arch=any
 Checksums-Sha1:
- 82a7afee8bb9e30332703f0424e2b8943b5dc851 27588 mx-select-sound_16.10mx16.tar.xz
+ cb833335e118badafbfdd51bcc154cb7608f24ef 95896 mx-select-sound_16.10mx16.tar.xz
 Checksums-Sha256:
- 1d32882a88e9a15d2691b85ce39ab59d53cf332fd2f4af24afac8cfc667cad00 27588 mx-select-sound_16.10mx16.tar.xz
+ 090e0bdedcf1c2e2ed7261925b94e50f2939958a3702d046938d57cc495719b6 95896 mx-select-sound_16.10mx16.tar.xz
 Files:
- 91740fc22f679b7901a93fd91fad3e07 27588 mx-select-sound_16.10mx16.tar.xz
+ 4f05fdfd7988fcff5a51825b654a7032 95896 mx-select-sound_16.10mx16.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJX+9gUAAoJEHCTjHgGee6YIS4IAIhlx8m9g2I0vreSlaieRG1V
-RV4AYvQsmPa3nt+lWk+dBc/4s4D9TheeLGAI9lZ82rSX+HLtNGKm8yv4sUJizk+U
-C+eTsoLCsQcQoVf9b0Bo7d5WNwtBGOCq1Iwqk/XAbmNEL31V5Jr4mkiAfZr40RCJ
-AK1f11F3of62avkOO+3OgmmZs4TIbbvyIA+20QCvM/Kfyc8foDBJoD/vZuHf0UMr
-hVNljtTL8SXNG5K5fngt5LIlqFUvTLPK+6XIJaZDAF9oVhpjaF36mwkeG83/5+aJ
-pag6NLYVKvggS/FEFx+9TlwwMzsO5xBfbpexEG4yh5+/wdbbbfTqk5Xl14ftQjA=
-=Zz8h
+iQEcBAEBAgAGBQJX/OJQAAoJEHCTjHgGee6Yep4IAMZubjQq7nDgmA9g/E4pio2c
+7+WcSq6Yc3rTD8U6gBe2sWYU9o0hPJBICtz0/9JiTdORTG+bY9HXG5tClkA/1rJ3
+SmMclWy7opNkc5K9WrTzBEXHdlOeq9p6EY1zVu4FJHu8hI2CsLNp2TaxoPZvhRUE
+ku8U/UMw5bbAL4cBPXSmDtJ2NXGyKQOHfzkuRZINKtXj7lzMnJ+GlIqe0rJvfb9T
+Rm2vrzPF/+CcQlmesj5grS7GPXeYMYl7BRnubiRG5AwKyg+80tF8KjXaKdUuEQmo
+tQVMsKcnZF45H10Oe/fmItkEPtj2IMlX4y/pIFWJW/qRGoOGAkQWOr36qf0QQFc=
+=tkZO
 -----END PGP SIGNATURE-----

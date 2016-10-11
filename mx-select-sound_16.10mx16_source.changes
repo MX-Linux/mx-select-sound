@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 10 Oct 2016 14:00:39 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source
+Version: 16.10mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (16.10mx16) mx; urgency=medium
+ .
+   * Changed URLs
+Checksums-Sha1:
+ 2a267d2d94d9f6f76fc6639d7e4640b96e8a6a5b 1177 mx-select-sound_16.10mx16.dsc
+ cb833335e118badafbfdd51bcc154cb7608f24ef 95896 mx-select-sound_16.10mx16.tar.xz
+Checksums-Sha256:
+ bf1e66dcb47dcf299b343aac812aa3d5b9aa103d36c80b82ce10eac4a4a43988 1177 mx-select-sound_16.10mx16.dsc
+ 090e0bdedcf1c2e2ed7261925b94e50f2939958a3702d046938d57cc495719b6 95896 mx-select-sound_16.10mx16.tar.xz
+Files:
+ 91dc4999253354363a2371eb21d980a3 1177 admin optional mx-select-sound_16.10mx16.dsc
+ 4f05fdfd7988fcff5a51825b654a7032 95896 admin optional mx-select-sound_16.10mx16.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJX/OJVAAoJEHCTjHgGee6YfSgH/j5nnkkA9YXteXu3hmr5M0C8
+GZwjWevAmQZ/S8rvf5c/ubfDWiNi2P6oz36yaH3DRfqKFym38oypjj+EZO7uOipc
+0SqljE7ZvvjM7nN1Z6Te4OvVgT7sjS33CtmG+uXyLXU34+q1/l75aubeIl+UlgXi
+mBapA2liLTEg5HNqmPBYxTNvFwHn9PSOWyuNkHgM9b9FDh5M+cO613bKssk+xlbK
+B7VYmxynQR+nyfOGxnsLkAHfnxmIuEoaBq5oJHr8R48tVntjhTIh8MX4E0ryjs2O
+ev5mrVUH6WGkyQ8Er+YygLG9ObOLLTlUgeEEZ3P40T8lKGUw2lJ3exjWAar+2l0=
+=qnAl
+-----END PGP SIGNATURE-----
