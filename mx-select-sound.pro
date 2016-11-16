@@ -44,8 +44,10 @@ TRANSLATIONS += translations/mx-select-sound_ca.ts \
                 translations/mx-select-sound_ja.ts \
                 translations/mx-select-sound_nl.ts \
                 translations/mx-select-sound_pl.ts \
+                translations/mx-select-sound_pt.ts \
                 translations/mx-select-sound_ro.ts \
                 translations/mx-select-sound_ru.ts \
-                translations/mx-select-sound_sv.ts
+                translations/mx-select-sound_sv.ts \
+                translations/mx-select-sound_tr.ts
 
 

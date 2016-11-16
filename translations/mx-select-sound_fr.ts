@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -113,7 +111,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="126"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>Ce programme MX Linux a l&apos;objet de sélectionner une carte son</translation>
+        <translation>Ce programme MX Linux est fait pour séléectionner une carte son</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
@@ -134,7 +132,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="152"/>
         <source>Could not play test sound.</source>
-        <translation>Impossible de faire jouer l&apos;essai sonore.</translation>
+        <translation>Impossible dediffuser l&apos;essai sonore.</translation>
     </message>
 </context>
 </TS>

@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="53"/>
-        <location filename="../mxselectsound.cpp" line="87"/>
-        <location filename="../mxselectsound.cpp" line="91"/>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="42"/>
+        <location filename="../mxselectsound.cpp" line="79"/>
+        <location filename="../mxselectsound.cpp" line="82"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
+        <location filename="../mxselectsound.cpp" line="132"/>
         <location filename="../mxselectsound.cpp" line="141"/>
-        <location filename="../mxselectsound.cpp" line="148"/>
-        <location filename="../mxselectsound.cpp" line="157"/>
+        <location filename="../mxselectsound.cpp" line="151"/>
         <source>MX Select Sound</source>
         <translation>MX Select Sound</translation>
     </message>
@@ -84,53 +84,53 @@
         <translation>Test current sound card</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="88"/>
+        <location filename="../mxselectsound.cpp" line="80"/>
         <source>No sound cards/devices were found.</source>
         <translation>No sound cards/devices were found.</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="92"/>
+        <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
         <translation>Only one sound card was found.</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="109"/>
+        <location filename="../mxselectsound.cpp" line="99"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
+        <location filename="../mxselectsound.cpp" line="124"/>
         <source>About MX Select Sound</source>
         <translation>About MX Select Sound</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="126"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>Program for selecting the default sound card in MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="137"/>
+        <location filename="../mxselectsound.cpp" line="128"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="139"/>
-        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="130"/>
+        <location filename="../mxselectsound.cpp" line="132"/>
         <source>License</source>
         <translation>License</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="158"/>
+        <location filename="../mxselectsound.cpp" line="152"/>
         <source>Could not play test sound.</source>
         <translation>Could not play test sound.</translation>
     </message>

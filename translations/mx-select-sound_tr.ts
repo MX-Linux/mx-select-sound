@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -11,7 +11,7 @@
         <location filename="../mxselectsound.cpp" line="141"/>
         <location filename="../mxselectsound.cpp" line="151"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished"/>
+        <translation>MX Ses Seçimi</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
@@ -21,12 +21,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Afișează ajutor</translation>
+        <translation>Yardımı görüntüle</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Ajutor</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="74"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="103"/>
         <source>About this application</source>
-        <translation>Informații despre program</translation>
+        <translation>Uygulama hakkında</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="106"/>
         <source>About...</source>
-        <translation>Despre...</translation>
+        <translation>Hakkında...</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="113"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="145"/>
         <source>Quit application</source>
-        <translation type="unfinished"/>
+        <translation>Uygulamadan çık</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="148"/>
         <source>Close</source>
-        <translation>Închidere</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="155"/>
@@ -66,7 +66,7 @@
     <message>
         <location filename="../mxselectsound.ui" line="193"/>
         <source>Apply</source>
-        <translation>Aplică</translation>
+        <translation>Uygula</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="215"/>
@@ -81,7 +81,7 @@
     <message>
         <location filename="../mxselectsound.ui" line="287"/>
         <source>Test current sound card</source>
-        <translation type="unfinished"/>
+        <translation>Var olan ses kartını dene</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="80"/>
@@ -91,27 +91,27 @@
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
-        <translation type="unfinished"/>
+        <translation>Sadece bir ses kartı bulundu</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="99"/>
         <source>none</source>
-        <translation>niciunul</translation>
+        <translation>hiçbiri</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="124"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished"/>
+        <translation>MX Ses Seçimi Hakkında</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="125"/>
         <source>Version: </source>
-        <translation>Versiune:</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="126"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>MX linux&apos;da öntanımlı ses kartı seçme programı</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
@@ -121,18 +121,18 @@
     <message>
         <location filename="../mxselectsound.cpp" line="129"/>
         <source>Cancel</source>
-        <translation>Anulează</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="130"/>
         <location filename="../mxselectsound.cpp" line="132"/>
         <source>License</source>
-        <translation>Licență</translation>
+        <translation>Ruhsat</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="152"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished"/>
+        <translation>Deneme sesi çalınamıyor.</translation>
     </message>
 </context>
 </TS>
