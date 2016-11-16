@@ -1,3 +1,9 @@
+mx-select-sound (16.11mx16) mx; urgency=medium
+
+  * new translations
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 16 Nov 2016 13:34:16 -0500
+
 mx-select-sound (16.10mx16) mx; urgency=medium
 
   * Changed URLs

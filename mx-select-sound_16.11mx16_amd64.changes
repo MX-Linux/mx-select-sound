@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 Nov 2016 13:34:16 -0500
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 16.11mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (16.11mx16) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 63adec4cc829dea9c7f760850b70a11537f9bc05 1177 mx-select-sound_16.11mx16.dsc
+ f346a9a276ee7b22c625b5467dc88029f0ab5c39 28228 mx-select-sound_16.11mx16.tar.xz
+ 8df50fe2728edc921a5a8c3672845a9057925f99 32610 mx-select-sound_16.11mx16_amd64.deb
+Checksums-Sha256:
+ 46d854e1de21f0a16d378f7e2757d5305739b64a8756ff4b29894070d2411483 1177 mx-select-sound_16.11mx16.dsc
+ 15ff1df6decb90aa4aa5685072b6bee3135b4f07259b0d66ba0f62805da5b9ca 28228 mx-select-sound_16.11mx16.tar.xz
+ 8dcabc2eb508249e4ac0f0df3d5e9e606b3066cd98c10a066abd37b24a1f8d79 32610 mx-select-sound_16.11mx16_amd64.deb
+Files:
+ 89bfd2eaee053e27c298d55891e15e57 1177 admin optional mx-select-sound_16.11mx16.dsc
+ d49eee591fe96040fceaafa05b97af59 28228 admin optional mx-select-sound_16.11mx16.tar.xz
+ 46fb18f7d77d5c5fc0a3c09cb50280cd 32610 admin optional mx-select-sound_16.11mx16_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJYLKbLAAoJEHCTjHgGee6YsxEH/3tq9LJbm6p//AxrMXYIBEni
+qhoSOuFe09YSqbZiZDBgUsXUs+dM+17xOssseqPJ+7rWgeu3B2k3caUBNLw97lPH
+pXu7loXkyT50NrCLdrLx4XKcC4aIEgtD6FdwsbtUslfGGOc3swQn8MvMP+ifiHue
+aEyUI7EXrjth6jyY+Qqrllr6qmb5CAeW1uJrSdALS96PXJGJlkiJ7nTYHk8z8f4B
+Px32fRdLiPAgo2CHVVEneBHmeGVFUMO26td50PBCj3Xbm87dxUGT9GcZ8R2N/3wo
+mA5k4nfVT9AVYOu95odLSjENRnFlRRFicI9x7ALUDfJ24+Y2oWSVQPc4Ci76qp0=
+=LQIh
+-----END PGP SIGNATURE-----
