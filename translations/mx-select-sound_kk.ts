@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="kk" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -11,22 +11,22 @@
         <location filename="../mxselectsound.cpp" line="141"/>
         <location filename="../mxselectsound.cpp" line="151"/>
         <source>MX Select Sound</source>
-        <translation>MX Assistant carte son</translation>
+        <translation>MX дыбысты таңдау қолданбасы</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;La carte son actuellement utilisée par défaut est:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Сіздің ағымдағы негізгі дыбыстық картаңыз:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Afficher l&apos;aide</translation>
+        <translation>Көмекті көрсету</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Aide </translation>
+        <translation>Көмек</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="74"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="103"/>
         <source>About this application</source>
-        <translation>A propos de cette application</translation>
+        <translation>Бұл қолданба жөнінде</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="106"/>
         <source>About...</source>
-        <translation>A propos...</translation>
+        <translation>Осы туралы...</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="113"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="145"/>
         <source>Quit application</source>
-        <translation>Quitter l&apos;application</translation>
+        <translation>Қолданба жұмысын аяқтау</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="148"/>
         <source>Close</source>
-        <translation>Fermer</translation>
+        <translation>Жабу</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="155"/>
@@ -66,52 +66,52 @@
     <message>
         <location filename="../mxselectsound.ui" line="193"/>
         <source>Apply</source>
-        <translation>Appliquer</translation>
+        <translation>Іске асыру</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="215"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si nécessaire,choisissez une autre carte son:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Қажет болса, басқа дыбыстық картаны таңдаңыз:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="241"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si votre ordinateur possède plus d&apos;une carte son, cette application vous permettra de choisir celle qui sera utilisée par défaut.&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Егер сіздің компьютеріңізде бірнеше дыбыстық карта болса, бұл қолданба көмегімен сіз негізгі картаны көрсете аласыз. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="287"/>
         <source>Test current sound card</source>
-        <translation>Tester la carte son actuelle</translation>
+        <translation>Ағымдағы дыбыстық картаны сынау</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="80"/>
         <source>No sound cards/devices were found.</source>
-        <translation>Aucun périphérique/carte son détecté.</translation>
+        <translation>Дыбыстық карталар/құрылғылар табылмады.</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>Only one sound card was found.</source>
-        <translation>Une seule carte son a été détectée.</translation>
+        <translation>Тек бір дыбыстық карта табылды.</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="99"/>
         <source>none</source>
-        <translation>aucun</translation>
+        <translation>ешнәрсе</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="124"/>
         <source>About MX Select Sound</source>
-        <translation>À propos de MX Assistant carte son</translation>
+        <translation>MX дыбысты таңдау қолданбасы туралы</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="125"/>
         <source>Version: </source>
-        <translation>Version: </translation>
+        <translation>Нұсқасы:</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="126"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>Programme permettant le choix de la carte son utilisée par défaut dans MX Linux</translation>
+        <translation>MX Linux ішінде негізгі дыбыстық картаны таңдау қолданбасы</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
@@ -121,18 +121,18 @@
     <message>
         <location filename="../mxselectsound.cpp" line="129"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Бас тарту</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="130"/>
         <location filename="../mxselectsound.cpp" line="132"/>
         <source>License</source>
-        <translation>Licence</translation>
+        <translation>Лицензиясы</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="152"/>
         <source>Could not play test sound.</source>
-        <translation>Impossible de démarrer le test sonore.</translation>
+        <translation>Сынау дыбысын ойнату мүмкін емес.</translation>
     </message>
 </context>
 </TS>
