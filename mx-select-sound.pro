@@ -36,6 +36,7 @@ HEADERS  += mxselectsound.h
 FORMS    += mxselectsound.ui
 
 TRANSLATIONS += translations/mx-select-sound_ca.ts \
+                translations/mx-select-sound_cs.ts \
                 translations/mx-select-sound_de.ts \
                 translations/mx-select-sound_el.ts \
                 translations/mx-select-sound_es.ts \
@@ -43,6 +44,7 @@ TRANSLATIONS += translations/mx-select-sound_ca.ts \
                 translations/mx-select-sound_it.ts \
                 translations/mx-select-sound_ja.ts \
                 translations/mx-select-sound_kk.ts \
+                translations/mx-select-sound_lt.ts \
                 translations/mx-select-sound_nl.ts \
                 translations/mx-select-sound_pl.ts \
                 translations/mx-select-sound_pt.ts \
