@@ -121,12 +121,12 @@
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="129"/>
+        <location filename="../mxselectsound.cpp" line="130"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="130"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
         <location filename="../mxselectsound.cpp" line="132"/>
         <source>License</source>
         <translation>Lizenz</translation>

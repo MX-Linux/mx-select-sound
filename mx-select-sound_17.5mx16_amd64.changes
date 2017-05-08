@@ -18,26 +18,26 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- cb0c98c8b879e45ea2c556143dbb73b76cc3770d 1147 mx-select-sound_17.5mx16.dsc
- 32bc226b7c8d47ffb8d98d3fffe0ccdf8c351afa 29688 mx-select-sound_17.5mx16.tar.xz
- a41073fda52c120d3b7d4bf4d6562a82b60e57ee 34154 mx-select-sound_17.5mx16_amd64.deb
+ ca47902557f26eb132e76b5f5b0c1f40c816fb34 1147 mx-select-sound_17.5mx16.dsc
+ f903118ab91242ea5821f7414d0fb591d5e86e19 29660 mx-select-sound_17.5mx16.tar.xz
+ 543a815aea8284f883416b18334928f5d6064444 34126 mx-select-sound_17.5mx16_amd64.deb
 Checksums-Sha256:
- c0cfd3acb1d217cda2dfc036fc1774b52be95cffa1d64b1f06b8906cad712ca2 1147 mx-select-sound_17.5mx16.dsc
- 3ead0f091f2498f078790038e357857110b9809276194444108a6002d36f6a74 29688 mx-select-sound_17.5mx16.tar.xz
- 17b2458fb39fa1a930755518a7e953b7c91c7eb2ea5f96139a6217e7a92f23a8 34154 mx-select-sound_17.5mx16_amd64.deb
+ 3c65e4582812716b89f5d6e3469c8908f4c32854f1260b0185999fabb0f8bf01 1147 mx-select-sound_17.5mx16.dsc
+ 64220e36a1e1bfc9b49de87123877e165e3e2b5a2a4d21fbe109698e8a1cd892 29660 mx-select-sound_17.5mx16.tar.xz
+ 731c5f532242fb5e34668add182d7368f9e62651aa947e61b75430ac209ee485 34126 mx-select-sound_17.5mx16_amd64.deb
 Files:
- 790d21cb61957e06a87f8782fa8afd3a 1147 admin optional mx-select-sound_17.5mx16.dsc
- 8a2cb522736fc6b06b9bb8e7db53efed 29688 admin optional mx-select-sound_17.5mx16.tar.xz
- 8f6ebf1edc5425f12eba0c4e30cf037f 34154 admin optional mx-select-sound_17.5mx16_amd64.deb
+ 80c76482272c5e0cf42c2562e8e4f319 1147 admin optional mx-select-sound_17.5mx16.dsc
+ f0f5fb0d5649c0b456b425c40e42cdcd 29660 admin optional mx-select-sound_17.5mx16.tar.xz
+ b030fdd0393a5807f00a607fd1db4288 34126 admin optional mx-select-sound_17.5mx16_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJZEJOWAAoJEHCTjHgGee6Y2ewH/ixWdpqw7QyaxY2ISKb4rcRt
-iMC0Ift9NctDvP0Ft+uM8NWtFLSYm24LPSC9335iluDn1K87ieqkvgEYBOtedIhA
-xWZnz9eplZV8FbQ2q+QzH/ciFn9ui/R17v7RVuaVXXYsdMaxv4A0NLtU/QUQbTCo
-5ZigeZHQWsflyjtyoR0OCR7atwojNISsAdPTkfZkmtAm4JpICdFa9I9xJu+BwTjw
-XQpbPtvZgDC+To1yY2I9reVh7PWVTrAGenD0tn0tmY6ly+sBkJp2hulTRjOEnmWk
-JEIM3utZVIUrk/fMB9efiYO+G9b3ddKRpqYL3LR0UF4X/gzAc5KmKKSkeXQ8Vao=
-=cXrr
+iQEcBAEBAgAGBQJZEK8MAAoJEHCTjHgGee6YS+4H/2jGatkfwGA1nEtVDPZcU4JQ
+8iFClMIVgnHH6z4h6AU/cFzW0vcz8Si5nhA7+mF7fRBqsp3hiRWfLiXv+EKyaYLR
+/hdwj+wPd/kIyw/PQvF7KGkgbrE/c0ERajQtyzjNn8AdarW+ViYdb5zwlyPOo6AH
+iSyGZuN1aHezHxQbrpa5SZkyZtULvuJUYEmTkTyjEtmQ6bThcZgAH9C0V57ZSoO1
+aVOgFpMeO8l24en6oyTYWVsgi5wkp8GvLERrpCQfYTvVMSICbVDtaHfF1eBMvpi7
+FRJk3/s7qr3mt0h+yytQsnPeoo4pYlf3xquLLo7Pr6YCT01tePJtDNda4qzkv5A=
+=VzIg
 -----END PGP SIGNATURE-----

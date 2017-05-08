@@ -18,20 +18,20 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 74e4619f8095e04537d725d75153e46a297a4aa4 34264 mx-select-sound_17.5mx16_i386.deb
+ f934f33efc504822ede00184a19b599af350cfff 34206 mx-select-sound_17.5mx16_i386.deb
 Checksums-Sha256:
- 8234ee8ae93e9be379c42d2a4be9b51a38906de5bb57a103bb82011e4bdda6d9 34264 mx-select-sound_17.5mx16_i386.deb
+ 10a223d3350c3bff47f4de8242b6aa342981271d224a7dff4a2a7aca545317c1 34206 mx-select-sound_17.5mx16_i386.deb
 Files:
- b2b8c1592b2363d997d8a8195b5ab209 34264 admin optional mx-select-sound_17.5mx16_i386.deb
+ 11103ac652146f6e87f94c220714ac04 34206 admin optional mx-select-sound_17.5mx16_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJZEJRzAAoJEHCTjHgGee6Y27kH/1Lsx2tE7lJTfLd0i1juwCNY
-l9nYGKqDI7JHCn2Wx/IaaX9i1VfwALgTaB60z0YG+ptH2mnaJlnV1WoaiCF2wiNT
-UxwXkB3ZiGlrj9le6QWsNENuGOfoDPto/iA8naC39DbVj2QkrxAD7GkGAxWRs69j
-3rlOQGd1ihDqruHj6njL6455d9AqiJQzj062HBo+8XYh0Sz5dnL4Pwzzf5B/VLpx
-pYs1NOoB32ELfLSEqzlDPWNpq/5UY9fV1ExnK4xOpIERohfYW0QhwSLUlSnD9xBT
-lZo0AGz1QTN7V0fIaFheYo47k4pC8jQGvcPCmJ4sWC6al3oDRbDswaHAmcW12RU=
-=DO6c
+iQEcBAEBAgAGBQJZEK9oAAoJEHCTjHgGee6Yhk0H/26fl+OXXEMMqzU/jHDbL8/U
+9xjAK3Eqesu5e4HwO/I3YAEk9+tAF/KQcKxMAJ3HKPeQ6MayGaYvN9sdbpvljEUJ
+4nxA+2tcHR1N5vseh2c5AOZYe5YSO97ArobeqfU70p5Qtjtod9bMqfMutpbcELdK
+hTz0pFpjjLP3RDzfZM7t7qzOsPk78VJJQ9HjB9w/QA4xZrlgOrGm4wJTr71iPS8b
+emaRF5pytPNwgb/aijfhrAHdo/GpuGpwcqLzXsvBPAvjII4GPL5GU9i8rir6tHOB
+AVwvseAmFiy1sTe2Nb1UOMvnaBIkPG36dvMCMiJ/mc3qYbxJBoHkhSjJdkSfiC8=
+=pMJR
 -----END PGP SIGNATURE-----
