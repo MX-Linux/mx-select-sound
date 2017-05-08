@@ -1,5 +1,5 @@
 mx-select-sound 		 usr/bin
-mx-select-sound.desktop	 usr/share/applications/mx
+mx-select-sound.desktop	 usr/share/applications
 mx-select-sound.conf	 etc
 translations/*.qm 	 usr/share/mx-select-sound/locale
 mx-select-sound.png	usr/share/pixmaps
