@@ -1,3 +1,9 @@
+mx-select-sound (17.5mx16+1) mx; urgency=medium
+
+  * update icons
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 10 May 2017 15:30:30 -0400
+
 mx-select-sound (17.5mx16) mx; urgency=medium
 
   * new translations

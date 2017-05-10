@@ -53,4 +53,7 @@ TRANSLATIONS += translations/mx-select-sound_ca.ts \
                 translations/mx-select-sound_sv.ts \
                 translations/mx-select-sound_tr.ts
 
+RESOURCES += \
+    images.qrc
+
 

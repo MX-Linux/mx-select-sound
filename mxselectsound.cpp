@@ -38,6 +38,9 @@ mxselectsound::mxselectsound(QWidget *parent) :
     ui(new Ui::mxselectsound)
 {
     ui->setupUi(this);
+    if (ui->buttonApply->icon().isNull()) {
+        ui->buttonApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
+    }
     version = getVersion("mx-select-sound");
     this->setWindowTitle(tr("MX Select Sound"));
     this->adjustSize();
