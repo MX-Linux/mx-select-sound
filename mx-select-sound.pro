@@ -50,6 +50,7 @@ TRANSLATIONS += translations/mx-select-sound_ca.ts \
                 translations/mx-select-sound_pt.ts \
                 translations/mx-select-sound_ro.ts \
                 translations/mx-select-sound_ru.ts \
+                translations/mx-select-sound_sk.ts \
                 translations/mx-select-sound_sv.ts \
                 translations/mx-select-sound_tr.ts
 
