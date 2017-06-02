@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 02 Jun 2017 15:03:38 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: i386
+Version: 17.6mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (17.6mx16) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ b7f96c0f15f5f08da707115106d2c1e8c2d5c798 32666 mx-select-sound_17.6mx16_i386.deb
+Checksums-Sha256:
+ 5cccf69290dd9343d1ddc219df355eeb79abb830f9d001993b1e294d83ed2e5e 32666 mx-select-sound_17.6mx16_i386.deb
+Files:
+ 11ee7b3246921a33bfa8a2748899aafd 32666 admin optional mx-select-sound_17.6mx16_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZMbbQAAoJEHCTjHgGee6YPqcH/06ViceUQChdS4VZ/0l908fx
+JU8thrVoQ6dZRkE7ulGyKMqFujDkybrMHg13b6iPgg6+1GVpVQnBtrkGaPuqU5YI
+CIjXxtkNZw6MO549MM4EsaLCbdDuIMmbmnDNJvvI1hSLBDE0C6s/38LZz8ckxDKb
+RfKNebiCjswlby6ntnHZ3olUtAd5aLHKIdYGloLPkQ92FHa1es3aRXOROKURwYCe
+adOZSVEZRI8C3L2+9HVcC3qmeofLSWO6gX8u3qGMYm2n0byEWNJKQGnu5etbr5Zb
+h6xY16XEkTZ8yW4B6anNRYNuMLVUUl4HunVZRdtBTyUA83ZvMjjCPxWtwBErc4o=
+=pJ2p
+-----END PGP SIGNATURE-----
