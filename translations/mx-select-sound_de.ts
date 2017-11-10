@@ -10,8 +10,8 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="144"/>
-        <location filename="../mxselectsound.cpp" line="154"/>
+        <location filename="../mxselectsound.cpp" line="153"/>
+        <location filename="../mxselectsound.cpp" line="164"/>
         <source>MX Select Sound</source>
         <translation>MX Soundkartenwahl</translation>
     </message>
@@ -132,7 +132,7 @@
         <translation>Lizenz</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="155"/>
+        <location filename="../mxselectsound.cpp" line="165"/>
         <source>Could not play test sound.</source>
         <translation>Konnte den Test-Sound nicht abspielen.</translation>
     </message>
