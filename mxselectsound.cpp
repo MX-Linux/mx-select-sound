@@ -146,7 +146,8 @@ void mxselectsound::on_buttonHelp_clicked()
     QString lang = locale.bcp47Name();
 
     QString url = "https://mxlinux.org/wiki/help-files/help-mx-sound-card";
-    if (lang == "fr") {
+
+    if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-carte-son";
     }
 

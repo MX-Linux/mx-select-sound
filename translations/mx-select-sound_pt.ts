@@ -10,8 +10,8 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="153"/>
-        <location filename="../mxselectsound.cpp" line="164"/>
+        <location filename="../mxselectsound.cpp" line="154"/>
+        <location filename="../mxselectsound.cpp" line="165"/>
         <source>MX Select Sound</source>
         <translation>MX_Seleccionador de Som</translation>
     </message>
@@ -132,7 +132,7 @@
         <translation>Licença</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="165"/>
+        <location filename="../mxselectsound.cpp" line="166"/>
         <source>Could not play test sound.</source>
         <translation>Não foi possível fazer o teste de som</translation>
     </message>
