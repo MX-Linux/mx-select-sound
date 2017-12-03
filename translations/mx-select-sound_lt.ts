@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -10,10 +8,10 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="144"/>
         <location filename="../mxselectsound.cpp" line="154"/>
-        <location filename="../mxselectsound.cpp" line="165"/>
         <source>MX Select Sound</source>
-        <translation>MX Pasirinkti garsą</translation>
+        <translation>MX pasirinkti garsą</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
@@ -103,7 +101,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="127"/>
         <source>About MX Select Sound</source>
-        <translation>Apie MX Pasirinkti garsą</translation>
+        <translation>Apie MX pasirinkti garsą</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
@@ -121,18 +119,18 @@
         <translation>Autorių teisės (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
-        <source>Cancel</source>
-        <translation>Atsisakyti</translation>
-    </message>
-    <message>
         <location filename="../mxselectsound.cpp" line="132"/>
         <location filename="../mxselectsound.cpp" line="135"/>
         <source>License</source>
         <translation>Licencija</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="166"/>
+        <location filename="../mxselectsound.cpp" line="133"/>
+        <source>Cancel</source>
+        <translation>Atsisakyti</translation>
+    </message>
+    <message>
+        <location filename="../mxselectsound.cpp" line="155"/>
         <source>Could not play test sound.</source>
         <translation>Nepavyko groti bandomojo garso.</translation>
     </message>
