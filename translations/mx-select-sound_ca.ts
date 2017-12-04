@@ -31,57 +31,57 @@
         <translation>Ajuda </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="73"/>
+        <location filename="../mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="102"/>
+        <location filename="../mxselectsound.ui" line="104"/>
         <source>About this application</source>
         <translation>Quant al programa </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="105"/>
+        <location filename="../mxselectsound.ui" line="107"/>
         <source>About...</source>
         <translation>Quant a... </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="111"/>
+        <location filename="../mxselectsound.ui" line="115"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="143"/>
+        <location filename="../mxselectsound.ui" line="147"/>
         <source>Quit application</source>
         <translation>Surt del programa</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="146"/>
+        <location filename="../mxselectsound.ui" line="150"/>
         <source>Close</source>
         <translation>Tanca </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="152"/>
+        <location filename="../mxselectsound.ui" line="158"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="190"/>
+        <location filename="../mxselectsound.ui" line="199"/>
         <source>Apply</source>
         <translation>Aplica</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="211"/>
+        <location filename="../mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Trieu una altra tarja de so si és necessari:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="237"/>
+        <location filename="../mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si el vostre ordinador té més d&apos;una tarja de so, podeu usar aquesta aplicació per triar la tarja per omissió. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="283"/>
+        <location filename="../mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
         <translation>Prova la tarja de so actual </translation>
     </message>
