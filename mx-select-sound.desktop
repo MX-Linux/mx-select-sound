@@ -1,17 +1,19 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=MX Select Sound
+Name[am]=MX ድምፅ ይምረጡ
 Name[ca]=MX Select Sound
 Name[cs]=MX nastavení zvuků
 Name[de]=MX Soundkartenwahl
 Name[el]=MX Select Sound
 Name[es]=MX Seleccionar Audio
 Name[fr]=MX Sélection de la carte son
+Name[hu]=MX hangválasztó
 Name[it]=MX Schede Audio
-Name[ja]=MX サウンドカードを選択します
-Name[lt]=MX Pasirinkti garsą
+Name[ja]=MX サウンドカードの選択
+Name[lt]=MX pasirinkti garsą
 Name[nl]=MX Selecteer Geluid
-Name[pt]=MX_Seleccionador de Som
+Name[pt]=MX-Seleccionar Placa de Som
 Name[ru]=MX Выбор звуковой карты
 Name[sk]=MX Výber zvukov
 Name[sv]=MX Ljudkortsväljare
@@ -22,11 +24,12 @@ Comment[de]=Einfach die Default-Soundkarte auswählen
 Comment[el]=Επιλέξετε μια προεπιλεγμένη κάρτα ήχου
 Comment[es]=Seleccionar fácilmente la tarjeta de sonido por defecto
 Comment[fr]=Sélectionner facilement la carte son par défaut
+Comment[hu]=Az alapértelmezett hangkártya kiválasztása könnyedén
 Comment[it]=Seleziona facilmente la scheda audio di default
 Comment[ja]=サウンドカードのデフォルト値を簡単に選択
-Comment[lt]=Lengvai pasirinkti numatytąją garso plokštę
+Comment[lt]Lengvai pasirinkti numatytąją garso plokštę
 Comment[nl]=Eenvoudig een standaard geluidskaart selecteren
-Comment[pt]=Para escolha fácil duma placa de som pré-definida
+Comment[pt]=Pré-definir facilmente uma placa de som
 Comment[ru]=Простой выбор звуковой карты по умолчанию
 Comment[sk]=Nastavenie zvykovej karty
 Comment[sv]=Välj lätt standardljudkort
