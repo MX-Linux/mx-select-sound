@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 10 Feb 2018 02:19:25 -0500
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 18.2
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (18.2) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 3790b559be77e51f78f30125b01411b3337bc212 1153 mx-select-sound_18.2.dsc
+ 4c5aecfc545ba4673e35edca0f23901fbdde11fb 31188 mx-select-sound_18.2.tar.xz
+ 96476b8f71d84e90b511ccfb67acd87314069861 36508 mx-select-sound_18.2_amd64.deb
+Checksums-Sha256:
+ cdb4d8bcace8093052de433c1d451f1a7aee40832544890413d788b33b7bb001 1153 mx-select-sound_18.2.dsc
+ 84b81b1445ddd982bb1d4efdcd151059f2922e36b5a81871bd966ba59d91e909 31188 mx-select-sound_18.2.tar.xz
+ 95b817fb2f1d41f01f0c251ed87e624639305136b59b9c9aae7409db57cd177f 36508 mx-select-sound_18.2_amd64.deb
+Files:
+ cd203f4f972d1ecacca947fec536e0f7 1153 admin optional mx-select-sound_18.2.dsc
+ 503d2668894596fc1a853195da20ab0a 31188 admin optional mx-select-sound_18.2.tar.xz
+ f3b50fc6ad1535ce45e8f2b03ebcf692 36508 admin optional mx-select-sound_18.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJafp0jAAoJEHCTjHgGee6YvqgH/i1Mg5IyPS7ZEtQAA2vmfA+W
+cn/eS9ieblxAceTDfsdWxqFR43gwFmSUsVFFjp0tGnHvJgYpwdkPauvBa9Ef5zKg
+WU54L0FKHg25Lv709lowW4vw0Z1OutSq2W9CBWhEJODPpttZusqcaiD8rn59HWKb
+LY0qh0ZNr+5mI3JyJ62+ApcnJxlU/wwQH51CDnnHtTjqNb8FfmnrDpWrAfQKb989
+IZnd5KRpoF0r5+cQNiunqVL0vK8wEEvMZdhykt6R/298lxCo7P6fP1HadL79js8L
+mTsqU5xRWo/Tmwzhh4N3kJWzTlc3YvctXC/T4tsdfl0nY7Bg++FfBV69owxOBOk=
+=QBjq
+-----END PGP SIGNATURE-----
