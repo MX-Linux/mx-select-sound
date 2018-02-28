@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -11,22 +11,22 @@
         <location filename="../mxselectsound.cpp" line="144"/>
         <location filename="../mxselectsound.cpp" line="154"/>
         <source>MX Select Sound</source>
-        <translation>MX Schede Audio</translation>
+        <translation>MX 音效選擇</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Attualmente la tua scheda audio impostata come predefinita è:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;目前預設的音效卡：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Visualizza la guida</translation>
+        <translation>顯示說明</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="73"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="102"/>
         <source>About this application</source>
-        <translation>Informazioni su questa applicazione</translation>
+        <translation>關於本程式</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="105"/>
         <source>About...</source>
-        <translation>Info...</translation>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="111"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="143"/>
         <source>Quit application</source>
-        <translation> Chiudi l&apos;applicazione</translation>
+        <translation>退出程式</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="146"/>
         <source>Close</source>
-        <translation>Chiudi</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="152"/>
@@ -66,73 +66,73 @@
     <message>
         <location filename="../mxselectsound.ui" line="190"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation>使用</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Seleziona un&apos;altra scheda audio se necessario:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;若有需要，請選擇另一張音效卡：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Se il tuo computer possiede più di una scheda audio, puoi usare questa applicazione per sceglierne una come default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果你的電腦裝了不只一張音效卡，可以用本程式來選擇哪一張是預設值。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="283"/>
         <source>Test current sound card</source>
-        <translation>Prova la scheda audio corrente</translation>
+        <translation>測試目前的音效卡</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation>Non è stato trovato nessun dispositivo/scheda audio</translation>
+        <translation>找不到任何音效卡和音效設備。</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="86"/>
         <source>Only one sound card was found.</source>
-        <translation>E&apos; stata rilevata solamente una scheda audio</translation>
+        <translation>只找到一張音效卡。</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="102"/>
         <source>none</source>
-        <translation>nessuno</translation>
+        <translation>無</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="127"/>
         <source>About MX Select Sound</source>
-        <translation>Informazioni su MX Schede Audio</translation>
+        <translation>關於 MX 音效選擇</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
         <source>Version: </source>
-        <translation>Versione:</translation>
+        <translation>版本：</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="129"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>Applicazione per scegliere la scheda audio di default in MX Linux</translation>
+        <translation>本程式可選擇 MX Linux 當中的預設音效卡</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="131"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>版權所有 (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="132"/>
         <location filename="../mxselectsound.cpp" line="135"/>
         <source>License</source>
-        <translation>Licenza</translation>
+        <translation>授權條款</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="133"/>
         <source>Cancel</source>
-        <translation>Annulla</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="155"/>
         <source>Could not play test sound.</source>
-        <translation>Impossibile riprodurre l&apos;audio di prova.</translation>
+        <translation>無法播放測試音效。</translation>
     </message>
 </context>
 </TS>
