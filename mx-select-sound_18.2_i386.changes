@@ -18,20 +18,20 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- b302fa0f7d648aa49e9aac0235654ed9a1b5652c 36770 mx-select-sound_18.2_i386.deb
+ 814ac2dfa5bb2a12b71285cd229c01e37243aae3 37428 mx-select-sound_18.2_i386.deb
 Checksums-Sha256:
- e906e5176bcd55fa10f261cf90bca1243dce1dacdaf942de62df945aeb96d391 36770 mx-select-sound_18.2_i386.deb
+ 39d24287e44a08ad1294bde04677864b754c46ef893ede4e5ed46654d149b0e8 37428 mx-select-sound_18.2_i386.deb
 Files:
- be239c4ca3cb7903e078747cc39b2f07 36770 admin optional mx-select-sound_18.2_i386.deb
+ 7c2219e6173a5f2a97af14a0f44bced1 37428 admin optional mx-select-sound_18.2_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJafp01AAoJEHCTjHgGee6YgecH/0jQUATvVHmHIHdjrFojlSPF
-Eunk8F03t+0DP+B6kdKOKoMgjCkB7QUYx95A0yfOv6GariHhSDX3AIDlQeXUl9I6
-CV51wE6ABQLhX2Sl0JFGlE8Hr3uPx0TqvwjS26KIV7qMZZ4KVNKSHV+0L0oUlM2G
-Z6ZSeu3HH8M7RJRQq4BCcvsrQn8bxEiL962rWAW6fCEg71EN5YbMJvNsUHKqAfBJ
-ijoIbFRFjj/HHHqPigaxlaiFk0UNSwFK/5t1PK4/sACaZwy4ZsA/DB4Rj56cBKnS
-z9aSdl6AZ1EslRYYuiodsBCH1xyL7gRu7cwPJecfmtk4jpoZ2+5xjfidzFJVdew=
-=Re4h
+iQEcBAEBAgAGBQJamX5MAAoJEHCTjHgGee6YL6YIAMyufxFnw00pFwgJube2WHY6
+X9NyHWDaScREcuMBkUY6rdLJzISVrnLxxHONNnRK3OV7wt9Ab7uQgmrxcfxEEVR7
+CKRhzbRvYNVP8VYlMSzK3utqYTYlljlKT5BIumanlbr/pW+RnNqZnx905kR3hxan
+e7UsBvVgRoRD6Mwc1lKVOha7auDZmsOAhT/XFf0nbtgGFGBX87g9CMci21Q1kmGR
+WYDkr4RcnZ5lRfeumppnTyat5k6OULbKol+qLm8O1hPIzH/3pmef7cltleXY/uFf
+wHA4FqGcnaDnmhu4i2DrxMNTe277ZJQZgWzTUW+VyVem005/SY+h9iSi1M1wjkQ=
+=xY7x
 -----END PGP SIGNATURE-----

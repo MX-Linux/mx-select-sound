@@ -140,8 +140,6 @@ void mxselectsound::on_buttonAbout_clicked()
 // Help button clicked
 void mxselectsound::on_buttonHelp_clicked()
 {
-    this->hide();
-
     QLocale locale;
     QString lang = locale.bcp47Name();
 
@@ -151,10 +149,8 @@ void mxselectsound::on_buttonHelp_clicked()
         url = "https://mxlinux.org/wiki/help-files/help-mx-carte-son";
     }
 
-    QString cmd = QString("mx-viewer %1 '%2'").arg(url).arg(tr("MX Select Sound"));
+    QString cmd = QString("mx-viewer %1 '%2'&").arg(url).arg(tr("MX Select Sound"));
     system(cmd.toUtf8());
-
-    this->show();
 }
 
 // Test default sound card
