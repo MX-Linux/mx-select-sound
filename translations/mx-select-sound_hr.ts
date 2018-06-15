@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -11,22 +11,22 @@
         <location filename="../mxselectsound.cpp" line="144"/>
         <location filename="../mxselectsound.cpp" line="154"/>
         <source>MX Select Sound</source>
-        <translation>MX Soundkartenwahl</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ihre aktuelle voreingestellte Soundkarte ist:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Hilfe anzeigen</translation>
+        <translation>Prikaži pomoć</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Hilfe</translation>
+        <translation>Pomoć</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="73"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="102"/>
         <source>About this application</source>
-        <translation>Infos zu diesem Programm</translation>
+        <translation>O ovoj aplikaciji</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="105"/>
         <source>About...</source>
-        <translation>Über...</translation>
+        <translation>O programu...</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="111"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mxselectsound.ui" line="143"/>
         <source>Quit application</source>
-        <translation>Anwendung beenden</translation>
+        <translation>Zatvori aplikaciju</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="146"/>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Zatvori</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="152"/>
@@ -66,73 +66,73 @@
     <message>
         <location filename="../mxselectsound.ui" line="190"/>
         <source>Apply</source>
-        <translation>Anwenden</translation>
+        <translation>Primjeni</translation>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wählen Sie eine andere Soundkarte wenn nötig:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Falls Ihr Computer über mehr als eine Soundkarte verfügt, können Sie mit dieser Anwendung eine davon als voreingestellt (default) festlegen.&lt;/br&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="283"/>
         <source>Test current sound card</source>
-        <translation>Aktuelle Soundkarte testen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation>Keine Soundkarte gefunden.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="86"/>
         <source>Only one sound card was found.</source>
-        <translation>Eine einzige Soundkarte gefunden</translation>
+        <translation>Samo jedna zvučna kartica je nađena</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="102"/>
         <source>none</source>
-        <translation>keine</translation>
+        <translation>nijedan</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="127"/>
         <source>About MX Select Sound</source>
-        <translation>Über MX Soundkartenwahl</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
         <source>Version: </source>
-        <translation>Version:</translation>
+        <translation>Inačica:</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="129"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>Programm zur Auswahl der voreingestellten (default) Soundkarte in MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="131"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Autorska prava (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="132"/>
         <location filename="../mxselectsound.cpp" line="135"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>Licenca</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="133"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Otkaži</translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="155"/>
         <source>Could not play test sound.</source>
-        <translation>Konnte den Test-Sound nicht abspielen.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

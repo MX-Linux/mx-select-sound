@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -10,8 +8,8 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="152"/>
-        <location filename="../mxselectsound.cpp" line="161"/>
+        <location filename="../mxselectsound.cpp" line="144"/>
+        <location filename="../mxselectsound.cpp" line="154"/>
         <source>MX Select Sound</source>
         <translation>MX Välj Ljudkort</translation>
     </message>
@@ -31,57 +29,57 @@
         <translation>Hjälp</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="75"/>
+        <location filename="../mxselectsound.ui" line="73"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="104"/>
+        <location filename="../mxselectsound.ui" line="102"/>
         <source>About this application</source>
         <translation>Om detta program</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="107"/>
+        <location filename="../mxselectsound.ui" line="105"/>
         <source>About...</source>
         <translation>Om...</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="115"/>
+        <location filename="../mxselectsound.ui" line="111"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="147"/>
+        <location filename="../mxselectsound.ui" line="143"/>
         <source>Quit application</source>
         <translation>Stäng programmet</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="150"/>
+        <location filename="../mxselectsound.ui" line="146"/>
         <source>Close</source>
         <translation>Stäng</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="158"/>
+        <location filename="../mxselectsound.ui" line="152"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="199"/>
+        <location filename="../mxselectsound.ui" line="190"/>
         <source>Apply</source>
         <translation>Genomför</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="222"/>
+        <location filename="../mxselectsound.ui" line="211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Välj ett annat ljudkort om det behövs:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="248"/>
+        <location filename="../mxselectsound.ui" line="237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om din dator har mer än ett ljudkort, kan du använda det här programmet för att välja vilket som ska vara standard. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="294"/>
+        <location filename="../mxselectsound.ui" line="283"/>
         <source>Test current sound card</source>
         <translation>Testa nuvarande ljudkort</translation>
     </message>
@@ -132,7 +130,7 @@
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="162"/>
+        <location filename="../mxselectsound.cpp" line="155"/>
         <source>Could not play test sound.</source>
         <translation>Kunde inte spela upp testljud.</translation>
     </message>

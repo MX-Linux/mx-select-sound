@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -10,15 +8,15 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="152"/>
-        <location filename="../mxselectsound.cpp" line="161"/>
+        <location filename="../mxselectsound.cpp" line="144"/>
+        <location filename="../mxselectsound.cpp" line="154"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.ui" line="64"/>
@@ -31,64 +29,64 @@
         <translation>Súgó</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="75"/>
+        <location filename="../mxselectsound.ui" line="73"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="104"/>
+        <location filename="../mxselectsound.ui" line="102"/>
         <source>About this application</source>
         <translation>Az alkalmazásról</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="107"/>
+        <location filename="../mxselectsound.ui" line="105"/>
         <source>About...</source>
         <translation>Névjegy</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="115"/>
+        <location filename="../mxselectsound.ui" line="111"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="147"/>
+        <location filename="../mxselectsound.ui" line="143"/>
         <source>Quit application</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="150"/>
+        <location filename="../mxselectsound.ui" line="146"/>
         <source>Close</source>
         <translation>Bezár</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="158"/>
+        <location filename="../mxselectsound.ui" line="152"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="199"/>
+        <location filename="../mxselectsound.ui" line="190"/>
         <source>Apply</source>
         <translation>Alkamaz</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="222"/>
+        <location filename="../mxselectsound.ui" line="211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="248"/>
+        <location filename="../mxselectsound.ui" line="237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="294"/>
+        <location filename="../mxselectsound.ui" line="283"/>
         <source>Test current sound card</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="86"/>
@@ -98,12 +96,12 @@
     <message>
         <location filename="../mxselectsound.cpp" line="102"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="127"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="128"/>
@@ -113,7 +111,7 @@
     <message>
         <location filename="../mxselectsound.cpp" line="129"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="131"/>
@@ -132,9 +130,9 @@
         <translation>Mégsem</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="162"/>
+        <location filename="../mxselectsound.cpp" line="155"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
