@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -8,8 +10,8 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="144"/>
-        <location filename="../mxselectsound.cpp" line="154"/>
+        <location filename="../mxselectsound.cpp" line="152"/>
+        <location filename="../mxselectsound.cpp" line="161"/>
         <source>MX Select Sound</source>
         <translation>MX サウンドセレクト</translation>
     </message>
@@ -29,57 +31,57 @@
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="73"/>
+        <location filename="../mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="102"/>
+        <location filename="../mxselectsound.ui" line="104"/>
         <source>About this application</source>
         <translation>このアプリケーションについて</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="105"/>
+        <location filename="../mxselectsound.ui" line="107"/>
         <source>About...</source>
         <translation>About...</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="111"/>
+        <location filename="../mxselectsound.ui" line="115"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="143"/>
+        <location filename="../mxselectsound.ui" line="147"/>
         <source>Quit application</source>
         <translation>アプリケーションの終了</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="146"/>
+        <location filename="../mxselectsound.ui" line="150"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="152"/>
+        <location filename="../mxselectsound.ui" line="158"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="190"/>
+        <location filename="../mxselectsound.ui" line="199"/>
         <source>Apply</source>
         <translation>適用</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="211"/>
+        <location filename="../mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可能な他のサウンドカードを選択して下さい:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="237"/>
+        <location filename="../mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、一つをデフォルトとして選択するよう、このアプリケーションを使用することができます。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="283"/>
+        <location filename="../mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
         <translation>現在のサウンドカードをテスト</translation>
     </message>
@@ -130,7 +132,7 @@
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="155"/>
+        <location filename="../mxselectsound.cpp" line="162"/>
         <source>Could not play test sound.</source>
         <translation>テストサウンドを再生できません</translation>
     </message>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sk">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -8,8 +10,8 @@
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
         <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="144"/>
-        <location filename="../mxselectsound.cpp" line="154"/>
+        <location filename="../mxselectsound.cpp" line="152"/>
+        <location filename="../mxselectsound.cpp" line="161"/>
         <source>MX Select Sound</source>
         <translation>MX Výber zvukov</translation>
     </message>
@@ -29,57 +31,57 @@
         <translation>Pomoc</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="73"/>
+        <location filename="../mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="102"/>
+        <location filename="../mxselectsound.ui" line="104"/>
         <source>About this application</source>
         <translation>O tejto aplikácii</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="105"/>
+        <location filename="../mxselectsound.ui" line="107"/>
         <source>About...</source>
         <translation>O Programe</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="111"/>
+        <location filename="../mxselectsound.ui" line="115"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="143"/>
+        <location filename="../mxselectsound.ui" line="147"/>
         <source>Quit application</source>
         <translation>Zatvoriť aplikáciu</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="146"/>
+        <location filename="../mxselectsound.ui" line="150"/>
         <source>Close</source>
         <translation>Zatvoriť</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="152"/>
+        <location filename="../mxselectsound.ui" line="158"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="190"/>
+        <location filename="../mxselectsound.ui" line="199"/>
         <source>Apply</source>
         <translation>Použiť</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="211"/>
+        <location filename="../mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zvoľte inú zvukovú kartu:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="237"/>
+        <location filename="../mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ak má Váš PC viac ako jednu zvukovú kartu, táto aplikácia vám umožní vybrať, ktorá z nich sa bude používať. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.ui" line="283"/>
+        <location filename="../mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
         <translation>Otestovať používanú zvukovú kartu</translation>
     </message>
@@ -130,7 +132,7 @@
         <translation>Zrušiť</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="155"/>
+        <location filename="../mxselectsound.cpp" line="162"/>
         <source>Could not play test sound.</source>
         <translation>Testovací zvuk sa nepodarilo prehrať.</translation>
     </message>
