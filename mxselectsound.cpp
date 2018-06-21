@@ -69,8 +69,7 @@ Result mxselectsound::runCmd(QString cmd)
 // Get version of the program
 QString mxselectsound::getVersion(QString name)
 {
-    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return runCmd(cmd).output;
+    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
 // Get the list of sound cards
