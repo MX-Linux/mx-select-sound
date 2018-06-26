@@ -5,13 +5,13 @@
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="45"/>
+        <location filename="../mxselectsound.cpp" line="46"/>
         <location filename="../mxselectsound.cpp" line="82"/>
         <location filename="../mxselectsound.cpp" line="85"/>
         <location filename="../mxselectsound.cpp" line="128"/>
-        <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="152"/>
-        <location filename="../mxselectsound.cpp" line="161"/>
+        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="174"/>
+        <location filename="../mxselectsound.cpp" line="183"/>
         <source>MX Select Sound</source>
         <translation>MX Select Sound</translation>
     </message>
@@ -122,17 +122,27 @@
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="132"/>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="140"/>
         <source>License</source>
         <translation>Llicència </translation>
     </message>
     <message>
         <location filename="../mxselectsound.cpp" line="133"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxselectsound.cpp" line="134"/>
         <source>Cancel</source>
         <translation>Cancel·la </translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="162"/>
+        <location filename="../mxselectsound.cpp" line="149"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxselectsound.cpp" line="184"/>
         <source>Could not play test sound.</source>
         <translation>No es pot rep reproduir la prova de so. </translation>
     </message>
