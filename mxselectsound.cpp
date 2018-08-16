@@ -76,15 +76,13 @@ QString mxselectsound::getVersion(QString name)
 // Get the list of sound cards
 QStringList mxselectsound::listCards()
 {
-    QString cards = runCmd("cat /proc/asound/cards | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
-    QStringList card_list = cards.split("\n");
-    if (card_list.size() == 0) {
+    QStringList card_list = {};
+    QString cards = runCmd("cat /proc/asound/cards 2>/dev/null | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
+    if (cards.size() == 0) {
         QMessageBox::critical(0, tr("MX Select Sound"),
           tr("No sound cards/devices were found."));
-    } else if (card_list.size() == 1) {
-        QMessageBox::critical(0, tr("MX Select Sound"),
-          tr("Only one sound card was found."));
     } else {
+        card_list = cards.split("\n");
         ui->comboBox->addItems(card_list);
     }
     return card_list;
