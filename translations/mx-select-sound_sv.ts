@@ -7,11 +7,10 @@
         <location filename="../mxselectsound.ui" line="14"/>
         <location filename="../mxselectsound.cpp" line="46"/>
         <location filename="../mxselectsound.cpp" line="82"/>
-        <location filename="../mxselectsound.cpp" line="85"/>
-        <location filename="../mxselectsound.cpp" line="128"/>
-        <location filename="../mxselectsound.cpp" line="140"/>
-        <location filename="../mxselectsound.cpp" line="174"/>
-        <location filename="../mxselectsound.cpp" line="183"/>
+        <location filename="../mxselectsound.cpp" line="126"/>
+        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="172"/>
+        <location filename="../mxselectsound.cpp" line="181"/>
         <source>MX Select Sound</source>
         <translation>MX Välj Ljudkort</translation>
     </message>
@@ -91,58 +90,57 @@
         <translation>Inga ljudkort/enheter kunde hittas.</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="86"/>
         <source>Only one sound card was found.</source>
-        <translation>Bara ett ljudkort hittades.</translation>
+        <translation type="vanished">Bara ett ljudkort hittades.</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="102"/>
+        <location filename="../mxselectsound.cpp" line="100"/>
         <source>none</source>
         <translation>ingen</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="127"/>
+        <location filename="../mxselectsound.cpp" line="125"/>
         <source>About MX Select Sound</source>
         <translation>Om MX Välj Ljudkort</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="128"/>
+        <location filename="../mxselectsound.cpp" line="126"/>
         <source>Version: </source>
         <translation>Version:</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="129"/>
+        <location filename="../mxselectsound.cpp" line="127"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>Program för att välja standard-ljudkort för MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="131"/>
+        <location filename="../mxselectsound.cpp" line="129"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="132"/>
-        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="130"/>
+        <location filename="../mxselectsound.cpp" line="138"/>
         <source>License</source>
         <translation>Licens</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="133"/>
+        <location filename="../mxselectsound.cpp" line="131"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="132"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="149"/>
+        <location filename="../mxselectsound.cpp" line="147"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="184"/>
+        <location filename="../mxselectsound.cpp" line="182"/>
         <source>Could not play test sound.</source>
         <translation>Kunde inte spela upp testljud.</translation>
     </message>

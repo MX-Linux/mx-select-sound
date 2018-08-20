@@ -1,3 +1,11 @@
+mx-select-sound (18.8.1) mx; urgency=medium
+
+  * one sound card handling
+  * handling of no longer available previously used default sound card
+  * test sound button for non selected default sound card disabled
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 20 Aug 2018 12:44:29 -0400
+
 mx-select-sound (18.8) mx; urgency=medium
 
   * fix icon other themes

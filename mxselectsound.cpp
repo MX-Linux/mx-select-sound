@@ -76,7 +76,7 @@ QString mxselectsound::getVersion(QString name)
 // Get the list of sound cards
 QStringList mxselectsound::listCards()
 {
-    QStringList card_list = {};
+    QStringList card_list;
     QString cards = runCmd("cat /proc/asound/cards 2>/dev/null | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
     if (cards.size() == 0) {
         QMessageBox::critical(0, tr("MX Select Sound"),

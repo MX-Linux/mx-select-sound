@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 20 Aug 2018 12:44:29 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 18.8.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (18.8.1) mx; urgency=medium
+ .
+   * one sound card handling
+   * handling of no longer available previously used default sound card
+   * test sound button for non selected default sound card disabled
+Checksums-Sha1:
+ dad2cc025f4379f9e9c9687ce9d61d467303e277 1196 mx-select-sound_18.8.1.dsc
+ e6dad22f6cddc0f5c2267f8396fbb5e73b074108 32876 mx-select-sound_18.8.1.tar.xz
+ da6c799fd45496fcb62a30a30595dc0fec3c84b6 11222 mx-select-sound_18.8.1_amd64.buildinfo
+ 5ae7889187b3e256470f993d3447a24291b9c91c 39696 mx-select-sound_18.8.1_amd64.deb
+Checksums-Sha256:
+ a5be59d1e674da65b9cac59c7456f64c7a9c088fa8014ae6e115d2025c98cf13 1196 mx-select-sound_18.8.1.dsc
+ d09f2219a011af8427ed173cd3017021c71f453544dd03028494206d3cdc9b27 32876 mx-select-sound_18.8.1.tar.xz
+ ebcc0f8fea85ef510362760a46880b54691d25364bd258b1f9f54186e058015b 11222 mx-select-sound_18.8.1_amd64.buildinfo
+ 3b54f057b07e5d4cea96e6c19f439eac0358e1b5a63e98af0e1db0d936af9be1 39696 mx-select-sound_18.8.1_amd64.deb
+Files:
+ 2a18d8814d18565c65ceaa50a33e065a 1196 admin optional mx-select-sound_18.8.1.dsc
+ 7054f17630a726701e79315a7fa489e7 32876 admin optional mx-select-sound_18.8.1.tar.xz
+ c3552401ecd54e5b3331e70b17bd0b11 11222 admin optional mx-select-sound_18.8.1_amd64.buildinfo
+ 5fe92cb67b48cddd3a79da51c054624d 39696 admin optional mx-select-sound_18.8.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlt69pwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumKvyCADRf/UTRybeAooaoMcy5rwJbhxKWvN9
+FqavQdF6U/BusJW4qMa7a+tUadqr6DzqFCQkyHc1+iJxcYRNg8y95b8gJn0lbFHq
+LPM2hysdD+YYtj98L5e5CLFbdj7IOhNxkCmXErYnI28cNe2DFQYfhTgpVpHIR5Uf
+GbuTnL++VAi8KLmgETZLEarRMoDgxV2ort9cqS3mvh2R3GYcAhD8JqU2JMwhzmc0
+sO7qK7J7vK/q412Fa8UEVDq/3JdYswgxxDSZ32q7rGLbjXFMvRBmy+Url/nnb62b
+3GmUadnRnFORMyWE8zbAhDTmK7Bw75i2XQ5aFbledR4ecUJaBEPpyYpO
+=zKbl
+-----END PGP SIGNATURE-----
