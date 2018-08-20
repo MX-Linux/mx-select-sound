@@ -32,7 +32,7 @@
 #include <QTimer>
 #include <QTextEdit>
 
-//#include <QDebug>
+#include <QDebug>
 
 mxselectsound::mxselectsound(QWidget *parent) :
     QDialog(parent),
@@ -92,14 +92,28 @@ QStringList mxselectsound::listCards()
 QString mxselectsound::getDefault()
 {
     QString prev_card;
+    QString default_card = tr("none");
+
     Result cmd = runCmd("set -o pipefail; sed -n -r 's/^\\s*defaults.pcm.!card\\s+(.*)/\\1/p' ~/.asoundrc | head -n 1");
     if (cmd.exitCode == 0) {
-        prev_card = cmd.output;
-        ui->labelCurrent->setText(prev_card);
-    } else {
-        ui->labelCurrent->setText(tr("none"));
-    }
-    return prev_card;
+        prev_card = cmd.output.toUtf8();
+
+        for( int i = 0; i < ui->comboBox->count(); i++ ) {
+            if (prev_card == ui->comboBox->itemText(i).section(":", 0, 0).toUtf8()) {
+                default_card = prev_card;
+              }
+          }
+      }
+
+    qDebug() << "Default sound card:" << default_card;
+    if ( default_card == tr("none")) {
+        ui->buttonTest->setEnabled(false);
+      } else {
+        ui->buttonTest->setEnabled(true);
+      }
+
+    ui->labelCurrent->setText(default_card);
+    return default_card;
 }
 
 //// slots ////
@@ -111,7 +125,7 @@ void mxselectsound::on_buttonApply_clicked()
 
     asoundrc.setFileName(QDir::homePath() + "/.asoundrc");
     if(asoundrc.open(QFile::WriteOnly|QFile::Text)) {
-        asoundrc.write(QString("defaults.pcm.!card %1 \ndefaults.ctl.!card %1").arg(selected).toUtf8());
+        asoundrc.write(QString("defaults.pcm.!card %1\ndefaults.ctl.!card %1").arg(selected).toUtf8());
         asoundrc.close();
         getDefault();
     }
