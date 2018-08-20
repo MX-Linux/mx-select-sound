@@ -106,6 +106,11 @@ QString mxselectsound::getDefault()
       }
 
     qDebug() << "Default sound card:" << default_card;
+    if ( default_card == tr("none")) {
+        ui->buttonTest->setEnabled(false);
+      } else {
+        ui->buttonTest->setEnabled(true);
+      }
 
     ui->labelCurrent->setText(default_card);
     return default_card;
