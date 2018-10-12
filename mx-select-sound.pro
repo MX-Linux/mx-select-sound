@@ -38,6 +38,7 @@ FORMS    += mxselectsound.ui
 TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_ca.ts \
                 translations/mx-select-sound_cs.ts \
+                translations/mx-select-sound_da.ts \
                 translations/mx-select-sound_de.ts \
                 translations/mx-select-sound_el.ts \
                 translations/mx-select-sound_es.ts \
@@ -57,6 +58,7 @@ TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_ro.ts \
                 translations/mx-select-sound_ru.ts \
                 translations/mx-select-sound_sk.ts \
+                translations/mx-select-sound_sq.ts \
                 translations/mx-select-sound_sv.ts \
                 translations/mx-select-sound_tr.ts \
                 translations/mx-select-sound_uk.ts \
