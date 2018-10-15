@@ -1,3 +1,9 @@
+mx-select-sound (18.10) mx; urgency=medium
+
+  * updated translations
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 14 Oct 2018 19:57:50 -0400
+
 mx-select-sound (18.8.1) mx; urgency=medium
 
   * one sound card handling
