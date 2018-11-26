@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="is" version="2.1">
 <context>
     <name>mxselectsound</name>
     <message>
@@ -10,22 +10,22 @@
         <location filename="mxselectsound.cpp" line="186"/>
         <location filename="mxselectsound.cpp" line="195"/>
         <source>MX Select Sound</source>
-        <translation>MX_Seleccionador de Som</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Presentemente, a placa de som pré-definida é:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Mostrar a ajuda</translation>
+        <translation>Birta hjálp</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>Hjálp</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="75"/>
@@ -35,12 +35,12 @@
     <message>
         <location filename="mxselectsound.ui" line="104"/>
         <source>About this application</source>
-        <translation>Sobre esta aplicação</translation>
+        <translation>Um þetta forrit</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="107"/>
         <source>About...</source>
-        <translation>Sobre...</translation>
+        <translation>Um hugbúnaðinn...</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="115"/>
@@ -50,12 +50,12 @@
     <message>
         <location filename="mxselectsound.ui" line="147"/>
         <source>Quit application</source>
-        <translation>Sair da aplicação</translation>
+        <translation>Hætta í forriti</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="150"/>
         <source>Close</source>
-        <translation>Encerrar</translation>
+        <translation>Hætta</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="158"/>
@@ -65,79 +65,79 @@
     <message>
         <location filename="mxselectsound.ui" line="199"/>
         <source>Apply</source>
-        <translation>Aplicar</translation>
+        <translation>Virkja</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Se necessário seleccione outra placa de som:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Se o computador tiver mais do que uma placa de som, pode usar esta aplicação para seleccionar a pré-definida.&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
-        <translation>Teste a placa de som seleccionada</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation>Não foram encontrados placas/dispositivos de som.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="95"/>
         <location filename="mxselectsound.cpp" line="109"/>
         <source>none</source>
-        <translation>nenhuma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="139"/>
         <source>About MX Select Sound</source>
-        <translation>Sobre o MX_Seleccionador de Som</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="140"/>
         <source>Version: </source>
-        <translation>Versão:</translation>
+        <translation>Útgáfa:</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="141"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>Programa para seleccionar a placa de som pré-definida no Linux MX</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="143"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Höfundarréttur (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="144"/>
         <location filename="mxselectsound.cpp" line="152"/>
         <source>License</source>
-        <translation>Licença</translation>
+        <translation>Notkunarleyfi</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="145"/>
         <source>Changelog</source>
-        <translation>Relatório de alterações</translation>
+        <translation>Breytingaskrá</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="146"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Hætta við</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="161"/>
         <source>&amp;Close</source>
-        <translation>&amp;Fechar</translation>
+        <translation>&amp;Loka</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="196"/>
         <source>Could not play test sound.</source>
-        <translation>Não foi possível fazer o teste de som</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

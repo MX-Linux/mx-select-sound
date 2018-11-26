@@ -47,6 +47,7 @@ TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_hi.ts \
                 translations/mx-select-sound_hr.ts \
                 translations/mx-select-sound_hu.ts \
+                translations/mx-select-sound_is.ts \
                 translations/mx-select-sound_it.ts \
                 translations/mx-select-sound_ja.ts \
                 translations/mx-select-sound_kk.ts \
