@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 30 Nov 2018 14:14:10 -0500
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 18.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (18.11) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ e9f3ccc16a3be313cad6c6e7c30245f47e9b60e2 1192 mx-select-sound_18.11.dsc
+ efc770d07b787c8bd64d8e2f49a2358bc6b3d5a8 33576 mx-select-sound_18.11.tar.xz
+ aaf101cce8e37c21b95a8b525b9e94570eaffbf9 11214 mx-select-sound_18.11_amd64.buildinfo
+ 63d577ed09d704d9a27979fde2049199bfe69ca9 42288 mx-select-sound_18.11_amd64.deb
+Checksums-Sha256:
+ d00231d6a04e46d8a6f838154b66225ebcff1de69d403fdd19d8a79afe61ae2b 1192 mx-select-sound_18.11.dsc
+ 793d4cb0ba702dc90e9a360d0d2c1834f65b515d8d3d0701b5b49f8c18393b94 33576 mx-select-sound_18.11.tar.xz
+ 985a3afe28d795fc54fe34b988281436c9152fe9cca2b7091a43cb18c99e4075 11214 mx-select-sound_18.11_amd64.buildinfo
+ 2fd11989f4dccf7c90f5d15727b7ba50b1c54a77bf399982ae73efd32e877e2e 42288 mx-select-sound_18.11_amd64.deb
+Files:
+ 034d2f5cd0916ba249c788d84dea9062 1192 admin optional mx-select-sound_18.11.dsc
+ 5699747e8cc34ec56e77161990e1e2fa 33576 admin optional mx-select-sound_18.11.tar.xz
+ c65dfa51d5820b7a542baad51cab1356 11214 admin optional mx-select-sound_18.11_amd64.buildinfo
+ c9b9fc4ebd1e3077136b27ffd4c67cf0 42288 admin optional mx-select-sound_18.11_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlwBjM8THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumDb0CADTg08TaUdO3xa7562/7XlZsNzdnoGx
+gwc0jPnUe2GEcSkojLH+/uJlo9fIPWN1+kKK7+otb1F4VUq2Pbdevi1Z+tnn8UVz
+5WdFoycYoqV+PDONw6VjRCFNTv06VnfauJ3M9LwM8IToIJ/g9kZ8ZXa63KgFOc52
+broDK09ex3B/op8i6Hq1uA7Lzogy0FPZbs9/gRMp6lcUm+lTiRgo+Q1Vc841WChO
+ZEdBqw5kT6aD0PJXjVuAHOL/EEYpSHgVzVttri0zbMvJ4N+GMwp6lO5sshi2Eam4
+F871gYd8vHOv0jzyRW1TX4u/DamWzXq15eBY3e3ceUdsiVZzVXXexhX8
+=6d2k
+-----END PGP SIGNATURE-----
