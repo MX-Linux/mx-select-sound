@@ -25,6 +25,7 @@
 
 #include "mxselectsound.h"
 #include "ui_mxselectsound.h"
+#include "version.h"
 
 #include <QFile>
 #include <QDir>
@@ -38,11 +39,11 @@ mxselectsound::mxselectsound(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::mxselectsound)
 {
+    qDebug() << "Program Version:" << VERSION;
     ui->setupUi(this);
     if (ui->buttonApply->icon().isNull()) {
         ui->buttonApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
     }
-    version = getVersion("mx-select-sound");
     this->setWindowTitle(tr("MX Select Sound"));
     this->adjustSize();
 }
@@ -65,12 +66,6 @@ Result mxselectsound::runCmd(QString cmd)
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
-}
-
-// Get version of the program
-QString mxselectsound::getVersion(QString name)
-{
-    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
 // Get the list of sound cards
@@ -98,7 +93,7 @@ QString mxselectsound::getDefault()
     if (cmd.exitCode == 0) {
         prev_card = cmd.output.toUtf8();
 
-        for( int i = 0; i < ui->comboBox->count(); i++ ) {
+        for ( int i = 0; i < ui->comboBox->count(); i++ ) {
             if (prev_card == ui->comboBox->itemText(i).section(":", 0, 0).toUtf8()) {
                 default_card = prev_card;
               }
@@ -137,7 +132,7 @@ void mxselectsound::on_buttonAbout_clicked()
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Select Sound"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Select Sound") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
+                       tr("MX Select Sound") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("Program for selecting the default sound card in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);

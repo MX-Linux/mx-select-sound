@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 18 May 2019 17:15:06 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 19.5
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (19.5) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 76c7ae80be721ddfac92898a2380c2e3d408d07c 1188 mx-select-sound_19.5.dsc
+ 018a55adb4412d16173f2b3d73631c81da0ef6ce 35764 mx-select-sound_19.5.tar.xz
+ 2a1719dfb75a46181a208175eb32e8a81f3b8738 44358 mx-select-sound_19.5_amd64.deb
+Checksums-Sha256:
+ 6059b9fce4e371fda65c06aaecbf88f6af0aeca2ef6c9866f6076c45ade5cffc 1188 mx-select-sound_19.5.dsc
+ 54ac6f347345edc6e67af72e8deaa773c6cf3d59d676f1efc9d6805f920fd5c2 35764 mx-select-sound_19.5.tar.xz
+ d23e20c7f1416e338d137132d145f91e2a4a675c0c32470ba710bdea32d32671 44358 mx-select-sound_19.5_amd64.deb
+Files:
+ 7bdb172b4391fc3530ab6c8e0194795b 1188 admin optional mx-select-sound_19.5.dsc
+ d95e1fab615b3bf0784cf44f1d42b11e 35764 admin optional mx-select-sound_19.5.tar.xz
+ fb5bd36a2651621ae111e80cd62e76f2 44358 admin optional mx-select-sound_19.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlzgdjYTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumJ2qB/9mvHMpCubCl0VZ2K5ILKoukmaHX5mk
+cc212mbahC/8pgQG8ssRtgLPdU/eBCacdTIXSs/uCvuD/1SZqgNMw2YXwoUZ4E/R
+z4y8Qe7GQJf0hViI+Qi0RsaMFUbHLdpdd1FGHlzH8PSWq+dA7d1byQA4H5zw6G/3
+FS0AeA10hbA1/6c9JxSTzWNftQQGVefmW4YFBNxnpZil/W5yBAJafiucO0N7EhFv
+qozxbwKY1XerQjWvROG4NwPYA9/QCyxsh29yO/w2VKbRLSWvox5ACJAWWit/IzVk
+PDrQGLuoQOmHtUAMJ9HIiGdtrZ0z25FySr7EvHdzIz3fQ9Hgf8oJK3hy
+=lgkU
+-----END PGP SIGNATURE-----

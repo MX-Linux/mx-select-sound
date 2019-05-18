@@ -31,7 +31,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mxselectsound.cpp
 
-HEADERS  += mxselectsound.h
+HEADERS  += mxselectsound.h \
+    version.h
 
 FORMS    += mxselectsound.ui
 
