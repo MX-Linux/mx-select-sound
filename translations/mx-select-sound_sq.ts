@@ -20,7 +20,7 @@
     <message>
         <location filename="mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation type="unfinished"/>
+        <translation>Shfaq ndihmë</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="67"/>
@@ -30,7 +30,7 @@
     <message>
         <location filename="mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
-        <translation type="unfinished"/>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="104"/>

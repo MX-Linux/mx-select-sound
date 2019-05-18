@@ -122,7 +122,7 @@
     <message>
         <location filename="mxselectsound.cpp" line="145"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Változásbejegyzés</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="146"/>
@@ -132,7 +132,7 @@
     <message>
         <location filename="mxselectsound.cpp" line="161"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bezár</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="196"/>
