@@ -41,6 +41,7 @@ mxselectsound::mxselectsound(QWidget *parent) :
 {
     qDebug() << "Program Version:" << VERSION;
     ui->setupUi(this);
+    setWindowFlags(Qt::Window); // for the close, min and max buttons
     if (ui->buttonApply->icon().isNull()) {
         ui->buttonApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
     }
