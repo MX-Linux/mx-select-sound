@@ -5,12 +5,12 @@
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="47"/>
-        <location filename="../mxselectsound.cpp" line="77"/>
-        <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
-        <location filename="../mxselectsound.cpp" line="181"/>
-        <location filename="../mxselectsound.cpp" line="190"/>
+        <location filename="../mxselectsound.cpp" line="48"/>
+        <location filename="../mxselectsound.cpp" line="78"/>
+        <location filename="../mxselectsound.cpp" line="136"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
+        <location filename="../mxselectsound.cpp" line="182"/>
+        <location filename="../mxselectsound.cpp" line="191"/>
         <source>MX Select Sound</source>
         <translation>MX Ses Seçimi</translation>
     </message>
@@ -85,59 +85,59 @@
         <translation>Var olan ses kartını dene</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="78"/>
+        <location filename="../mxselectsound.cpp" line="79"/>
         <source>No sound cards/devices were found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="90"/>
-        <location filename="../mxselectsound.cpp" line="104"/>
+        <location filename="../mxselectsound.cpp" line="91"/>
+        <location filename="../mxselectsound.cpp" line="105"/>
         <source>none</source>
         <translation>hiçbiri</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="135"/>
         <source>About MX Select Sound</source>
         <translation>MX Ses Seçimi Hakkında</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="136"/>
         <source>Version: </source>
         <translation>Sürüm</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="136"/>
+        <location filename="../mxselectsound.cpp" line="137"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>MX linux&apos;da öntanımlı ses kartı seçme programı</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="139"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="139"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
+        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
         <source>License</source>
         <translation>Ruhsat</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="141"/>
         <source>Changelog</source>
         <translation>Değişim günlüğü</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="142"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="156"/>
+        <location filename="../mxselectsound.cpp" line="157"/>
         <source>&amp;Close</source>
         <translation>&amp;Kapat</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="191"/>
+        <location filename="../mxselectsound.cpp" line="192"/>
         <source>Could not play test sound.</source>
         <translation>Deneme sesi çalınamıyor.</translation>
     </message>

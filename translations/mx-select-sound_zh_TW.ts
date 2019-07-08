@@ -5,12 +5,12 @@
     <name>mxselectsound</name>
     <message>
         <location filename="../mxselectsound.ui" line="14"/>
-        <location filename="../mxselectsound.cpp" line="47"/>
-        <location filename="../mxselectsound.cpp" line="77"/>
-        <location filename="../mxselectsound.cpp" line="135"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
-        <location filename="../mxselectsound.cpp" line="181"/>
-        <location filename="../mxselectsound.cpp" line="190"/>
+        <location filename="../mxselectsound.cpp" line="48"/>
+        <location filename="../mxselectsound.cpp" line="78"/>
+        <location filename="../mxselectsound.cpp" line="136"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
+        <location filename="../mxselectsound.cpp" line="182"/>
+        <location filename="../mxselectsound.cpp" line="191"/>
         <source>MX Select Sound</source>
         <translation>MX 音效選擇</translation>
     </message>
@@ -85,59 +85,59 @@
         <translation>測試目前的音效卡</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="78"/>
+        <location filename="../mxselectsound.cpp" line="79"/>
         <source>No sound cards/devices were found.</source>
         <translation>找不到任何音效卡和音效設備。</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="90"/>
-        <location filename="../mxselectsound.cpp" line="104"/>
+        <location filename="../mxselectsound.cpp" line="91"/>
+        <location filename="../mxselectsound.cpp" line="105"/>
         <source>none</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="134"/>
+        <location filename="../mxselectsound.cpp" line="135"/>
         <source>About MX Select Sound</source>
         <translation>關於 MX 音效選擇</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="135"/>
+        <location filename="../mxselectsound.cpp" line="136"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="136"/>
+        <location filename="../mxselectsound.cpp" line="137"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation>本程式可選擇 MX Linux 當中的預設音效卡</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="138"/>
+        <location filename="../mxselectsound.cpp" line="139"/>
         <source>Copyright (c) MX Linux</source>
         <translation>版權所有 (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="139"/>
-        <location filename="../mxselectsound.cpp" line="147"/>
+        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="148"/>
         <source>License</source>
         <translation>授權條款</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="140"/>
+        <location filename="../mxselectsound.cpp" line="141"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="141"/>
+        <location filename="../mxselectsound.cpp" line="142"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="156"/>
+        <location filename="../mxselectsound.cpp" line="157"/>
         <source>&amp;Close</source>
         <translation>關閉（&amp;C）</translation>
     </message>
     <message>
-        <location filename="../mxselectsound.cpp" line="191"/>
+        <location filename="../mxselectsound.cpp" line="192"/>
         <source>Could not play test sound.</source>
         <translation>無法播放測試音效。</translation>
     </message>
