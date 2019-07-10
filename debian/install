@@ -1,6 +1,5 @@
 license.html			usr/share/doc/mx-select-sound
 mx-select-sound			usr/bin
-mx-select-sound.conf		etc
 mx-select-sound.desktop		usr/share/applications
 icons/mx-select-sound.png	usr/share/icons/hicolor/64x64/apps
 icons/mx-select-sound.svg	usr/share/icons/hicolor/scalable/apps
