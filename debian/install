@@ -1,3 +1,4 @@
+help				usr/share/doc/mx-select-sound
 license.html			usr/share/doc/mx-select-sound
 mx-select-sound			usr/bin
 mx-select-sound.desktop		usr/share/applications
