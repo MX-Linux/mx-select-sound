@@ -30,7 +30,7 @@
     <message>
         <location filename="mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
-        <translation type="unfinished"/>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="104"/>
@@ -55,7 +55,7 @@
     <message>
         <location filename="mxselectsound.ui" line="150"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Tutup</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="158"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="mxselectsound.ui" line="199"/>
         <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation>Terapkan</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="222"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="mxselectsound.cpp" line="140"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Versi:</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="141"/>
@@ -111,18 +111,18 @@
     <message>
         <location filename="mxselectsound.cpp" line="143"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="144"/>
         <location filename="mxselectsound.cpp" line="152"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>Lisensi</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="145"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Changelog</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="146"/>
@@ -132,7 +132,7 @@
     <message>
         <location filename="mxselectsound.cpp" line="161"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tutup</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="196"/>

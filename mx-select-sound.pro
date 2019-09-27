@@ -63,6 +63,7 @@ TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_ko.ts \
                 translations/mx-select-sound_lt.ts \
                 translations/mx-select-sound_mk.ts \
+                translations/mx-select-sound_mr.ts \
                 translations/mx-select-sound_nb.ts \
                 translations/mx-select-sound_nl.ts \
                 translations/mx-select-sound_pl.ts \

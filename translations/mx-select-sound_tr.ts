@@ -15,7 +15,7 @@
     <message>
         <location filename="mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Şu anki varsayılan ses kartınız:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="64"/>
@@ -70,22 +70,22 @@
     <message>
         <location filename="mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerekirse başka bir ses kartı seçin:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bilgisayarınızda birden fazla ses kartı varsa, birini varsayılan olarak seçmek için bu uygulamayı kullanabilirsiniz. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
-        <translation>Var olan ses kartını dene</translation>
+        <translation>Şu anki ses kartını dene</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation type="unfinished"/>
+        <translation>Hiçbir ses kartı / cihazı bulunamadı.</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="95"/>
@@ -101,12 +101,12 @@
     <message>
         <location filename="mxselectsound.cpp" line="140"/>
         <source>Version: </source>
-        <translation>Sürüm</translation>
+        <translation>Sürüm:</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="141"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>MX linux&apos;da öntanımlı ses kartı seçme programı</translation>
+        <translation>MX Linux &apos;ta öntanımlı ses kartı seçme programı</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="143"/>
