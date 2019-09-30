@@ -22,7 +22,7 @@
  * along with mx-select-sound.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
-#include "mxselectsound.h"
+#include "mainwindow.h"
 #include <unistd.h>
 #include <QApplication>
 #include <QTranslator>
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     appTran.load(QString("mx-select-sound_") + QLocale::system().name(), "/usr/share/mx-select-sound/locale");
     a.installTranslator(&appTran);
 
-    mxselectsound w;
+    MainWindow w;
     if(w.listCards().size() < 1) {
         return 0;
     } else {

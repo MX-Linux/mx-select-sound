@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxselectsound.h
+ *  mainwindow.h
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -23,15 +23,15 @@
  **********************************************************************/
 
 
-#ifndef MXSELECTSOUND_H
-#define MXSELECTSOUND_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 #include <QMessageBox>
 #include <QProcess>
 
 namespace Ui
 {
-    class mxselectsound;
+    class MainWindow;
 }
 
 struct Result
@@ -41,7 +41,7 @@ struct Result
 };
 
 
-class mxselectsound : public QDialog
+class MainWindow : public QDialog
 {
     Q_OBJECT
 
@@ -49,8 +49,8 @@ protected:
     QProcess *proc;
 
 public:
-    explicit mxselectsound(QWidget *parent = 0);
-    ~mxselectsound();
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
 
     Result runCmd(QString cmd);
     QString output;
@@ -65,7 +65,7 @@ private slots:
     void on_buttonTest_clicked();
 
 private:
-    Ui::mxselectsound *ui;
+    Ui::MainWindow *ui;
 };
 
 

@@ -1,143 +1,252 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.cpp" line="48"/>
+        <location filename="../mainwindow.cpp" line="78"/>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="182"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <source>MX Select Sound</source>
+        <translation type="unfinished">MX Ses Seçimi</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="28"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Şu anki varsayılan ses kartınız:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="64"/>
+        <source>Display help </source>
+        <translation type="unfinished">Yardımı görüntüle</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="67"/>
+        <source>Help</source>
+        <translation type="unfinished">Yardım</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="74"/>
+        <source>Alt+H</source>
+        <translation type="unfinished">Alt+H</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="103"/>
+        <source>About this application</source>
+        <translation type="unfinished">Uygulama hakkında</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="106"/>
+        <source>About...</source>
+        <translation type="unfinished">Hakkında...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="113"/>
+        <source>Alt+B</source>
+        <translation type="unfinished">Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="145"/>
+        <source>Quit application</source>
+        <translation type="unfinished">Uygulamadan çık</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="148"/>
+        <source>Close</source>
+        <translation type="unfinished">Kapat</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="155"/>
+        <source>Alt+N</source>
+        <translation type="unfinished">Alt+N</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="196"/>
+        <source>Apply</source>
+        <translation type="unfinished">Uygula</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="218"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerekirse başka bir ses kartı seçin:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="244"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bilgisayarınızda birden fazla ses kartı varsa, birini varsayılan olarak seçmek için bu uygulamayı kullanabilirsiniz. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="290"/>
+        <source>Test current sound card</source>
+        <translation type="unfinished">Şu anki ses kartını dene</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="79"/>
+        <source>No sound cards/devices were found.</source>
+        <translation type="unfinished">Hiçbir ses kartı / cihazı bulunamadı.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="91"/>
+        <location filename="../mainwindow.cpp" line="105"/>
+        <source>none</source>
+        <translation type="unfinished">hiçbiri</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <source>About MX Select Sound</source>
+        <translation type="unfinished">MX Ses Seçimi Hakkında</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <source>Version: </source>
+        <translation type="unfinished">Sürüm:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <source>Program for selecting the default sound card in MX Linux</source>
+        <translation type="unfinished">MX Linux &apos;ta öntanımlı ses kartı seçme programı</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="139"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished">Copyright (c) MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <source>License</source>
+        <translation type="unfinished">Ruhsat</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="141"/>
+        <source>Changelog</source>
+        <translation type="unfinished">Değişim günlüğü</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="142"/>
+        <source>Cancel</source>
+        <translation type="unfinished">İptal</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="157"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Kapat</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="192"/>
+        <source>Could not play test sound.</source>
+        <translation type="unfinished">Deneme sesi çalınamıyor.</translation>
+    </message>
+</context>
 <context>
     <name>mxselectsound</name>
     <message>
-        <location filename="mxselectsound.ui" line="14"/>
-        <location filename="mxselectsound.cpp" line="46"/>
-        <location filename="mxselectsound.cpp" line="82"/>
-        <location filename="mxselectsound.cpp" line="140"/>
-        <location filename="mxselectsound.cpp" line="152"/>
-        <location filename="mxselectsound.cpp" line="186"/>
-        <location filename="mxselectsound.cpp" line="195"/>
         <source>MX Select Sound</source>
-        <translation>MX Ses Seçimi</translation>
+        <translation type="vanished">MX Ses Seçimi</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Şu anki varsayılan ses kartınız:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Şu anki varsayılan ses kartınız:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation>Yardımı görüntüle</translation>
+        <translation type="vanished">Yardımı görüntüle</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation type="vanished">Yardım</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="vanished">Alt+H</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="104"/>
         <source>About this application</source>
-        <translation>Uygulama hakkında</translation>
+        <translation type="vanished">Uygulama hakkında</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="107"/>
         <source>About...</source>
-        <translation>Hakkında...</translation>
+        <translation type="vanished">Hakkında...</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="115"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="147"/>
         <source>Quit application</source>
-        <translation>Uygulamadan çık</translation>
+        <translation type="vanished">Uygulamadan çık</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="150"/>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation type="vanished">Kapat</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="158"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="199"/>
         <source>Apply</source>
-        <translation>Uygula</translation>
+        <translation type="vanished">Uygula</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="222"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerekirse başka bir ses kartı seçin:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerekirse başka bir ses kartı seçin:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bilgisayarınızda birden fazla ses kartı varsa, birini varsayılan olarak seçmek için bu uygulamayı kullanabilirsiniz. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bilgisayarınızda birden fazla ses kartı varsa, birini varsayılan olarak seçmek için bu uygulamayı kullanabilirsiniz. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mxselectsound.ui" line="294"/>
         <source>Test current sound card</source>
-        <translation>Şu anki ses kartını dene</translation>
+        <translation type="vanished">Şu anki ses kartını dene</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="83"/>
         <source>No sound cards/devices were found.</source>
-        <translation>Hiçbir ses kartı / cihazı bulunamadı.</translation>
+        <translation type="vanished">Hiçbir ses kartı / cihazı bulunamadı.</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="95"/>
-        <location filename="mxselectsound.cpp" line="109"/>
         <source>none</source>
-        <translation>hiçbiri</translation>
+        <translation type="vanished">hiçbiri</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="139"/>
         <source>About MX Select Sound</source>
-        <translation>MX Ses Seçimi Hakkında</translation>
+        <translation type="vanished">MX Ses Seçimi Hakkında</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="140"/>
         <source>Version: </source>
-        <translation>Sürüm:</translation>
+        <translation type="vanished">Sürüm:</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="141"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation>MX Linux &apos;ta öntanımlı ses kartı seçme programı</translation>
+        <translation type="vanished">MX Linux &apos;ta öntanımlı ses kartı seçme programı</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="143"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation type="vanished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="144"/>
-        <location filename="mxselectsound.cpp" line="152"/>
         <source>License</source>
-        <translation>Ruhsat</translation>
+        <translation type="vanished">Ruhsat</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="145"/>
         <source>Changelog</source>
-        <translation>Değişim günlüğü</translation>
+        <translation type="vanished">Değişim günlüğü</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="146"/>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation type="vanished">İptal</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="161"/>
         <source>&amp;Close</source>
-        <translation>&amp;Kapat</translation>
+        <translation type="vanished">&amp;Kapat</translation>
     </message>
     <message>
-        <location filename="mxselectsound.cpp" line="196"/>
         <source>Could not play test sound.</source>
-        <translation>Deneme sesi çalınamıyor.</translation>
+        <translation type="vanished">Deneme sesi çalınamıyor.</translation>
     </message>
 </context>
 </TS>

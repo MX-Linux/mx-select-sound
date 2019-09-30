@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxselectsound.cpp
+ *  mainwindow.cpp
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -23,8 +23,8 @@
  **********************************************************************/
 
 
-#include "mxselectsound.h"
-#include "ui_mxselectsound.h"
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include "version.h"
 
 #include <QFile>
@@ -35,11 +35,11 @@
 
 #include <QDebug>
 
-mxselectsound::mxselectsound(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::mxselectsound)
+    ui(new Ui::MainWindow)
 {
-    qDebug() << "Program Version:" << VERSION;
+    qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
     ui->setupUi(this);
     setWindowFlags(Qt::Window); // for the close, min and max buttons
     if (ui->buttonApply->icon().isNull()) {
@@ -49,13 +49,13 @@ mxselectsound::mxselectsound(QWidget *parent) :
     this->adjustSize();
 }
 
-mxselectsound::~mxselectsound()
+MainWindow::~MainWindow()
 {
     delete ui;
 }
 
 // Util function for getting bash command output and error code
-Result mxselectsound::runCmd(QString cmd)
+Result MainWindow::runCmd(QString cmd)
 {
     QEventLoop loop;
     proc = new QProcess(this);
@@ -70,7 +70,7 @@ Result mxselectsound::runCmd(QString cmd)
 }
 
 // Get the list of sound cards
-QStringList mxselectsound::listCards()
+QStringList MainWindow::listCards()
 {
     QStringList card_list;
     QString cards = runCmd("cat /proc/asound/cards 2>/dev/null | sed -n -r 's/[0-9 ]+\\[//p' |  sed 's/\\s*\\]:/:/'").output;
@@ -85,7 +85,7 @@ QStringList mxselectsound::listCards()
 }
 
 // Get default card
-QString mxselectsound::getDefault()
+QString MainWindow::getDefault()
 {
     QString prev_card;
     QString default_card = tr("none");
@@ -114,7 +114,7 @@ QString mxselectsound::getDefault()
 
 //// slots ////
 // Apply button clicked
-void mxselectsound::on_buttonApply_clicked()
+void MainWindow::on_buttonApply_clicked()
 {
     QString selected = ui->comboBox->currentText().section(":", 0, 0);
     QFile asoundrc;
@@ -128,7 +128,7 @@ void mxselectsound::on_buttonApply_clicked()
 }
 
 // About button clicked
-void mxselectsound::on_buttonAbout_clicked()
+void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
@@ -168,7 +168,7 @@ void mxselectsound::on_buttonAbout_clicked()
 }
 
 // Help button clicked
-void mxselectsound::on_buttonHelp_clicked()
+void MainWindow::on_buttonHelp_clicked()
 {
     QLocale locale;
     QString lang = locale.bcp47Name();
@@ -184,7 +184,7 @@ void mxselectsound::on_buttonHelp_clicked()
 }
 
 // Test default sound card
-void mxselectsound::on_buttonTest_clicked()
+void MainWindow::on_buttonTest_clicked()
 {
     int exitCode = runCmd("speaker-test -c 2 -t wav -l 2").exitCode;
     if (exitCode != 0) {

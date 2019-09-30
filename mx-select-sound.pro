@@ -28,13 +28,15 @@ TARGET = mx-select-sound
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mxselectsound.cpp
+SOURCES += main.cpp \
+    mainwindow.cpp
 
-HEADERS  += mxselectsound.h \
-    version.h
+HEADERS  += \
+    version.h \
+    mainwindow.h
 
-FORMS    += mxselectsound.ui
+FORMS    += \
+    mainwindow.ui
 
 TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_ar.ts \
