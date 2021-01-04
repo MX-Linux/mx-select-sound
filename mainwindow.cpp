@@ -173,7 +173,7 @@ void MainWindow::on_buttonHelp_clicked()
     QLocale locale;
     QString lang = locale.bcp47Name();
 
-    QString url = "/usr/share/doc/mx-select-sound/help/mx-select-sound.html";
+    QString url = "/usr/share/doc/mx-select-sound/mx-select-sound.html";
 
     if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-carte-son";
