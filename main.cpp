@@ -22,33 +22,40 @@
  * along with mx-select-sound.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
+#include <QApplication>
+#include <QIcon>
+#include <QLibraryInfo>
+#include <QLocale>
+#include <QTranslator>
+
 #include "mainwindow.h"
 #include <unistd.h>
-#include <QApplication>
-#include <QTranslator>
-#include <QLocale>
-#include <QIcon>
+
 
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    a.setWindowIcon(QIcon::fromTheme("mx-select-sound"));
+    QApplication app(argc, argv);
+    app.setWindowIcon(QIcon::fromTheme(app.applicationName()));
 
     QTranslator qtTran;
-    qtTran.load(QString("qt_") + QLocale::system().name());
-    a.installTranslator(&qtTran);
+    if (qtTran.load(QLocale::system(), "qt", "_", QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+        app.installTranslator(&qtTran);
+
+    QTranslator qtBaseTran;
+    if (qtBaseTran.load("qtbase_" + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+        app.installTranslator(&qtBaseTran);
 
     QTranslator appTran;
-    appTran.load(QString("mx-select-sound_") + QLocale::system().name(), "/usr/share/mx-select-sound/locale");
-    a.installTranslator(&appTran);
+    if (appTran.load(app.applicationName() + "_" + QLocale::system().name(), "/usr/share/" + app.applicationName() + "/locale"))
+        app.installTranslator(&appTran);
 
     MainWindow w;
-    if(w.listCards().size() < 1) {
-        return 0;
+    if (w.listCards().size() < 1) {
+        return EXIT_SUCCESS;
     } else {
         w.show();
         w.getDefault();
-        return a.exec();
+        return app.exec();
     }
 }
