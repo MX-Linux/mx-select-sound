@@ -53,7 +53,7 @@
         <number>5</number>
        </property>
        <item row="1" column="1">
-        <widget class="QPushButton" name="buttonHelp">
+        <widget class="QPushButton" name="pushHelp">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -92,7 +92,7 @@
         </spacer>
        </item>
        <item row="1" column="0">
-        <widget class="QPushButton" name="buttonAbout">
+        <widget class="QPushButton" name="pushAbout">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -134,7 +134,7 @@
         </spacer>
        </item>
        <item row="1" column="9">
-        <widget class="QPushButton" name="buttonCancel">
+        <widget class="QPushButton" name="pushCancel">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -185,7 +185,7 @@
         </widget>
        </item>
        <item row="1" column="7">
-        <widget class="QPushButton" name="buttonApply">
+        <widget class="QPushButton" name="pushApply">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -273,7 +273,7 @@
      <item row="6" column="0" colspan="3">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QPushButton" name="buttonTest">
+        <widget class="QPushButton" name="pushTest">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -334,19 +334,19 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>buttonCancel</tabstop>
+  <tabstop>pushCancel</tabstop>
   <tabstop>comboBox</tabstop>
-  <tabstop>buttonTest</tabstop>
-  <tabstop>buttonAbout</tabstop>
-  <tabstop>buttonHelp</tabstop>
-  <tabstop>buttonApply</tabstop>
+  <tabstop>pushTest</tabstop>
+  <tabstop>pushAbout</tabstop>
+  <tabstop>pushHelp</tabstop>
+  <tabstop>pushApply</tabstop>
  </tabstops>
  <resources>
   <include location="images.qrc"/>
  </resources>
  <connections>
   <connection>
-   <sender>buttonCancel</sender>
+   <sender>pushCancel</sender>
    <signal>pressed()</signal>
    <receiver>MainWindow</receiver>
    <slot>close()</slot>

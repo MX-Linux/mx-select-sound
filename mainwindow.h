@@ -57,12 +57,13 @@ public:
 
     QStringList listCards();
     QString getDefault();
+    void setConnections();
 
 private slots:
-    void on_buttonApply_clicked();
-    void on_buttonAbout_clicked();
-    void on_buttonHelp_clicked();
-    void on_buttonTest_clicked();
+    void pushApply_clicked();
+    void pushAbout_clicked();
+    void pushHelp_clicked();
+    void pushTest_clicked();
 
 private:
     Ui::MainWindow *ui;
