@@ -53,13 +53,13 @@ MainWindow::~MainWindow()
 }
 
 // Util function for getting bash command output and error code
-Result MainWindow::runCmd(QString cmd)
+Result MainWindow::runCmd(const QString &cmd)
 {
     QEventLoop loop;
     proc = new QProcess(this);
     proc->setProcessChannelMode(QProcess::MergedChannels);
     connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
-    proc->start("/bin/bash", QStringList() << "-c" << cmd);
+    proc->start("/bin/bash", {"-c", cmd});
     loop.exec();
     disconnect(proc, SIGNAL(finished(int)), nullptr, nullptr);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
@@ -88,7 +88,7 @@ QString MainWindow::getDefault()
     QString prev_card;
     QString default_card = tr("none");
 
-    Result cmd = runCmd("set -o pipefail; sed -n -r 's/^\\s*defaults.pcm.!card\\s+(.*)/\\1/p' ~/.asoundrc | head -n 1");
+    Result cmd = runCmd(R"(set -o pipefail; sed -n -r 's/^\s*defaults.pcm.!card\s+(.*)/\1/p' ~/.asoundrc | head -n 1)");
     if (cmd.exitCode == 0) {
         prev_card = cmd.output.toUtf8();
 
@@ -118,7 +118,7 @@ void MainWindow::pushApply_clicked()
 
     asoundrc.setFileName(QDir::homePath() + "/.asoundrc");
     if (asoundrc.open(QFile::WriteOnly|QFile::Text)) {
-        asoundrc.write(QString("defaults.pcm.!card %1\ndefaults.ctl.!card %1").arg(selected).toUtf8());
+        asoundrc.write(QStringLiteral("defaults.pcm.!card %1\ndefaults.ctl.!card %1").arg(selected).toUtf8());
         asoundrc.close();
         getDefault();
     }
@@ -130,32 +130,34 @@ void MainWindow::pushAbout_clicked()
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Select Sound"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Select Sound") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
-                       tr("Program for selecting the default sound card in MX Linux") +
-                       "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
+                       tr("MX Select Sound") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION +
+                       "</p><p align=\"center\"><h3>" + tr("Program for selecting the default sound card in MX Linux") +
+                       R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>");
-    auto btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    auto btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    auto btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+    auto *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    auto *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    auto *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     btnCancel->setIcon(QIcon::fromTheme("window-close"));
 
     msgBox.exec();
 
     if (msgBox.clickedButton() == btnLicense) {
-        system("mx-viewer file:///usr/share/doc/mx-select-sound/license.html '" + tr("MX Select Sound").toUtf8() + " " + tr("License").toUtf8() + "'");
+        QProcess::startDetached("mx-viewer", {"file:///usr/share/doc/mx-select-sound/license.html",
+                                                             tr("MX Select Sound") + " " + tr("License")});
     } else if (msgBox.clickedButton() == btnChangelog) {
-        auto changelog = new QDialog(this);
+        auto *changelog = new QDialog(this);
         changelog->resize(600, 500);
 
-        auto text = new QTextEdit;
+        auto *text = new QTextEdit;
         text->setReadOnly(true);
-        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
+        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName() +
+                             "/changelog.gz").output);
 
-        auto btnClose = new QPushButton(tr("&Close"));
+        auto *btnClose = new QPushButton(tr("&Close"));
         btnClose->setIcon(QIcon::fromTheme("window-close"));
         connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
 
-        auto layout = new QVBoxLayout;
+        auto *layout = new QVBoxLayout;
         layout->addWidget(text);
         layout->addWidget(btnClose);
         changelog->setLayout(layout);
@@ -172,11 +174,10 @@ void MainWindow::pushHelp_clicked()
 
     QString url = "/usr/share/doc/mx-select-sound/mx-select-sound.html";
 
-    if (lang.startsWith("fr"))
+    if (lang.startsWith(QLatin1String("fr")))
         url = "https://mxlinux.org/wiki/help-files/help-mx-carte-son";
 
-    const QString cmd = QString("mx-viewer %1 '%2'&").arg(url, tr("MX Select Sound"));
-    system(cmd.toUtf8());
+    QProcess::startDetached("mx-viewer", {url, tr("MX Select Sound")});
 }
 
 // Test default sound card

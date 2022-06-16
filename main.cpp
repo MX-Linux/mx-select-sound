@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
         app.installTranslator(&appTran);
 
     MainWindow w;
-    if (w.listCards().size() < 1) {
+    if (w.listCards().empty()) {
         return EXIT_SUCCESS;
     } else {
         w.show();

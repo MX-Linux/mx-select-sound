@@ -46,13 +46,13 @@ class MainWindow : public QDialog
     Q_OBJECT
 
 protected:
-    QProcess *proc;
+    QProcess *proc{};
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    Result runCmd(QString cmd);
+    Result runCmd(const QString &cmd);
     QString output;
 
     QStringList listCards();
@@ -62,7 +62,7 @@ public:
 private slots:
     void pushApply_clicked();
     void pushAbout_clicked();
-    void pushHelp_clicked();
+    static void pushHelp_clicked();
     void pushTest_clicked();
 
 private:
