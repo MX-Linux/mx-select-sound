@@ -5,12 +5,12 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="48"/>
-        <location filename="../mainwindow.cpp" line="78"/>
-        <location filename="../mainwindow.cpp" line="136"/>
-        <location filename="../mainwindow.cpp" line="148"/>
-        <location filename="../mainwindow.cpp" line="182"/>
-        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="46"/>
+        <location filename="../mainwindow.cpp" line="76"/>
+        <location filename="../mainwindow.cpp" line="133"/>
+        <location filename="../mainwindow.cpp" line="146"/>
+        <location filename="../mainwindow.cpp" line="180"/>
+        <location filename="../mainwindow.cpp" line="188"/>
         <source>MX Select Sound</source>
         <translation type="unfinished">MX Ses Seçimi</translation>
     </message>
@@ -85,59 +85,59 @@
         <translation type="unfinished">Şu anki ses kartını dene</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="79"/>
+        <location filename="../mainwindow.cpp" line="77"/>
         <source>No sound cards/devices were found.</source>
         <translation type="unfinished">Hiçbir ses kartı / cihazı bulunamadı.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="91"/>
-        <location filename="../mainwindow.cpp" line="105"/>
+        <location filename="../mainwindow.cpp" line="89"/>
+        <location filename="../mainwindow.cpp" line="100"/>
         <source>none</source>
         <translation type="unfinished">hiçbiri</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="132"/>
         <source>About MX Select Sound</source>
         <translation type="unfinished">MX Ses Seçimi Hakkında</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="133"/>
         <source>Version: </source>
         <translation type="unfinished">Sürüm:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="134"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation type="unfinished">MX Linux &apos;ta öntanımlı ses kartı seçme programı</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="139"/>
+        <location filename="../mainwindow.cpp" line="136"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="140"/>
-        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="146"/>
         <source>License</source>
         <translation type="unfinished">Ruhsat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="141"/>
+        <location filename="../mainwindow.cpp" line="138"/>
         <source>Changelog</source>
         <translation type="unfinished">Değişim günlüğü</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="142"/>
+        <location filename="../mainwindow.cpp" line="139"/>
         <source>Cancel</source>
         <translation type="unfinished">İptal</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="157"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>&amp;Close</source>
         <translation type="unfinished">&amp;Kapat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="192"/>
+        <location filename="../mainwindow.cpp" line="189"/>
         <source>Could not play test sound.</source>
         <translation type="unfinished">Deneme sesi çalınamıyor.</translation>
     </message>
