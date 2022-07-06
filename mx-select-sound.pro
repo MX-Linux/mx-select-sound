@@ -51,6 +51,7 @@ TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_da.ts \
                 translations/mx-select-sound_de.ts \
                 translations/mx-select-sound_el.ts \
+                translations/mx-select-sound_en.ts \
                 translations/mx-select-sound_es.ts \
                 translations/mx-select-sound_et.ts \
                 translations/mx-select-sound_eu.ts \
