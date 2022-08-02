@@ -15,26 +15,26 @@ Changes:
  .
    * Remove mx-viewer dependency
 Checksums-Sha1:
- 4fd5d50bef0f3cd7655f778f0d679b1e2e518037 1189 mx-select-sound_21.8.dsc
- 8f54ed4123ede14eecc3e2d29e72d892e361b001 59700 mx-select-sound_21.8.tar.xz
- 3e50446f5b2a503e3f7ba02c79207644ad75bff7 10764 mx-select-sound_21.8_amd64.buildinfo
+ f7d9874d337f3f52a8f765287e4e9551a8cb39a8 1189 mx-select-sound_21.8.dsc
+ 0ba5dbf7bf0df38e655331e743b0dbed06117340 59684 mx-select-sound_21.8.tar.xz
+ ebb717012ec948b52abe358d718a6b46244c734a 10764 mx-select-sound_21.8_amd64.buildinfo
 Checksums-Sha256:
- f29b5c8308c3f5a88738ad0e83183357592569ff8649007bdf0512dd2fce20af 1189 mx-select-sound_21.8.dsc
- 9d162a5abf08adde4d01c9f1ec87c54c511cf2b4284ddcccbc9803cb3423f19b 59700 mx-select-sound_21.8.tar.xz
- 6fb88ff8d42446f5e50200cb8535025e034fda7ede11347d4cff66d364afec48 10764 mx-select-sound_21.8_amd64.buildinfo
+ c600b3140adb1952cc0b558e079b25dd3674fa0c88b0f2fb4f5a45a0c98b8291 1189 mx-select-sound_21.8.dsc
+ b35b24f9d143c048619149b479620da489c4e956a95a29abbe271637a6e1284d 59684 mx-select-sound_21.8.tar.xz
+ bad5b25f65eab3cdb1e8ef8d4f542395883644d6891cfb848499552b06b09cc8 10764 mx-select-sound_21.8_amd64.buildinfo
 Files:
- 06862b8c6f0edd60196e2a985df57509 1189 admin optional mx-select-sound_21.8.dsc
- 9dbafb17390516165ccd3cfbdb7fb173 59700 admin optional mx-select-sound_21.8.tar.xz
- a500788da900b24020f79b5c8c20d94f 10764 admin optional mx-select-sound_21.8_amd64.buildinfo
+ c403b1772aec67cc3ea7c1d47e6d11e1 1189 admin optional mx-select-sound_21.8.dsc
+ b666c24e5ba16fe9a71e6d1f6390e70d 59684 admin optional mx-select-sound_21.8.tar.xz
+ 4af086c84df1e0b36c2c719da85e4d96 10764 admin optional mx-select-sound_21.8_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqDcTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumA1yB/44UzgRzSZo9NIxcRUAZbDslr+0Ngjc
-jtVNM/4/nTXOItUI59BmlZWTda5MvZpqtK4jCoe/nwRG+Si/cSB/Ce566pyVtqEc
-E9tfss2YDF60h1UH66fGnym18qo2tAdXF1euduK3GsMbAPIiZe93Ojos/Gz2Ta5k
-6Wjpm31wtJDPSsAB76ghvb+SK6st+gE9x5zK+TNd0b7630rUSm1FNAHKK+V25wFH
-x8NFIsbb1n+9A93e2YaJ0neDtJa1htMSP3aKhiN0PTsrYE9W+meuXVlZi1q25Gy2
-zxRSY5I2DJWiR3mXoPbv+/zLFMjw1Da2h0C74UcF/N5bnxkE4OzyTUQe
-=oXuD
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqjcTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumAjDB/40lQiLy5NxCDwdIfK1qCt29epAtAZC
+Zq4ZpB/XQFn2IC0VQV9wrr2wHu3uzsgnlmO8JzYS5kVhh7KxaR2OMUMl/DXOnk1N
+15ad+bWvNqb4PjrMBhZRn9ylSESw1U7lLkPHixmBQkuwbSYi5VHAtIVHcsTXIPU2
+IY+dFmfIg8zP3RwkqU9Y3u2gmBKXYHiO17AwaebvMx46d4ZqoBK4ZRDOWcv9pSKI
+tFllk0jW61N0D4c+RTG6uC8r2q7szzrGo9cdllcBAzMwWWgcfEfMYcp7btsTb4f8
+H85N4pXgqBteEmQPCk+p9vs5DzkvReWHGsnoGNy6UvwDCO8OH9+0dyIf
+=PNNb
 -----END PGP SIGNATURE-----

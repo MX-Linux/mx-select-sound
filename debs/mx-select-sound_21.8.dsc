@@ -13,20 +13,20 @@ Build-Depends: debhelper (>= 10), qtbase5-dev, qttools5-dev-tools
 Package-List:
  mx-select-sound deb admin optional arch=any
 Checksums-Sha1:
- 8f54ed4123ede14eecc3e2d29e72d892e361b001 59700 mx-select-sound_21.8.tar.xz
+ 0ba5dbf7bf0df38e655331e743b0dbed06117340 59684 mx-select-sound_21.8.tar.xz
 Checksums-Sha256:
- 9d162a5abf08adde4d01c9f1ec87c54c511cf2b4284ddcccbc9803cb3423f19b 59700 mx-select-sound_21.8.tar.xz
+ b35b24f9d143c048619149b479620da489c4e956a95a29abbe271637a6e1284d 59684 mx-select-sound_21.8.tar.xz
 Files:
- 9dbafb17390516165ccd3cfbdb7fb173 59700 mx-select-sound_21.8.tar.xz
+ b666c24e5ba16fe9a71e6d1f6390e70d 59684 mx-select-sound_21.8.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqDcTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumGQlB/41VnFL6OrOY5hTgWkAapPIEZ/uIub2
-8NkekvmxWcD+1TePuyZFlJ/n97fs2rf/Fgjjn0rH0sEZFOpwt4ZIqIyG8LTlp3cX
-88xnSVlOoj0vfbiRKwsnG4sr9Yi7x/LSg/4thNq76QYcEiHveiLbigQ6u16RLYid
-o1Yy6Bo4/LLoFjEdS5rf9Ioapn5zlUyH9w7sddNu2NdcaNS5dT8EtICZIGrxrryu
-UwDiA2tP5SKpQC36X6MddVrL28r4Kg2T9v1J3fF1pIdLqG133nsKDAe+/KxvzG+c
-G1lvqat7YPnqNWiLnwpsocvZDCSnZJ/wvcJ1WnOm+TLgyEutHxL0fiyY
-=9qtZ
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqjcTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumMHvCACzIXF36Qg7EXmsSxPoWRVOJufn7a5D
+bN/donmQ4+AVr0z6X9uF3PaPzJxIDmkTuVCHNXFXjDfKmijuNkRE60/uKtdLVceX
+MjO/AxUd5dz7pSBaA/6a4q+3udZsuhncXXb1k3f2rHJ0sHlH1XjkXr7qkZTGpRZx
+IzAaeLaDccANRNgwQdnhsJtm4HhwXnh+ork02L64qcmTzcDc+NHr1RhC6tgY7SwV
+SiQJ7SrplCWa/b2Oqkofcf/aWQX+NmrTD3p9ygaOyzUWYPPsyIv2iZpb5ToYnaDq
+aOrJRCWJ3Abpp4oIjN+S5cmDqNHpO+8kFz2xCdksZvPlZqJAAnXFvYQh
+=CqN+
 -----END PGP SIGNATURE-----

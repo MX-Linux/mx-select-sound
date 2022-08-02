@@ -18,29 +18,29 @@ Changes:
  .
    * Remove mx-viewer dependency
 Checksums-Sha1:
- 4fd5d50bef0f3cd7655f778f0d679b1e2e518037 1189 mx-select-sound_21.8.dsc
- 8f54ed4123ede14eecc3e2d29e72d892e361b001 59700 mx-select-sound_21.8.tar.xz
- 3e50446f5b2a503e3f7ba02c79207644ad75bff7 10764 mx-select-sound_21.8_amd64.buildinfo
- 3c9f8c6d5ddf1b03f26b7b09347e281952b89cfc 62640 mx-select-sound_21.8_amd64.deb
+ f7d9874d337f3f52a8f765287e4e9551a8cb39a8 1189 mx-select-sound_21.8.dsc
+ 0ba5dbf7bf0df38e655331e743b0dbed06117340 59684 mx-select-sound_21.8.tar.xz
+ ebb717012ec948b52abe358d718a6b46244c734a 10764 mx-select-sound_21.8_amd64.buildinfo
+ ea39f165b9e0a5d9b0b80a9728f8d9c2eea6cbf0 62632 mx-select-sound_21.8_amd64.deb
 Checksums-Sha256:
- f29b5c8308c3f5a88738ad0e83183357592569ff8649007bdf0512dd2fce20af 1189 mx-select-sound_21.8.dsc
- 9d162a5abf08adde4d01c9f1ec87c54c511cf2b4284ddcccbc9803cb3423f19b 59700 mx-select-sound_21.8.tar.xz
- 6fb88ff8d42446f5e50200cb8535025e034fda7ede11347d4cff66d364afec48 10764 mx-select-sound_21.8_amd64.buildinfo
- c25e899be7c3ace6cd028475b88010d46d78a6946567375b87d4aeedf9c57ab5 62640 mx-select-sound_21.8_amd64.deb
+ c600b3140adb1952cc0b558e079b25dd3674fa0c88b0f2fb4f5a45a0c98b8291 1189 mx-select-sound_21.8.dsc
+ b35b24f9d143c048619149b479620da489c4e956a95a29abbe271637a6e1284d 59684 mx-select-sound_21.8.tar.xz
+ bad5b25f65eab3cdb1e8ef8d4f542395883644d6891cfb848499552b06b09cc8 10764 mx-select-sound_21.8_amd64.buildinfo
+ eeb241e64002fefc957fbcc748dca012f4bc5d87b0bff47d918fae5ef11ca718 62632 mx-select-sound_21.8_amd64.deb
 Files:
- 06862b8c6f0edd60196e2a985df57509 1189 admin optional mx-select-sound_21.8.dsc
- 9dbafb17390516165ccd3cfbdb7fb173 59700 admin optional mx-select-sound_21.8.tar.xz
- a500788da900b24020f79b5c8c20d94f 10764 admin optional mx-select-sound_21.8_amd64.buildinfo
- 15fcb0974757a606a4a9d29797a40120 62640 admin optional mx-select-sound_21.8_amd64.deb
+ c403b1772aec67cc3ea7c1d47e6d11e1 1189 admin optional mx-select-sound_21.8.dsc
+ b666c24e5ba16fe9a71e6d1f6390e70d 59684 admin optional mx-select-sound_21.8.tar.xz
+ 4af086c84df1e0b36c2c719da85e4d96 10764 admin optional mx-select-sound_21.8_amd64.buildinfo
+ a3b0e87b04cf8142532aa19533f8fbba 62632 admin optional mx-select-sound_21.8_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqDcTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCx8B/4qxv4PZruYXU2ozb3sii0ffw3mkI92
-glhp4io3QTQucXSQUVttpvDFKVtJ0FQjIgSgnNNL8hnO9RPRUqf2m54g5UL7UzcD
-M0EYvqdpO7anTZhHoGkj34bFWPvVgZ4OqBJv/JO41WgoeZaRfrV6iEugpy0jBQID
-pscj0GeHqfxPo5CHeR9huLcMDr6VzEcOwCmCiYnY2cE4AnMpVhT6EYCFdJD7D0ps
-uIA4Ol8QWMUIZswCS3qNOa323BBpIoTohFJDOJk+AVduwz0RJTfH0MO++gQd4TDU
-th5aX7BJ9j87bpAaqWDgZRRCLIleCuXDjnVbwi+Yl3OtEpuVxzWUMRic
-=wtmy
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqjcTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumJ9sCACjk/l2/76iNLfjnM1hrDW/ucExs6An
+bPVdR6qi/cREEVo9pjc5YxRTbZ6sv0HIxwYATn3+srOLKceBUTB7cLUcZmM8V7GX
+k9zngiRFkl1ZAvYu/BohmcwsQrpM7xWhz1tcBuDHUcGucAH6v37Ua7r966AEqQvN
+Vzy37arD9xA8Dg0HPrpWU+zCaVOdRjQul6+VIsA4TFXT2MwK1WdKubY343utWpC8
+3m7AHs6PLN95I2h3jUjCrmdxlYaKLi7LgrTCvTPEISDGVJ3BDbo0HSF0fQvkIAwC
+o0Mm2g0sYEzp1WpWppdX45k8pZo5XnDAyofskZCMZ7r2uex6yHzK2pCP
+=FmlC
 -----END PGP SIGNATURE-----

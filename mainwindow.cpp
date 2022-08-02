@@ -133,7 +133,7 @@ void MainWindow::pushAbout_clicked()
                        tr("Program for selecting the default sound card in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p>"
                        "<p align=\"center\">" + tr("Copyright (c) MX Linux") + "<br /><br /></p>",
-                       QStringLiteral("/usr/share/doc/custom-toolbox/license.html"), tr("%1 License").arg(this->windowTitle()));
+                       QStringLiteral("/usr/share/doc/mx-select-sound/license.html"), tr("%1 License").arg(this->windowTitle()));
     this->show();
 }
 
