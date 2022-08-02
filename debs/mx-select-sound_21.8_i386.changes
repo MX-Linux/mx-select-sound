@@ -15,11 +15,11 @@ Changes:
  .
    * Remove mx-viewer dependency
 Checksums-Sha1:
- 63e36382c57f7415c0fa4b331d2797e21511cb9a 10054 mx-select-sound_21.8_i386.buildinfo
- 897801f3f855feba749a4b897ffbeaf1e22dd264 63468 mx-select-sound_21.8_i386.deb
+ 280d4fe06de58e5bd9cef4f6d9a9bf6700cd8871 10054 mx-select-sound_21.8_i386.buildinfo
+ 085b2e0d208fda9b2027c14c33445949534489ec 63468 mx-select-sound_21.8_i386.deb
 Checksums-Sha256:
- 9af0c5308e56835512d101bd073821289dea07f97419c601d05283e9dd4a8d00 10054 mx-select-sound_21.8_i386.buildinfo
- aedf4c2a5828364c190085829c8bc3cf66a10c20df79e35fe62258edee58c12a 63468 mx-select-sound_21.8_i386.deb
+ d384074014e613370bd06355541b69d42913590b57601f84c8390633e1a3023f 10054 mx-select-sound_21.8_i386.buildinfo
+ b191b32ac98dbe816fbbd2df0df2968d1ecfbea1eec6bd35400827b8109ee1c5 63468 mx-select-sound_21.8_i386.deb
 Files:
- 4775fcfc7a89f99f364dd97b50b33cb4 10054 admin optional mx-select-sound_21.8_i386.buildinfo
- 6a322b27aba4fbac79654996d645a372 63468 admin optional mx-select-sound_21.8_i386.deb
+ 8327d3e00d80be26bee158f5c0282e40 10054 admin optional mx-select-sound_21.8_i386.buildinfo
+ ebc45e03b8378e6ad0e23c5c730522de 63468 admin optional mx-select-sound_21.8_i386.deb
