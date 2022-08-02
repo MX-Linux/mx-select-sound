@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 02 Aug 2022 18:23:01 -0400
+Source: mx-select-sound
+Architecture: source
+Version: 22.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-select-sound (22.8) mx; urgency=medium
+ .
+   * Remove mx-viewer dependency
+Checksums-Sha1:
+ e08598a26d2b08c027956ca85aa5d03e8180e0c1 1189 mx-select-sound_22.8.dsc
+ 8784af5e6965dfe6878d3ba9b89f0ddd011bd372 59672 mx-select-sound_22.8.tar.xz
+ a2b94c0b51db819210e21e0f470d5648f13ff8a1 10764 mx-select-sound_22.8_amd64.buildinfo
+Checksums-Sha256:
+ 8cf2c62c52f3c3f8e4af114091a22defe60071e6d5c1d4870e11d957a0cc3187 1189 mx-select-sound_22.8.dsc
+ ccb753e203eebd84340554f404c53364220cfceda98263c18aaa3964d89d3183 59672 mx-select-sound_22.8.tar.xz
+ f5fc9c62670994f1b2e6b1569f26550b9e64730be521b4b7672c999d5c11aa51 10764 mx-select-sound_22.8_amd64.buildinfo
+Files:
+ d495def05c71596b2e992382580b1088 1189 admin optional mx-select-sound_22.8.dsc
+ cfd344833b327f47664ec39c4e108b94 59672 admin optional mx-select-sound_22.8.tar.xz
+ 5b1034ad1e2be1d47c6e41ec1e8342dc 10764 admin optional mx-select-sound_22.8_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLprUcTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumNypCAC426bahAETjsWaySJcgohi14jC8YKL
+ptNvnMP6+7cHhbmU9+IEbkvksxB8BLB0KcqMFrPs2XEZ4UkiqMI8v8dUuG+Wh2cb
+4mtTyQwwxysbfXTWHRnzxZ68QHAbmgm5AfmEweCHzxAqP6KfVS35sf4NwYl2Cedt
+P6EMn0+qzFr3Q7a1zM1vOcNRVFUUjByk23qUlNtObdqasXfym5sXomRU0/PoCm6I
+dWLmoYYIP9SYA9/PrxMSIDrj+n8pTC12KLIPXyViz8MJ9x1LTh0iJBbsYh5BtRVd
+Z66Gcbv1l8J9akcaa7WeiQmRx4T1rP+BthY05E2ct+0JdwoazijaJttJ
+=PM6k
+-----END PGP SIGNATURE-----

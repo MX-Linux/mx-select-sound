@@ -1,4 +1,4 @@
-mx-select-sound (21.8) mx; urgency=medium
+mx-select-sound (22.8) mx; urgency=medium
 
   * Remove mx-viewer dependency
 
