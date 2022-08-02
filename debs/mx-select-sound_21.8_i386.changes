@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 18:23:01 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: i386
+Version: 21.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (21.8) mx; urgency=medium
+ .
+   * Remove mx-viewer dependency
+Checksums-Sha1:
+ 9f5642aff453ca215c60a925dd6ffef0c85a1dd9 10054 mx-select-sound_21.8_i386.buildinfo
+ 9a652c39a594e8658ef44c4455f000f1cb581223 63472 mx-select-sound_21.8_i386.deb
+Checksums-Sha256:
+ eb865503f07d67c204a541b6650736bf4bd78e7e3f0b72db99a3f3fe648bc365 10054 mx-select-sound_21.8_i386.buildinfo
+ b890838efeffd128eaf06b962be0e9bc134b3cd26dbfc6d5f1a98e2207f9e343 63472 mx-select-sound_21.8_i386.deb
+Files:
+ 94a8fcc1588b57121a26f1117ebd5dd3 10054 admin optional mx-select-sound_21.8_i386.buildinfo
+ 4e2c29496e71890cb2bf8e74cd4d0371 63472 admin optional mx-select-sound_21.8_i386.deb

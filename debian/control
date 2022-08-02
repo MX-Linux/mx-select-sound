@@ -8,6 +8,8 @@ Vcs-Git: git://github.com/AdrianTM/mx-select-sound
 
 Package: mx-select-sound
 Architecture: any
-Depends: mx-viewer, ${misc:Depends}, ${shlibs:Depends}
+Depends: mx-viewer | xdg-open,
+        ${misc:Depends},
+        ${shlibs:Depends}
 Description: MX Select Sound
  MX Select Sound is a tool used for selecting the default sound card

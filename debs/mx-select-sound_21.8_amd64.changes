@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 02 Aug 2022 18:23:01 -0400
+Source: mx-select-sound
+Binary: mx-select-sound
+Architecture: source amd64
+Version: 21.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-select-sound - MX Select Sound
+Changes:
+ mx-select-sound (21.8) mx; urgency=medium
+ .
+   * Remove mx-viewer dependency
+Checksums-Sha1:
+ 4fd5d50bef0f3cd7655f778f0d679b1e2e518037 1189 mx-select-sound_21.8.dsc
+ 8f54ed4123ede14eecc3e2d29e72d892e361b001 59700 mx-select-sound_21.8.tar.xz
+ 3e50446f5b2a503e3f7ba02c79207644ad75bff7 10764 mx-select-sound_21.8_amd64.buildinfo
+ 3c9f8c6d5ddf1b03f26b7b09347e281952b89cfc 62640 mx-select-sound_21.8_amd64.deb
+Checksums-Sha256:
+ f29b5c8308c3f5a88738ad0e83183357592569ff8649007bdf0512dd2fce20af 1189 mx-select-sound_21.8.dsc
+ 9d162a5abf08adde4d01c9f1ec87c54c511cf2b4284ddcccbc9803cb3423f19b 59700 mx-select-sound_21.8.tar.xz
+ 6fb88ff8d42446f5e50200cb8535025e034fda7ede11347d4cff66d364afec48 10764 mx-select-sound_21.8_amd64.buildinfo
+ c25e899be7c3ace6cd028475b88010d46d78a6946567375b87d4aeedf9c57ab5 62640 mx-select-sound_21.8_amd64.deb
+Files:
+ 06862b8c6f0edd60196e2a985df57509 1189 admin optional mx-select-sound_21.8.dsc
+ 9dbafb17390516165ccd3cfbdb7fb173 59700 admin optional mx-select-sound_21.8.tar.xz
+ a500788da900b24020f79b5c8c20d94f 10764 admin optional mx-select-sound_21.8_amd64.buildinfo
+ 15fcb0974757a606a4a9d29797a40120 62640 admin optional mx-select-sound_21.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmLpqDcTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCx8B/4qxv4PZruYXU2ozb3sii0ffw3mkI92
+glhp4io3QTQucXSQUVttpvDFKVtJ0FQjIgSgnNNL8hnO9RPRUqf2m54g5UL7UzcD
+M0EYvqdpO7anTZhHoGkj34bFWPvVgZ4OqBJv/JO41WgoeZaRfrV6iEugpy0jBQID
+pscj0GeHqfxPo5CHeR9huLcMDr6VzEcOwCmCiYnY2cE4AnMpVhT6EYCFdJD7D0ps
+uIA4Ol8QWMUIZswCS3qNOa323BBpIoTohFJDOJk+AVduwz0RJTfH0MO++gQd4TDU
+th5aX7BJ9j87bpAaqWDgZRRCLIleCuXDjnVbwi+Yl3OtEpuVxzWUMRic
+=wtmy
+-----END PGP SIGNATURE-----

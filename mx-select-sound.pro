@@ -34,9 +34,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
+    about.cpp \
     mainwindow.cpp
 
 HEADERS  += \
+    about.h \
     version.h \
     mainwindow.h
 
