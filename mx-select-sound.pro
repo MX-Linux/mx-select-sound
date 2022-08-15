@@ -60,6 +60,7 @@ TRANSLATIONS += translations/mx-select-sound_am.ts \
                 translations/mx-select-sound_fa.ts \
                 translations/mx-select-sound_fi.ts \
                 translations/mx-select-sound_fr.ts \
+                translations/mx-select-sound_fr_BE.ts \
                 translations/mx-select-sound_he_IL.ts \
                 translations/mx-select-sound_hi.ts \
                 translations/mx-select-sound_hr.ts \
