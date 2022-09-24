@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fa">
+<TS version="2.1" language="fr_BE">
 <context>
     <name>MainWindow</name>
     <message>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../mainwindow.ui" line="67"/>
         <source>Help</source>
-        <translation type="unfinished">راهنما </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="74"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../mainwindow.ui" line="148"/>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="155"/>
@@ -152,17 +152,6 @@
         <location filename="../about.cpp" line="63"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>mxselectsound</name>
-    <message>
-        <source>Help</source>
-        <translation type="vanished">راهنما </translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="vanished">بستن</translation>
     </message>
 </context>
 </TS>
