@@ -6,10 +6,10 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <location filename="../mainwindow.cpp" line="47"/>
-        <location filename="../mainwindow.cpp" line="77"/>
-        <location filename="../mainwindow.cpp" line="131"/>
-        <location filename="../mainwindow.cpp" line="150"/>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="75"/>
+        <location filename="../mainwindow.cpp" line="129"/>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>MX Select Sound</source>
         <translation type="unfinished">MX サウンドセレクト</translation>
     </message>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../mainwindow.ui" line="106"/>
         <source>About...</source>
-        <translation type="unfinished">About...</translation>
+        <translation type="unfinished">情報...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="113"/>
@@ -71,12 +71,12 @@
     <message>
         <location filename="../mainwindow.ui" line="218"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可能な他のサウンドカードを選択して下さい:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;他のサウンドカードも選択できます:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="244"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、一つをデフォルトとして選択するよう、このアプリケーションを使用することができます。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、このアプリケーションを使用して、既定のサウンドカードを選択することができます。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="290"/>
@@ -84,84 +84,72 @@
         <translation type="unfinished">現在のサウンドカードをテスト</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="78"/>
+        <location filename="../mainwindow.cpp" line="75"/>
         <source>No sound cards/devices were found.</source>
         <translation type="unfinished">サウンドカード・デバイスが見つかりません</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="90"/>
-        <location filename="../mainwindow.cpp" line="101"/>
+        <location filename="../mainwindow.cpp" line="87"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>none</source>
         <translation type="unfinished">なし</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="130"/>
+        <location filename="../mainwindow.cpp" line="128"/>
         <source>About MX Select Sound</source>
         <translation type="unfinished">MX サウンドセレクトについて</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="132"/>
+        <location filename="../mainwindow.cpp" line="129"/>
         <source>Version: </source>
-        <translation type="unfinished">Version: </translation>
+        <translation type="unfinished">バージョン: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="133"/>
+        <location filename="../mainwindow.cpp" line="130"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation type="unfinished">MX Linux でサウンドカードを選択するプログラム</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="133"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="134"/>
         <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>License</source>
-        <translation type="obsolete">ライセンス</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">キャンセル</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">閉じる(&amp;C)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="159"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished">テストサウンドを再生できません</translation>
+        <translation type="unfinished">テスト音を再生できませんでした。</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../about.cpp" line="40"/>
+        <location filename="../about.cpp" line="43"/>
         <source>License</source>
         <translation type="unfinished">ライセンス</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="41"/>
-        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="44"/>
+        <location filename="../about.cpp" line="54"/>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">更新履歴</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="42"/>
+        <location filename="../about.cpp" line="45"/>
         <source>Cancel</source>
         <translation type="unfinished">キャンセル</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="67"/>
         <source>&amp;Close</source>
         <translation type="unfinished">閉じる(&amp;C)</translation>
     </message>
@@ -194,7 +182,7 @@
     </message>
     <message>
         <source>About...</source>
-        <translation type="vanished">About...</translation>
+        <translation type="vanished">情報...</translation>
     </message>
     <message>
         <source>Alt+B</source>
@@ -218,11 +206,11 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可能な他のサウンドカードを選択して下さい:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;他のサウンドカードも選択できます:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、一つをデフォルトとして選択するよう、このアプリケーションを使用することができます。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コンピュータに複数のサウンドカードがある場合、このアプリケーションを使用して、既定のサウンドカードを選択することができます。&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Test current sound card</source>
@@ -242,7 +230,7 @@
     </message>
     <message>
         <source>Version: </source>
-        <translation type="vanished">Version: </translation>
+        <translation type="vanished">バージョン: </translation>
     </message>
     <message>
         <source>Program for selecting the default sound card in MX Linux</source>
@@ -257,6 +245,10 @@
         <translation type="vanished">ライセンス</translation>
     </message>
     <message>
+        <source>Changelog</source>
+        <translation type="vanished">更新履歴</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation type="vanished">キャンセル</translation>
     </message>
@@ -266,7 +258,7 @@
     </message>
     <message>
         <source>Could not play test sound.</source>
-        <translation type="vanished">テストサウンドを再生できません</translation>
+        <translation type="vanished">テスト音を再生できませんでした。</translation>
     </message>
 </context>
 </TS>

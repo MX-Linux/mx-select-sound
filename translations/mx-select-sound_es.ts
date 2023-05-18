@@ -6,12 +6,12 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <location filename="../mainwindow.cpp" line="47"/>
-        <location filename="../mainwindow.cpp" line="77"/>
-        <location filename="../mainwindow.cpp" line="131"/>
-        <location filename="../mainwindow.cpp" line="150"/>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="75"/>
+        <location filename="../mainwindow.cpp" line="129"/>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished">MX Seleccionar Audio</translation>
+        <translation type="unfinished">MX Seleccionar audio</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="28"/>
@@ -84,64 +84,48 @@
         <translation type="unfinished">Probar la tarjeta de sonido actual</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="78"/>
+        <location filename="../mainwindow.cpp" line="75"/>
         <source>No sound cards/devices were found.</source>
         <translation type="unfinished">No se encontraron tarjetas de sonido/dispositivos de audio.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="90"/>
-        <location filename="../mainwindow.cpp" line="101"/>
+        <location filename="../mainwindow.cpp" line="87"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>none</source>
         <translation type="unfinished">ninguno</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="130"/>
+        <location filename="../mainwindow.cpp" line="128"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished">Acerca de MX Seleccionar Audio</translation>
+        <translation type="unfinished">Acerca de MX Seleccionar audio</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="132"/>
+        <location filename="../mainwindow.cpp" line="129"/>
         <source>Version: </source>
         <translation type="unfinished">Versión:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="133"/>
+        <location filename="../mainwindow.cpp" line="130"/>
         <source>Program for selecting the default sound card in MX Linux</source>
         <translation type="unfinished">Programa para seleccionar la tarjeta de sonido predeterminada en MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="133"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="134"/>
         <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>License</source>
-        <translation type="obsolete">Licencia</translation>
-    </message>
-    <message>
-        <source>Changelog</source>
-        <translation type="obsolete">Registro de cambios</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Cancelar</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Close</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="159"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>Could not play test sound.</source>
         <translation type="unfinished">No se pudo ejecutar la prueba de sonido.</translation>
     </message>
@@ -149,23 +133,23 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../about.cpp" line="40"/>
+        <location filename="../about.cpp" line="43"/>
         <source>License</source>
         <translation type="unfinished">Licencia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="41"/>
-        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="44"/>
+        <location filename="../about.cpp" line="54"/>
         <source>Changelog</source>
         <translation type="unfinished">Registro de cambios</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="42"/>
+        <location filename="../about.cpp" line="45"/>
         <source>Cancel</source>
         <translation type="unfinished">Cancelar</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="67"/>
         <source>&amp;Close</source>
         <translation type="unfinished">&amp;Close</translation>
     </message>
@@ -174,7 +158,7 @@
     <name>mxselectsound</name>
     <message>
         <source>MX Select Sound</source>
-        <translation type="vanished">MX Seleccionar Audio</translation>
+        <translation type="vanished">MX Seleccionar audio</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -242,7 +226,7 @@
     </message>
     <message>
         <source>About MX Select Sound</source>
-        <translation type="vanished">Acerca de MX Seleccionar Audio</translation>
+        <translation type="vanished">Acerca de MX Seleccionar audio</translation>
     </message>
     <message>
         <source>Version: </source>

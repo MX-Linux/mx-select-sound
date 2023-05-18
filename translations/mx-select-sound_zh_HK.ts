@@ -20,32 +20,32 @@
     <message>
         <location filename="mxselectsound.ui" line="64"/>
         <source>Display help </source>
-        <translation type="unfinished"/>
+        <translation>顯示說明</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="67"/>
         <source>Help</source>
-        <translation type="unfinished"/>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="75"/>
         <source>Alt+H</source>
-        <translation type="unfinished"/>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="104"/>
         <source>About this application</source>
-        <translation type="unfinished"/>
+        <translation>關於本程式</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="107"/>
         <source>About...</source>
-        <translation type="unfinished"/>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="115"/>
         <source>Alt+B</source>
-        <translation type="unfinished"/>
+        <translation>Alt+B</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="147"/>
@@ -60,7 +60,7 @@
     <message>
         <location filename="mxselectsound.ui" line="158"/>
         <source>Alt+N</source>
-        <translation type="unfinished"/>
+        <translation>Alt+N</translation>
     </message>
     <message>
         <location filename="mxselectsound.ui" line="199"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="mxselectsound.cpp" line="140"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>版本：</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="141"/>
@@ -111,28 +111,28 @@
     <message>
         <location filename="mxselectsound.cpp" line="143"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>MX Linux 版權所有 (c)</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="144"/>
         <location filename="mxselectsound.cpp" line="152"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>授權條款</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="145"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>變更紀錄</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="146"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="161"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>關閉（&amp;C）</translation>
     </message>
     <message>
         <location filename="mxselectsound.cpp" line="196"/>
