@@ -40,7 +40,6 @@ SOURCES += \
 
 HEADERS  += \
     about.h \
-    version.h \
     mainwindow.h
 
 FORMS    += \
