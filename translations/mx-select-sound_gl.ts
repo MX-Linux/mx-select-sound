@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sq">
+<TS version="2.1" language="gl">
 <context>
     <name>MainWindow</name>
     <message>
@@ -11,37 +11,37 @@
         <location filename="../mainwindow.cpp" line="155"/>
         <location filename="../mainwindow.cpp" line="163"/>
         <source>MX Select Sound</source>
-        <translation type="unfinished">Përzgjedhje Zëri MX</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Karta juaj e zërit parazgjedhje e tanishme është:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="64"/>
         <source>Display help </source>
-        <translation type="unfinished">Shfaq ndihmë</translation>
+        <translation type="unfinished">Amosar axuda</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="67"/>
         <source>Help</source>
-        <translation type="unfinished">Ndihmë</translation>
+        <translation type="unfinished">Axuda</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="74"/>
         <source>Alt+H</source>
-        <translation type="unfinished">Alt+N</translation>
+        <translation type="unfinished">Alt+H</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="103"/>
         <source>About this application</source>
-        <translation type="unfinished">Mbi këtë aplikacion</translation>
+        <translation type="unfinished">Sobre esta aplicación</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="106"/>
         <source>About...</source>
-        <translation type="unfinished">Mbi…</translation>
+        <translation type="unfinished">Sobre...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="113"/>
@@ -51,68 +51,68 @@
     <message>
         <location filename="../mainwindow.ui" line="145"/>
         <source>Quit application</source>
-        <translation type="unfinished">Mbylle aplikacionin</translation>
+        <translation type="unfinished">Saír do aplicativo</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="148"/>
         <source>Close</source>
-        <translation type="unfinished">Mbylle</translation>
+        <translation type="unfinished">Cerrar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="155"/>
         <source>Alt+N</source>
-        <translation type="unfinished">Alt+M</translation>
+        <translation type="unfinished">Alt+N</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="196"/>
         <source>Apply</source>
-        <translation type="unfinished">Zbatoje</translation>
+        <translation type="unfinished">Aplicar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="218"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Përzgjidhni një tjetër kartë zëri, në qoftë e nevojshme:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="244"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nëse kompjuteri juaj ka më shumë se një kartë zëri, mund të përdorni këtë aplikacion për të përzgjedhur njërën të jetë parazgjedhja. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="290"/>
         <source>Test current sound card</source>
-        <translation type="unfinished">Provoni kartën e tanishme të zërit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="79"/>
         <source>No sound cards/devices were found.</source>
-        <translation type="unfinished">S’u gjetëm karta/pajisje zëri.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="91"/>
         <location filename="../mainwindow.cpp" line="104"/>
         <source>none</source>
-        <translation type="unfinished">asnjë</translation>
+        <translation type="unfinished">ningunha</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="134"/>
         <source>About MX Select Sound</source>
-        <translation type="unfinished">Mbi Përzgjedhje Zëri MX</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="135"/>
         <source>Version: </source>
-        <translation type="unfinished">Version:</translation>
+        <translation type="unfinished">Versión: </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="136"/>
         <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="unfinished">Program për përzgjedhje të kartës parazgjedhje të zërit në MX Linux</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="139"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Të drejta kopjimi (c) MX Linux</translation>
+        <translation type="unfinished">Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="140"/>
@@ -127,7 +127,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="163"/>
         <source>Could not play test sound.</source>
-        <translation type="unfinished">S’u luajt dot tingull prove.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -135,54 +135,46 @@
     <message>
         <location filename="../about.cpp" line="40"/>
         <source>License</source>
-        <translation type="unfinished">Licencë</translation>
+        <translation type="unfinished">Licenza</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <location filename="../about.cpp" line="51"/>
         <source>Changelog</source>
-        <translation type="unfinished">Regjistër ndryshimesh</translation>
+        <translation type="unfinished">Rexistro dos cambios</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Cancel</source>
-        <translation type="unfinished">Anuloje</translation>
+        <translation type="unfinished">Cancelar</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="64"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Mbylle</translation>
+        <translation type="unfinished">&amp;Cerrar</translation>
     </message>
 </context>
 <context>
     <name>mxselectsound</name>
     <message>
-        <source>MX Select Sound</source>
-        <translation type="vanished">Përzgjedhje Zëri MX</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your current default sound card is:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Karta juaj e zërit parazgjedhje e tanishme është:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <source>Display help </source>
-        <translation type="vanished">Shfaq ndihmë</translation>
+        <translation type="vanished">Amosar axuda</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="vanished">Ndihmë</translation>
+        <translation type="vanished">Axuda</translation>
     </message>
     <message>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation type="vanished">Alt+H</translation>
     </message>
     <message>
         <source>About this application</source>
-        <translation type="vanished">Mbi këtë aplikacion</translation>
+        <translation type="vanished">Sobre esta aplicación</translation>
     </message>
     <message>
         <source>About...</source>
-        <translation type="vanished">Mbi…</translation>
+        <translation type="vanished">Sobre...</translation>
     </message>
     <message>
         <source>Alt+B</source>
@@ -190,75 +182,47 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="vanished">Mbylle aplikacionin</translation>
+        <translation type="vanished">Saír do aplicativo</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Mbylle</translation>
+        <translation type="vanished">Cerrar</translation>
     </message>
     <message>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+M</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="vanished">Zbatoje</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select another sound card if necessary:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Përzgjidhni një tjetër kartë zëri, në qoftë e nevojshme:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If your computer has more than one sound card, you can use this application to select the one to be default. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nëse kompjuteri juaj ka më shumë se një kartë zëri, mund të përdorni këtë aplikacion për të përzgjedhur njërën të jetë parazgjedhja. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Test current sound card</source>
-        <translation type="vanished">Provoni kartën e tanishme të zërit</translation>
-    </message>
-    <message>
-        <source>No sound cards/devices were found.</source>
-        <translation type="vanished">S’u gjetëm karta/pajisje zëri.</translation>
+        <translation type="vanished">Aplicar</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="vanished">asnjë</translation>
-    </message>
-    <message>
-        <source>About MX Select Sound</source>
-        <translation type="vanished">Mbi Përzgjedhje Zëri MX</translation>
+        <translation type="vanished">ningunha</translation>
     </message>
     <message>
         <source>Version: </source>
-        <translation type="vanished">Version:</translation>
-    </message>
-    <message>
-        <source>Program for selecting the default sound card in MX Linux</source>
-        <translation type="vanished">Program për përzgjedhje të kartës parazgjedhje të zërit në MX Linux</translation>
+        <translation type="vanished">Versión: </translation>
     </message>
     <message>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Të drejta kopjimi (c) MX Linux</translation>
+        <translation type="vanished">Copyright (c) MX Linux</translation>
     </message>
     <message>
         <source>License</source>
-        <translation type="vanished">Licencë</translation>
+        <translation type="vanished">Licenza</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="vanished">Regjistër ndryshimesh</translation>
+        <translation type="vanished">Rexistro dos cambios</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">Anuloje</translation>
+        <translation type="vanished">Cancelar</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;Mbylle</translation>
-    </message>
-    <message>
-        <source>Could not play test sound.</source>
-        <translation type="vanished">S’u luajt dot tingull prove.</translation>
+        <translation type="vanished">&amp;Cerrar</translation>
     </message>
 </context>
 </TS>
