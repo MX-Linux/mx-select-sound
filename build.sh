@@ -91,7 +91,7 @@ if [ "$DEBIAN_BUILD" = true ]; then
     rm -rf "$BUILD_DIR"
     rm -f debian/*.debhelper.log debian/*.substvars debian/files
     rm -rf debian/.debhelper/ debian/mx-select-sound/ obj-*/
-    rm -f translations/*.qm version.h
+    rm -f translations/*.qm
     rm -f ../*build* ../*.buildinfo 2>/dev/null || true
 
     echo "Debian package build completed!"
@@ -105,7 +105,7 @@ if [ "$CLEAN" = true ]; then
     rm -rf "$BUILD_DIR"
     rm -f debian/*.debhelper.log debian/*.substvars debian/files
     rm -rf debian/.debhelper/ debian/mx-select-sound/ obj-*/
-    rm -f translations/*.qm version.h
+    rm -f translations/*.qm
     rm -f ../*build* ../*.buildinfo 2>/dev/null || true
 fi
 

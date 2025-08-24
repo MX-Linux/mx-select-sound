@@ -23,6 +23,7 @@
  **********************************************************************/
 #pragma once
 
+#include <QDialog>
 #include <QMessageBox>
 #include <QProcess>
 

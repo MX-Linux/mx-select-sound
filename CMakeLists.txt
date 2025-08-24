@@ -93,7 +93,6 @@ set(SOURCES
 set(HEADERS
     src/mainwindow.h
     src/about.h
-    src/version.h
 )
 
 set(UI_FILES
@@ -147,6 +146,7 @@ endif()
 target_compile_definitions(mx-select-sound PRIVATE
     QT_DEPRECATED_WARNINGS
     QT_DISABLE_DEPRECATED_BEFORE=0x060000
+    VERSION="${PROJECT_VERSION}"
 )
 
 # Release-specific optimizations
