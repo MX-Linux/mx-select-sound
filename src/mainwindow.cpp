@@ -59,14 +59,12 @@ MainWindow::~MainWindow()
 Result MainWindow::runCmd(const QString &cmd)
 {
     QEventLoop loop;
-    proc = new QProcess(this);
-    proc->setProcessChannelMode(QProcess::MergedChannels);
-    connect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), &loop, &QEventLoop::quit);
-    proc->start(QStringLiteral("/bin/bash"), {"-c", cmd});
+    QProcess proc(this);
+    proc.setProcessChannelMode(QProcess::MergedChannels);
+    connect(&proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), &loop, &QEventLoop::quit);
+    proc.start(QStringLiteral("/bin/bash"), {"-c", cmd});
     loop.exec();
-    disconnect(proc, SIGNAL(finished(int)), nullptr, nullptr);
-    Result result = {proc->exitCode(), proc->readAll().trimmed()};
-    delete proc;
+    Result result = {proc.exitCode(), proc.readAll().trimmed()};
     return result;
 }
 

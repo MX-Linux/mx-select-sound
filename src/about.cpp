@@ -113,7 +113,7 @@ void displayAboutMsgBox(const QString &title, const QString &message, const QStr
         auto *text = new QTextEdit(changelog);
         text->setReadOnly(true);
         QProcess proc;
-        proc.start(QStringLiteral("zless"),
+        proc.start(QStringLiteral("zcat"),
                    {QStringLiteral("/usr/share/doc/") + QFileInfo(QCoreApplication::applicationFilePath()).fileName()
                     + QStringLiteral("/changelog.gz")},
                    QIODevice::ReadOnly);

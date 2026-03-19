@@ -59,6 +59,5 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QProcess *proc {};
     QString output;
 };
