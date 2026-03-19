@@ -28,8 +28,6 @@
 #include <QDir>
 #include <QFile>
 #include <QRadioButton>
-#include <QTextEdit>
-#include <QTimer>
 
 #include "about.h"
 
@@ -146,16 +144,7 @@ void MainWindow::pushAbout_clicked()
 
 void MainWindow::pushHelp_clicked()
 {
-    QLocale locale;
-    const QString lang = locale.bcp47Name();
-
-    QString url = QStringLiteral("/usr/share/doc/mx-select-sound/mx-select-sound.html");
-
-    if (lang.startsWith(QLatin1String("fr"))) {
-        url = QStringLiteral("https://mxlinux.org/wiki/help-files/help-mx-carte-son");
-    }
-
-    displayDoc(url, tr("%1 Help").arg(tr("MX Select Sound")));
+    displayDoc(QStringLiteral("mx-select-sound.html"), tr("%1 Help").arg(tr("MX Select Sound")), true);
 }
 
 // Test default sound card

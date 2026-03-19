@@ -9,8 +9,7 @@ Homepage: https://github.com/MX-Linux/mx-select-sound
 
 Package: mx-select-sound
 Architecture: any
-Depends: mx-viewer | xdg-utils,
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: Sound card selection tool for MX Linux
  MX Select Sound is a graphical utility that allows users to easily
