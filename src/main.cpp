@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
     }
 
     QApplication app(argc, argv);
+    QApplication::setApplicationName(QStringLiteral("mx-select-sound"));
     QApplication::setWindowIcon(QIcon::fromTheme(QApplication::applicationName()));
 
     QTranslator qtTran;
