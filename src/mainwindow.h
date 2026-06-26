@@ -59,5 +59,4 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QString output;
 };
