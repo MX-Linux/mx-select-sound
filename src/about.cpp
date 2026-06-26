@@ -112,13 +112,17 @@ void displayAboutMsgBox(const QString &title, const QString &message, const QStr
 
         auto *text = new QTextEdit(changelog);
         text->setReadOnly(true);
-        QProcess proc;
-        proc.start(QStringLiteral("zcat"),
-                   {QStringLiteral("/usr/share/doc/") + QFileInfo(QCoreApplication::applicationFilePath()).fileName()
-                    + QStringLiteral("/changelog.gz")},
-                   QIODevice::ReadOnly);
-        proc.waitForFinished();
-        text->setText(proc.readAllStandardOutput());
+        const QString changelogPath = QStringLiteral("/usr/share/doc/")
+            + QFileInfo(QCoreApplication::applicationFilePath()).fileName()
+            + QStringLiteral("/changelog.gz");
+        if (QFileInfo::exists(changelogPath)) {
+            QProcess proc;
+            proc.start(QStringLiteral("zcat"), {changelogPath}, QIODevice::ReadOnly);
+            proc.waitForFinished();
+            text->setText(proc.readAllStandardOutput());
+        } else {
+            text->setText(QObject::tr("Changelog not found."));
+        }
 
         auto *btnClose = new QPushButton(QObject::tr("&Close"), changelog);
         btnClose->setIcon(QIcon::fromTheme(QStringLiteral("window-close")));
