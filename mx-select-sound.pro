@@ -37,16 +37,16 @@ TEMPLATE = app
 
 
 SOURCES += \
-    main.cpp \
-    about.cpp \
-    mainwindow.cpp
+    src/main.cpp \
+    src/about.cpp \
+    src/mainwindow.cpp
 
 HEADERS  += \
-    about.h \
-    mainwindow.h
+    src/about.h \
+    src/mainwindow.h
 
 FORMS    += \
-    mainwindow.ui
+    src/mainwindow.ui
 
 TRANSLATIONS += \
     translations/mx-select-sound_en.ts

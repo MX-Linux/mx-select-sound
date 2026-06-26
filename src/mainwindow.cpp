@@ -126,7 +126,6 @@ void MainWindow::pushApply_clicked()
 
 void MainWindow::pushAbout_clicked()
 {
-    hide();
     displayAboutMsgBox(
         tr("About MX Select Sound"),
         "<p align=\"center\"><b><h2>" + tr("MX Select Sound") + "</h2></b></p><p align=\"center\">" + tr("Version: ")
@@ -135,7 +134,6 @@ void MainWindow::pushAbout_clicked()
               "<p align=\"center\">"
             + tr("Copyright (c) MX Linux") + "<br /><br /></p>",
         QStringLiteral("/usr/share/doc/mx-select-sound/license.html"), tr("%1 License").arg(windowTitle()));
-    show();
 }
 
 void MainWindow::pushHelp_clicked()
