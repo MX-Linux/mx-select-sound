@@ -56,10 +56,9 @@ int main(int argc, char *argv[])
     QTranslator appTran;
     const QString appName = QApplication::applicationName();
     const QString localeName = QLocale::system().name();
-    if (!appTran.load(appName + "_" + localeName, "/usr/share/" + appName + "/locale"))
-        appTran.load(appName + "_" + localeName,
-                     QCoreApplication::applicationDirPath() + "/../translations");
-    if (!appTran.isEmpty())
+    if (appTran.load(appName + "_" + localeName, "/usr/share/" + appName + "/locale")
+        || appTran.load(appName + "_" + localeName,
+                        QCoreApplication::applicationDirPath() + "/../translations"))
         QApplication::installTranslator(&appTran);
 
     MainWindow w;
