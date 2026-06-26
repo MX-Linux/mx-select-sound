@@ -88,11 +88,13 @@ set(SOURCES
     src/main.cpp
     src/mainwindow.cpp
     src/about.cpp
+    src/cardutils.cpp
 )
 
 set(HEADERS
     src/mainwindow.h
     src/about.h
+    src/cardutils.h
 )
 
 set(UI_FILES
@@ -190,5 +192,6 @@ install(TARGETS mx-select-sound
 # Add tests if requested
 if(BUILD_TESTS)
     message(STATUS "Building with tests enabled")
+    enable_testing()
     add_subdirectory(Testing)
 endif()

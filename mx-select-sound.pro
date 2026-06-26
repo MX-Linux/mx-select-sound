@@ -39,11 +39,13 @@ TEMPLATE = app
 SOURCES += \
     src/main.cpp \
     src/about.cpp \
-    src/mainwindow.cpp
+    src/mainwindow.cpp \
+    src/cardutils.cpp
 
 HEADERS  += \
     src/about.h \
-    src/mainwindow.h
+    src/mainwindow.h \
+    src/cardutils.h
 
 FORMS    += \
     src/mainwindow.ui

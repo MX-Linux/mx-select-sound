@@ -28,8 +28,10 @@
 #include <QDir>
 #include <QFile>
 #include <QRadioButton>
+#include <QTextStream>
 
 #include "about.h"
+#include "cardutils.h"
 
 #ifndef VERSION
     #define VERSION "?.?.?.?"
@@ -70,12 +72,14 @@ Result MainWindow::runCmd(const QString &cmd)
 QStringList MainWindow::listCards()
 {
     QStringList card_list;
-    const QString cards
-        = runCmd(R"(cat /proc/asound/cards 2>/dev/null | sed -n -r 's/[0-9 ]+\[//p' |  sed 's/\s*\]:/:/')").output;
-    if (cards.size() == 0) {
+    QFile file(QStringLiteral("/proc/asound/cards"));
+    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QTextStream stream(&file);
+        card_list = CardUtils::parseCards(stream.readAll());
+    }
+    if (card_list.isEmpty()) {
         QMessageBox::critical(this, tr("MX Select Sound"), tr("No sound cards/devices were found."));
     } else {
-        card_list = cards.split(QStringLiteral("\n"));
         ui->comboBox->addItems(card_list);
     }
     return card_list;
@@ -84,19 +88,20 @@ QStringList MainWindow::listCards()
 // Get default card
 QString MainWindow::getDefault()
 {
-    QString prev_card;
     QString default_card = tr("none");
 
-    Result cmd = runCmd(R"(set -o pipefail; sed -n -r 's/^\s*defaults.pcm.!card\s+(.*)/\1/p' ~/.asoundrc | head -n 1)");
-    if (cmd.exitCode == 0) {
-        prev_card = cmd.output.toUtf8();
-
+    QFile asoundrc(QDir::homePath() + QStringLiteral("/.asoundrc"));
+    if (asoundrc.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QTextStream stream(&asoundrc);
+        const QString prev_card = CardUtils::parseDefaultCard(stream.readAll());
         for (int i = 0; i < ui->comboBox->count(); i++) {
-            if (prev_card == ui->comboBox->itemText(i).section(QStringLiteral(":"), 0, 0).toUtf8()) {
+            if (prev_card == ui->comboBox->itemText(i).section(QStringLiteral(":"), 0, 0)) {
                 default_card = prev_card;
+                break;
             }
         }
     }
+
     qDebug() << "Default sound card:" << default_card;
     ui->pushTest->setDisabled(default_card == tr("none"));
     ui->labelCurrent->setText(default_card);
