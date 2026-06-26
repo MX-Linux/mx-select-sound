@@ -141,6 +141,14 @@ void MainWindow::pushTest_clicked()
 {
     ui->pushTest->setEnabled(false);
     auto *proc = new QProcess(this);
+    connect(proc, &QProcess::errorOccurred, this, [this, proc](QProcess::ProcessError error) {
+        if (error != QProcess::FailedToStart)
+            return;
+
+        QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not play test sound."));
+        ui->pushTest->setEnabled(true);
+        proc->deleteLater();
+    });
     connect(proc, &QProcess::finished, this, [this, proc](int exitCode) {
         if (exitCode != 0)
             QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not play test sound."));
