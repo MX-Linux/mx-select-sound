@@ -58,12 +58,10 @@ MainWindow::~MainWindow()
 // Util function for getting bash command output and error code
 Result MainWindow::runCmd(const QString &cmd)
 {
-    QEventLoop loop;
     QProcess proc(this);
     proc.setProcessChannelMode(QProcess::MergedChannels);
-    connect(&proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), &loop, &QEventLoop::quit);
     proc.start(QStringLiteral("/bin/bash"), {"-c", cmd});
-    loop.exec();
+    proc.waitForFinished(-1);
     Result result = {proc.exitCode(), proc.readAll().trimmed()};
     return result;
 }
