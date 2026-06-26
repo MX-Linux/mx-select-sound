@@ -95,7 +95,7 @@ void displayAboutMsgBox(const QString &title, const QString &message, const QStr
 {
     const auto width = 600;
     const auto height = 500;
-    QMessageBox msgBox(QMessageBox::NoIcon, title, message);
+    QMessageBox msgBox(QMessageBox::NoIcon, title, message, QMessageBox::NoButton, qApp->activeWindow());
     auto *btnLicense = msgBox.addButton(QObject::tr("License"), QMessageBox::HelpRole);
     auto *btnChangelog = msgBox.addButton(QObject::tr("Changelog"), QMessageBox::HelpRole);
     auto *btnCancel = msgBox.addButton(QObject::tr("Cancel"), QMessageBox::NoRole);
