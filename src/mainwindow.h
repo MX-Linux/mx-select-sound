@@ -25,17 +25,11 @@
 
 #include <QDialog>
 #include <QMessageBox>
-#include <QProcess>
 
 namespace Ui
 {
 class MainWindow;
 }
-
-struct Result {
-    int exitCode;
-    QString output;
-};
 
 class MainWindow : public QDialog
 {
@@ -44,8 +38,6 @@ class MainWindow : public QDialog
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
-
-    Result runCmd(const QString &cmd);
 
     QString getDefault();
     QStringList listCards();

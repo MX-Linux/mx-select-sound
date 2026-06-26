@@ -27,6 +27,7 @@
 #include <QDebug>
 #include <QDir>
 #include <QFile>
+#include <QProcess>
 #include <QRadioButton>
 #include <QTextStream>
 
@@ -55,17 +56,6 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
-}
-
-// Util function for getting bash command output and error code
-Result MainWindow::runCmd(const QString &cmd)
-{
-    QProcess proc(this);
-    proc.setProcessChannelMode(QProcess::MergedChannels);
-    proc.start(QStringLiteral("/bin/bash"), {"-c", cmd});
-    proc.waitForFinished(-1);
-    Result result = {proc.exitCode(), proc.readAll().trimmed()};
-    return result;
 }
 
 // Get the list of sound cards
@@ -149,8 +139,16 @@ void MainWindow::pushHelp_clicked()
 // Test default sound card
 void MainWindow::pushTest_clicked()
 {
-    const int exitCode = runCmd(QStringLiteral("speaker-test -c 2 -t wav -l 2")).exitCode;
-    if (exitCode != 0) {
-        QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not play test sound."));
-    }
+    ui->pushTest->setEnabled(false);
+    auto *proc = new QProcess(this);
+    connect(proc, &QProcess::finished, this, [this, proc](int exitCode) {
+        if (exitCode != 0)
+            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not play test sound."));
+        ui->pushTest->setEnabled(true);
+        proc->deleteLater();
+    });
+    proc->start(QStringLiteral("speaker-test"),
+                {QStringLiteral("-c"), QStringLiteral("2"),
+                 QStringLiteral("-t"), QStringLiteral("wav"),
+                 QStringLiteral("-l"), QStringLiteral("2")});
 }
