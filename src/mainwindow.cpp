@@ -168,5 +168,5 @@ void MainWindow::pushTest_clicked()
     proc->start(QStringLiteral("speaker-test"),
                 {QStringLiteral("-c"), QStringLiteral("2"),
                  QStringLiteral("-t"), QStringLiteral("wav"),
-                 QStringLiteral("-l"), QStringLiteral("2")});
+                 QStringLiteral("-l"), QStringLiteral("4")});
 }
