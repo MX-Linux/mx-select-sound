@@ -88,6 +88,7 @@ QString MainWindow::getDefault()
         for (int i = 0; i < ui->comboBox->count(); i++) {
             if (prev_card == ui->comboBox->itemText(i).section(QStringLiteral(":"), 0, 0)) {
                 default_card = prev_card;
+                ui->comboBox->setCurrentIndex(i);
                 break;
             }
         }
@@ -110,6 +111,14 @@ void MainWindow::setConnections()
 void MainWindow::pushApply_clicked()
 {
     QString selected = ui->comboBox->currentText().section(QStringLiteral(":"), 0, 0);
+    if (selected == ui->labelCurrent->text()) {
+        QFile check(QDir::homePath() + QStringLiteral("/.asoundrc"));
+        if (check.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            const QString expected = QStringLiteral("defaults.pcm.!card %1\ndefaults.ctl.!card %1").arg(selected);
+            if (QTextStream(&check).readAll().trimmed() == expected)
+                return;
+        }
+    }
     QFile asoundrc;
 
     asoundrc.setFileName(QDir::homePath() + "/.asoundrc");
