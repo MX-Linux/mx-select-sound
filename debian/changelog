@@ -1,3 +1,18 @@
+mx-select-sound (26.06) mx; urgency=medium
+
+  * Keep the window responsive while playing the test sound, and prevent
+    starting another test until the current one finishes.
+  * Show a clear message when the test sound cannot play, including a hint to
+    install alsa-utils when speaker-test is missing.
+  * Show available sound cards and the current default even when command-line
+    sound helpers are unavailable.
+  * Avoid a brief flash when opening the About window, and center its messages
+    over the application window.
+  * Show "Changelog not found." instead of an empty changelog window when the
+    installed changelog file is missing.
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 26 Jun 2026 20:12:41 -0400
+
 mx-select-sound (26.03) mx; urgency=medium
 
   * Use internal Qt help and license viewer
