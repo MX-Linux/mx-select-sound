@@ -1,5 +1,9 @@
-mx-select-sound (26.06) mx; urgency=medium
+mx-select-sound (26.06.1) mx; urgency=medium
 
+  * Show the current default sound card as the selected card when the program
+    opens.
+  * Leave the sound configuration file unchanged when Apply is clicked without
+    changing the selected card.
   * Keep the window responsive while playing the test sound, and prevent
     starting another test until the current one finishes.
   * Show a clear message when the test sound cannot play, including a hint to
