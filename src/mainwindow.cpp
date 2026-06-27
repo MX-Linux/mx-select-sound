@@ -29,6 +29,7 @@
 #include <QFile>
 #include <QProcess>
 #include <QRadioButton>
+#include <QStandardPaths>
 #include <QTextStream>
 
 #include "about.h"
@@ -139,6 +140,11 @@ void MainWindow::pushHelp_clicked()
 // Test default sound card
 void MainWindow::pushTest_clicked()
 {
+    if (QStandardPaths::findExecutable(QStringLiteral("speaker-test")).isEmpty()) {
+        QMessageBox::critical(this, tr("MX Select Sound"),
+                              tr("speaker-test not found. Please install the alsa-utils package."));
+        return;
+    }
     ui->pushTest->setEnabled(false);
     auto *proc = new QProcess(this);
     connect(proc, &QProcess::errorOccurred, this, [this, proc](QProcess::ProcessError error) {
