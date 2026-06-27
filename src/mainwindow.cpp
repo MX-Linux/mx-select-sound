@@ -156,8 +156,12 @@ void MainWindow::pushTest_clicked()
         proc->deleteLater();
     });
     connect(proc, &QProcess::finished, this, [this, proc](int exitCode) {
-        if (exitCode != 0)
-            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not play test sound."));
+        if (exitCode != 0) {
+            const QString err = proc->readAllStandardError().trimmed();
+            const QString msg = err.isEmpty() ? tr("Could not play test sound.")
+                                              : tr("Could not play test sound:\n%1").arg(err);
+            QMessageBox::critical(this, tr("MX Select Sound"), msg);
+        }
         ui->pushTest->setEnabled(true);
         proc->deleteLater();
     });
