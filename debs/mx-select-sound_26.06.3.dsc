@@ -14,20 +14,20 @@ Build-Depends: debhelper-compat (= 12), cmake (>= 3.16), ninja-build, qt6-base-d
 Package-List:
  mx-select-sound deb admin optional arch=any
 Checksums-Sha1:
- 2f14046999845f4cc739393235f2cc6c1f2b675d 91604 mx-select-sound_26.06.3.tar.xz
+ 2ad9a6ffae8584cccca8f666cd3915db2ea48222 90948 mx-select-sound_26.06.3.tar.xz
 Checksums-Sha256:
- e49545488e3486430328585b9cbeda63066d854b3bd99cb043ec81ca42e90d2f 91604 mx-select-sound_26.06.3.tar.xz
+ 0d6bc51faa8abb0b98b6cae3ee928d93f5b4edb1963e3705cb3b5583933c63bd 90948 mx-select-sound_26.06.3.tar.xz
 Files:
- d98e697c8307ec3f2ce47935cc23fec8 91604 mx-select-sound_26.06.3.tar.xz
+ c810e6b1461bdd3b54d3b7bdf6f8bcfd 90948 mx-select-sound_26.06.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmpAjRQTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumG8gCACBbd1Cu6ws53qYOHLQuZYbnLslxcmp
-r8f3X2IQuu1LB8muSsqAdnXZkBcIKweaRSEbtnqPhRO07+bsvyb2WgwJB8/wztbL
-F3jGsWvIBBevDZhWuLFdtray8vW7c+CUfJd5184WCbpumf50k6i4wEBpjiMmzhSw
-jTcvwAOey3QyurSQX9Vjb/VGmSUe2muNM3qD7ngop09maba10qF8/dBOLwDIOw9p
-J7/1HAblVeHBe7mIkOghOgSIsPhCHUnk/nqNJRnzP69VHegLea1+sFGO4H3NxQzN
-tkhsmE00aDzXa7506Jkwq6BqZvKKM6uI3s8V4y+ucM9Z1l1etvh6VLz7
-=g8Bc
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmpBSQQTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumHbvB/0Y6p/BNvauled7ZTvQVizHavPTjU4f
+nM95Y/CNWZOHJ4JPwBhJAN2Q1OaIpzdIqORSoeD3n/CxWsAVcpJoKKyyK8nJiuKX
+WaK2VjVdjul/pReWkMHi8m1HccNVE8IZPbyUqoZvgXySg734sDXTuRMgIoYMXnsg
+AhTFVXDmoRYWsax148dod2kHMSH+clJJ9eKSQNYdcoLhbA0vNv2V9llKkvZ5jIdi
+o39wKk11hkb2+qJuwNeGKPrTr6mWSo2QrkIK6jmPrPKQ1kJNkJcU8ew2EzUaM57s
+RPM4C12sVWgSkfpQ6knCIFED3nMn9edDRrcmdpTIVrp35mCR2zlNYkW9
+=ELLQ
 -----END PGP SIGNATURE-----
