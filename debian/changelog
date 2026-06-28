@@ -1,4 +1,4 @@
-mx-select-sound (26.06.2) mx; urgency=medium
+mx-select-sound (26.06.3) mx; urgency=medium
 
   * Add PipeWire support: when PipeWire is detected, list audio devices via
     pactl and set the default with pactl set-default-sink (persistent via
@@ -13,10 +13,6 @@ mx-select-sound (26.06.2) mx; urgency=medium
     install alsa-utils when speaker-test is missing.
   * Show available sound cards and the current default even when command-line
     sound helpers are unavailable.
-  * Avoid a brief flash when opening the About window, and center its messages
-    over the application window.
-  * Show "Changelog not found." instead of an empty changelog window when the
-    installed changelog file is missing.
 
  -- Adrian <adrian@mxlinux.org>  Fri, 26 Jun 2026 20:12:41 -0400
 
