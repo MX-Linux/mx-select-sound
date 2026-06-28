@@ -1,4 +1,4 @@
-mx-select-sound (26.06.3) mx; urgency=medium
+mx-select-sound (26.06.4) mx; urgency=medium
 
   * Add PipeWire support: when PipeWire is detected, list audio devices via
     pactl and set the default with pactl set-default-sink (persistent via
