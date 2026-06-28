@@ -193,8 +193,17 @@ void MainWindow::pushApply_clicked()
             return;
         QProcess proc;
         proc.start(QStringLiteral("pactl"), {QStringLiteral("set-default-sink"), name});
-        if (!proc.waitForFinished(2000) || proc.exitCode() != 0) {
-            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not set default audio device."));
+        const bool finished = proc.waitForFinished(2000);
+        if (!finished) {
+            proc.kill();
+            proc.waitForFinished(1000);
+        }
+        if (!finished || proc.exitStatus() != QProcess::NormalExit || proc.exitCode() != 0) {
+            const QString error = QString::fromUtf8(proc.readAllStandardError()).trimmed();
+            const QString message = !finished ? tr("Could not set default audio device: command timed out.")
+                : error.isEmpty() ? tr("Could not set default audio device.")
+                                  : tr("Could not set default audio device:\n%1").arg(error);
+            QMessageBox::critical(this, tr("MX Select Sound"), message);
             return;
         }
         getDefault();

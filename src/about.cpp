@@ -118,8 +118,17 @@ void displayAboutMsgBox(const QString &title, const QString &message, const QStr
         if (QFileInfo::exists(changelogPath)) {
             QProcess proc;
             proc.start(QStringLiteral("zcat"), {changelogPath}, QIODevice::ReadOnly);
-            proc.waitForFinished();
-            text->setText(proc.readAllStandardOutput());
+            if (!proc.waitForFinished(5000)) {
+                proc.kill();
+                proc.waitForFinished(1000);
+                text->setText(QObject::tr("Could not load changelog."));
+            } else if (proc.exitStatus() != QProcess::NormalExit || proc.exitCode() != 0) {
+                const QString error = QString::fromUtf8(proc.readAllStandardError()).trimmed();
+                text->setText(error.isEmpty() ? QObject::tr("Could not load changelog.")
+                                              : QObject::tr("Could not load changelog:\n%1").arg(error));
+            } else {
+                text->setText(QString::fromUtf8(proc.readAllStandardOutput()));
+            }
         } else {
             text->setText(QObject::tr("Changelog not found."));
         }
