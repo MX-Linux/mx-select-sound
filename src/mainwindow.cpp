@@ -28,7 +28,6 @@
 #include <QDir>
 #include <QFile>
 #include <QProcess>
-#include <QRadioButton>
 #include <QStandardPaths>
 #include <QTextStream>
 
