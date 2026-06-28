@@ -25,6 +25,7 @@
 
 #include <QDialog>
 #include <QMessageBox>
+#include <QString>
 
 namespace Ui
 {
@@ -50,6 +51,9 @@ private slots:
     void pushTest_clicked();
 
 private:
+    void updateAudioSystemLabels();
+
     Ui::MainWindow *ui;
     bool m_pipewire{false};
+    QString m_currentPipewireSink;
 };

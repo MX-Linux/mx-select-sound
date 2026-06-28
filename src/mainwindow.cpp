@@ -53,6 +53,17 @@ MainWindow::MainWindow(QWidget *parent)
     setWindowTitle(tr("MX Select Sound"));
 
     m_pipewire = CardUtils::isPipewireRunning();
+    updateAudioSystemLabels();
+    adjustSize();
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::updateAudioSystemLabels()
+{
     if (m_pipewire) {
         qDebug() << "Audio system: PipeWire";
         ui->label->setText(tr("<html><head/><body><p>If your computer has more than one audio output, "
@@ -62,14 +73,12 @@ MainWindow::MainWindow(QWidget *parent)
         ui->label_2->setText(tr("<html><head/><body><p>Select another audio device if necessary:</p></body></html>"));
     } else {
         qDebug() << "Audio system: ALSA";
+        ui->label->setText(tr("<html><head/><body><p>If your computer has more than one sound card, "
+                              "you can use this application to select the one to be default. "
+                              "<br/></p></body></html>"));
+        ui->label1->setText(tr("<html><head/><body><p>Your current default sound card is:</p></body></html>"));
+        ui->label_2->setText(tr("<html><head/><body><p>Select another sound card if necessary:</p></body></html>"));
     }
-
-    adjustSize();
-}
-
-MainWindow::~MainWindow()
-{
-    delete ui;
 }
 
 // Get the list of sound cards
@@ -79,21 +88,31 @@ QStringList MainWindow::listCards()
         QProcess proc;
         proc.start(QStringLiteral("pactl"), {QStringLiteral("list"), QStringLiteral("sinks")});
         if (!proc.waitForFinished(5000) || proc.exitCode() != 0) {
-            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not query audio devices."));
-            return {};
+            qDebug() << "Could not query PipeWire audio devices; falling back to ALSA";
+            m_pipewire = false;
+            m_currentPipewireSink.clear();
+            updateAudioSystemLabels();
+        } else {
+            const auto sinks = CardUtils::parsePipewireSinks(QString::fromUtf8(proc.readAllStandardOutput()));
+            if (sinks.isEmpty()) {
+                QMessageBox::critical(this, tr("MX Select Sound"), tr("No audio devices were found."));
+                return {};
+            }
+            QStringList baseLabels;
+            for (const auto &sink : sinks) {
+                baseLabels << (sink.description.isEmpty() ? sink.name : sink.description);
+            }
+
+            QStringList descriptions;
+            for (int i = 0; i < sinks.size(); i++) {
+                QString label = baseLabels.at(i);
+                if (baseLabels.count(label) > 1)
+                    label = QStringLiteral("%1 (%2)").arg(label, sinks.at(i).name);
+                ui->comboBox->addItem(label, sinks.at(i).name);
+                descriptions << label;
+            }
+            return descriptions;
         }
-        const auto sinks = CardUtils::parsePipewireSinks(QString::fromUtf8(proc.readAllStandardOutput()));
-        if (sinks.isEmpty()) {
-            QMessageBox::critical(this, tr("MX Select Sound"), tr("No audio devices were found."));
-            return {};
-        }
-        QStringList descriptions;
-        for (const auto &sink : sinks) {
-            const QString label = sink.description.isEmpty() ? sink.name : sink.description;
-            ui->comboBox->addItem(label, sink.name);
-            descriptions << label;
-        }
-        return descriptions;
     }
 
     QStringList card_list;
@@ -123,6 +142,7 @@ QString MainWindow::getDefault()
                     ui->comboBox->setCurrentIndex(i);
                     const QString desc = ui->comboBox->itemText(i);
                     qDebug() << "Default audio device:" << desc;
+                    m_currentPipewireSink = defaultName;
                     ui->pushTest->setEnabled(true);
                     ui->labelCurrent->setText(desc);
                     return desc;
@@ -130,6 +150,7 @@ QString MainWindow::getDefault()
             }
         }
         qDebug() << "Default audio device: none";
+        m_currentPipewireSink.clear();
         ui->pushTest->setEnabled(false);
         ui->labelCurrent->setText(tr("none"));
         return tr("none");
@@ -168,7 +189,7 @@ void MainWindow::pushApply_clicked()
 {
     if (m_pipewire) {
         const QString name = ui->comboBox->currentData().toString();
-        if (ui->comboBox->currentText() == ui->labelCurrent->text())
+        if (name == m_currentPipewireSink)
             return;
         QProcess proc;
         proc.start(QStringLiteral("pactl"), {QStringLiteral("set-default-sink"), name});

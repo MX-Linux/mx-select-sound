@@ -34,7 +34,15 @@ bool isPipewireRunning()
     if (QStandardPaths::findExecutable(QStringLiteral("pactl")).isEmpty())
         return false;
     const QString runtimeDir = QStandardPaths::writableLocation(QStandardPaths::RuntimeLocation);
-    return QFile::exists(runtimeDir + QStringLiteral("/pipewire-0"));
+    if (runtimeDir.isEmpty() || !QFile::exists(runtimeDir + QStringLiteral("/pipewire-0")))
+        return false;
+
+    QProcess proc;
+    proc.start(QStringLiteral("pactl"), {QStringLiteral("info")});
+    if (!proc.waitForFinished(2000) || proc.exitStatus() != QProcess::NormalExit || proc.exitCode() != 0)
+        return false;
+
+    return QString::fromUtf8(proc.readAllStandardOutput()).contains(QStringLiteral("PipeWire"), Qt::CaseInsensitive);
 }
 
 QList<PipeWireSink> parsePipewireSinks(const QString &paListSinksOutput)
