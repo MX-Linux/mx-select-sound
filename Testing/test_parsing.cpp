@@ -15,6 +15,10 @@ private slots:
     void parseDefaultCard_returnsFirst();
     void parseDefaultCard_ignoresCtl();
     void parseDefaultCard_toleratesLeadingWhitespace();
+    void parsePipewireSinks_empty();
+    void parsePipewireSinks_single();
+    void parsePipewireSinks_multiple();
+    void parsePipewireSinks_missingDescription();
 };
 
 void TestParsing::parseCards_empty()
@@ -85,6 +89,56 @@ void TestParsing::parseDefaultCard_toleratesLeadingWhitespace()
 {
     QCOMPARE(CardUtils::parseDefaultCard(QStringLiteral("  defaults.pcm.!card NVidia\n")),
              QStringLiteral("NVidia"));
+}
+
+void TestParsing::parsePipewireSinks_empty()
+{
+    QVERIFY(CardUtils::parsePipewireSinks(QString()).isEmpty());
+    QVERIFY(CardUtils::parsePipewireSinks(QStringLiteral("no sinks here\n")).isEmpty());
+}
+
+void TestParsing::parsePipewireSinks_single()
+{
+    const QString input = QStringLiteral(
+        "Sink #47\n"
+        "\tState: IDLE\n"
+        "\tName: alsa_output.pci-0000_00_1f.3.analog-stereo\n"
+        "\tDescription: Built-in Audio Analog Stereo\n"
+        "\tDriver: PipeWire\n");
+    const auto result = CardUtils::parsePipewireSinks(input);
+    QCOMPARE(result.size(), 1);
+    QCOMPARE(result.at(0).name, QStringLiteral("alsa_output.pci-0000_00_1f.3.analog-stereo"));
+    QCOMPARE(result.at(0).description, QStringLiteral("Built-in Audio Analog Stereo"));
+}
+
+void TestParsing::parsePipewireSinks_multiple()
+{
+    const QString input = QStringLiteral(
+        "Sink #47\n"
+        "\tState: IDLE\n"
+        "\tName: alsa_output.pci-0000_00_1f.3.analog-stereo\n"
+        "\tDescription: Built-in Audio Analog Stereo\n"
+        "Sink #52\n"
+        "\tState: SUSPENDED\n"
+        "\tName: alsa_output.pci-0000_01_00.1.hdmi-stereo\n"
+        "\tDescription: HDMI / DisplayPort Output\n");
+    const auto result = CardUtils::parsePipewireSinks(input);
+    QCOMPARE(result.size(), 2);
+    QCOMPARE(result.at(0).name, QStringLiteral("alsa_output.pci-0000_00_1f.3.analog-stereo"));
+    QCOMPARE(result.at(0).description, QStringLiteral("Built-in Audio Analog Stereo"));
+    QCOMPARE(result.at(1).name, QStringLiteral("alsa_output.pci-0000_01_00.1.hdmi-stereo"));
+    QCOMPARE(result.at(1).description, QStringLiteral("HDMI / DisplayPort Output"));
+}
+
+void TestParsing::parsePipewireSinks_missingDescription()
+{
+    const QString input = QStringLiteral(
+        "Sink #47\n"
+        "\tName: alsa_output.pci-0000_00_1f.3.analog-stereo\n");
+    const auto result = CardUtils::parsePipewireSinks(input);
+    QCOMPARE(result.size(), 1);
+    QCOMPARE(result.at(0).name, QStringLiteral("alsa_output.pci-0000_00_1f.3.analog-stereo"));
+    QVERIFY(result.at(0).description.isEmpty());
 }
 
 QTEST_MAIN(TestParsing)

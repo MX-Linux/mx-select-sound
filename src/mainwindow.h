@@ -51,4 +51,5 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    bool m_pipewire{false};
 };

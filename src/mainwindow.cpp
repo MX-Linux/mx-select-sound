@@ -51,6 +51,19 @@ MainWindow::MainWindow(QWidget *parent)
         ui->pushApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
     }
     setWindowTitle(tr("MX Select Sound"));
+
+    m_pipewire = CardUtils::isPipewireRunning();
+    if (m_pipewire) {
+        qDebug() << "Audio system: PipeWire";
+        ui->label->setText(tr("<html><head/><body><p>If your computer has more than one audio output, "
+                              "you can use this application to select the default. "
+                              "Audio system: <b>PipeWire</b><br/></p></body></html>"));
+        ui->label1->setText(tr("<html><head/><body><p>Your current default audio device is:</p></body></html>"));
+        ui->label_2->setText(tr("<html><head/><body><p>Select another audio device if necessary:</p></body></html>"));
+    } else {
+        qDebug() << "Audio system: ALSA";
+    }
+
     adjustSize();
 }
 
@@ -62,6 +75,27 @@ MainWindow::~MainWindow()
 // Get the list of sound cards
 QStringList MainWindow::listCards()
 {
+    if (m_pipewire) {
+        QProcess proc;
+        proc.start(QStringLiteral("pactl"), {QStringLiteral("list"), QStringLiteral("sinks")});
+        if (!proc.waitForFinished(5000) || proc.exitCode() != 0) {
+            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not query audio devices."));
+            return {};
+        }
+        const auto sinks = CardUtils::parsePipewireSinks(QString::fromUtf8(proc.readAllStandardOutput()));
+        if (sinks.isEmpty()) {
+            QMessageBox::critical(this, tr("MX Select Sound"), tr("No audio devices were found."));
+            return {};
+        }
+        QStringList descriptions;
+        for (const auto &sink : sinks) {
+            const QString label = sink.description.isEmpty() ? sink.name : sink.description;
+            ui->comboBox->addItem(label, sink.name);
+            descriptions << label;
+        }
+        return descriptions;
+    }
+
     QStringList card_list;
     QFile file(QStringLiteral("/proc/asound/cards"));
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -79,6 +113,28 @@ QStringList MainWindow::listCards()
 // Get default card
 QString MainWindow::getDefault()
 {
+    if (m_pipewire) {
+        QProcess proc;
+        proc.start(QStringLiteral("pactl"), {QStringLiteral("get-default-sink")});
+        if (proc.waitForFinished(2000) && proc.exitCode() == 0) {
+            const QString defaultName = QString::fromUtf8(proc.readAllStandardOutput()).trimmed();
+            for (int i = 0; i < ui->comboBox->count(); i++) {
+                if (ui->comboBox->itemData(i).toString() == defaultName) {
+                    ui->comboBox->setCurrentIndex(i);
+                    const QString desc = ui->comboBox->itemText(i);
+                    qDebug() << "Default audio device:" << desc;
+                    ui->pushTest->setEnabled(true);
+                    ui->labelCurrent->setText(desc);
+                    return desc;
+                }
+            }
+        }
+        qDebug() << "Default audio device: none";
+        ui->pushTest->setEnabled(false);
+        ui->labelCurrent->setText(tr("none"));
+        return tr("none");
+    }
+
     QString default_card = tr("none");
 
     QFile asoundrc(QDir::homePath() + QStringLiteral("/.asoundrc"));
@@ -110,6 +166,20 @@ void MainWindow::setConnections()
 
 void MainWindow::pushApply_clicked()
 {
+    if (m_pipewire) {
+        const QString name = ui->comboBox->currentData().toString();
+        if (ui->comboBox->currentText() == ui->labelCurrent->text())
+            return;
+        QProcess proc;
+        proc.start(QStringLiteral("pactl"), {QStringLiteral("set-default-sink"), name});
+        if (!proc.waitForFinished(2000) || proc.exitCode() != 0) {
+            QMessageBox::critical(this, tr("MX Select Sound"), tr("Could not set default audio device."));
+            return;
+        }
+        getDefault();
+        return;
+    }
+
     QString selected = ui->comboBox->currentText().section(QStringLiteral(":"), 0, 0);
     if (selected == ui->labelCurrent->text()) {
         QFile check(QDir::homePath() + QStringLiteral("/.asoundrc"));

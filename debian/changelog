@@ -1,5 +1,8 @@
 mx-select-sound (26.06.1) mx; urgency=medium
 
+  * Add PipeWire support: when PipeWire is detected, list audio devices via
+    pactl and set the default with pactl set-default-sink (persistent via
+    WirePlumber); fall back to the existing ALSA configuration otherwise.
   * Show the current default sound card as the selected card when the program
     opens.
   * Leave the sound configuration file unchanged when Apply is clicked without
