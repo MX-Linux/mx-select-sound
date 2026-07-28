@@ -225,6 +225,9 @@ void MainWindow::pushApply_clicked()
         asoundrc.write(QStringLiteral("defaults.pcm.!card %1\ndefaults.ctl.!card %1").arg(selected).toUtf8());
         asoundrc.close();
         getDefault();
+    } else {
+        QMessageBox::critical(this, tr("MX Select Sound"),
+                              tr("Could not set default sound card:\n%1").arg(asoundrc.errorString()));
     }
 }
 
@@ -237,7 +240,7 @@ void MainWindow::pushAbout_clicked()
             + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p>"
               "<p align=\"center\">"
             + tr("Copyright (c) MX Linux") + "<br /><br /></p>",
-        QStringLiteral("/usr/share/doc/mx-select-sound/license.html"), tr("%1 License").arg(windowTitle()));
+        QStringLiteral("license.html"), tr("%1 License").arg(windowTitle()));
 }
 
 void MainWindow::pushHelp_clicked()
