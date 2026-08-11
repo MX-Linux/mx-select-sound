@@ -58,6 +58,13 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
+    if (m_testProc) {
+        m_testProc->disconnect();
+        if (m_testProc->state() != QProcess::NotRunning) {
+            m_testProc->kill();
+            m_testProc->waitForFinished();
+        }
+    }
     delete ui;
 }
 
@@ -258,6 +265,7 @@ void MainWindow::pushTest_clicked()
     }
     ui->pushTest->setEnabled(false);
     auto *proc = new QProcess(this);
+    m_testProc = proc;
     connect(proc, &QProcess::errorOccurred, this, [this, proc](QProcess::ProcessError error) {
         if (error != QProcess::FailedToStart)
             return;
