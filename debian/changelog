@@ -2,7 +2,8 @@ mx-select-sound (26.08) mx; urgency=medium
 
   * Show an error message when the selected default sound card cannot be saved.
   * Stop an active sound test cleanly when closing the program.
-  * Add a manual page describing how to select and test the default audio device.
+  * Add a manual page describing how to select and test the default audio
+    device.
 
  -- Adrian <adrian@mxlinux.org>  Tue, 11 Aug 2026 08:07:04 -0400
 
